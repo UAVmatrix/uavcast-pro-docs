@@ -1,0 +1,21 @@
+site_name: UAVcast-Pro & Basic
+pages:
+    - Installation: index.md
+    - Camera: camera.md
+
+authors:
+    - Bernt Christian Egeland
+
+nav:
+    - 'index.md'
+    
+theme: 
+      name: 'material'
+      highlightjs: true
+      hljs_languages:
+        - yaml
+        - rust
+        - javascript
+repo_url: https://github.com/UAVmatrix/uavcast-pro-docs
+markdown_extensions:
+  - admonition
