@@ -7,7 +7,12 @@ authors:
 nav:
     - 'index.md'
     - installation.md
-    # - camera.md
+    - hardware.md
+    - Pages:
+            - 'UAVcast-Pages/Dashboard.md'
+            - 'UAVcast-Pages/Flight-Controller.md'
+            - 'UAVcast-Pages/Ground-Control.md'
+            - 'UAVcast-Pages/Cell-Modem.md'
 
 custom_theme:
     main.html

@@ -18,3 +18,5 @@ Now you are able to connect UAVcast-Pro by typing the RPI ip in your web browser
 !!! tip
     If you are installing UAVcast-Pro version 1.1.0 or older, you need to place UAVcast-Pro_v1.x.x.tar in home/pi, otherwise it will not work. 
     Version 1.1.1 or later supports global install can be installed from anywhere
+
+![](images/validation.jpg)
