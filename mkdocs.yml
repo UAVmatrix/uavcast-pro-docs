@@ -1,21 +1,42 @@
 site_name: UAVcast-Pro & Basic
-pages:
-    - Installation: index.md
-    - Camera: camera.md
-
+theme_dir: docstheme/material
+site_favicon: 'images/favicon.ico'
 authors:
     - Bernt Christian Egeland
 
 nav:
     - 'index.md'
-    
+    - installation.md
+    # - camera.md
+
+custom_theme:
+    main.html
+google_analytics:
+  - 'UA-59911815-6'
+  - 'auto'   
 theme: 
-      name: 'material'
-      highlightjs: true
-      hljs_languages:
-        - yaml
-        - rust
-        - javascript
-repo_url: https://github.com/UAVmatrix/uavcast-pro-docs
+        name: null
+        custom_dir: 'docstheme/material'
+        favicon: 'images/favicon.ico'
+        language: 'en'
+        palette:
+                primary: 'indigo'
+                accent: 'indigo'
+        font:
+                text: 'Roboto'
+                code: 'Roboto Mono'
+        logo: 'images/logo.png'
+        feature:
+            tabs: false
+
+repo_name: 'uavmatrix/uavcast-pro-docs'
+repo_url: https://github.com/UAVmatrix/uavcast-pro-docs/
 markdown_extensions:
   - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+
+# Copyright
+# copyright: 'Copyright &copy; 2018 - 2019 Bernt Christian Egeland'
