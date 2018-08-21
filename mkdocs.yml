@@ -1,13 +1,14 @@
 site_name: UAVcast-Pro & Basic
 theme_dir: docstheme/material
+site_url: https://docs.uavmatrix.com/
 site_favicon: 'images/favicon.ico'
 authors:
     - Bernt Christian Egeland
 
 nav:
-    - 'index.md'
-    - installation.md
+    - index.md
     - hardware.md
+    - installation.md
     - Pages:
             - 'UAVcast-Pages/Dashboard.md'
             - 'UAVcast-Pages/Flight-Controller.md'

@@ -1,12 +1,29 @@
 # Installation
 
-For UAVcast Pro, you will get a download link by mail. You need to copy the xx.tar file to your raspberry pi. 
+##Raspberry Pi Image
+
+Start with a fresh Raspberry image, you find images at [raspberry.org](https://www.raspberrypi.org/downloads/) site.
+UAVcast works on several images, such as:
+
+* Raspian Lite
+* Raspian Desktop
+
+Follow the installation instruction given on their site for the specific image you want to use.
+
+
+##UAVcast-Pro installation
+
+!!! tip
+    For the Basic version, just change the **Pro** with **Basic** in the below instructions.
+
+For UAVcast Pro, you will get a download link by mail after you have purchased the product.
+You need to copy the xx.tar file to your raspberry pi. 
 You can use SSH client like [Bitevise tunnelier](https://dl.bitvise.com/BvSshClient-Inst.exe) to connect raspberry pi.
 
 Then open the shell window and navigate to the same folder as you uploaded the file, normally ``home/pi``
 then you need to extract the package by using typing this command `sudo -tar UAVcast-Pro_vx.x.x.tar`
 
-Now you need to navigate to the installation folder
+Now you need to navigate to the UAVcast-Pro installation folder
 `cd UAVcast-Pro/install`
 
 then start the installation by typing `sudo ./install`
