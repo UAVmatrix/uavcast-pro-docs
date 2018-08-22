@@ -2,6 +2,9 @@ site_name: UAVcast-Pro & Basic
 theme_dir: docstheme/material
 site_url: https://docs.uavmatrix.com/
 site_favicon: 'images/favicon.ico'
+extra_css:
+    - UAVcast-Pages/style.css
+
 authors:
     - Bernt Christian Egeland
 

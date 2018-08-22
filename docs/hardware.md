@@ -53,3 +53,6 @@ There are several cameras that works with UAVcast-Pro,
 
 PiCam is a perfect camera for this type application and provieds 1080p video.
 If you want to use another camera not listed, then make sure it has Hardware Encoder integrated to get the best quality.
+
+[Mission Planner](http://ardupilot.org/planner/docs/mission-planner-installation.html) and [QGroundControl](http://qgroundcontrol.com/) supports video stream by default on port 5600.
+
