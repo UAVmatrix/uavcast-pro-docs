@@ -17,10 +17,12 @@ Follow the installation instruction given on their site for the specific image y
     For the Basic version, just change the **Pro** with **Basic** in the below instructions.
 
 For UAVcast Pro, you will get a download link by mail after you have purchased the product.
-You need to copy the xx.tar file to your raspberry pi. 
-You can use SSH client like [Bitevise tunnelier](https://dl.bitvise.com/BvSshClient-Inst.exe) to connect raspberry pi.
+You need to copy the xx.tar file to your raspberry pi.
 
-Then open the shell window and navigate to the same folder as you uploaded the file, normally ``home/pi``
+* If you are using **Desktop** image, then just open a terminal window and follow the instruction below.
+* For **non-desktop** images, you can use SSH client like [Bitevise tunnelier](https://dl.bitvise.com/BvSshClient-Inst.exe) to establish connection to raspberry pi.
+
+Open a shell or terminal window and navigate to the same folder as you saved the file, normally ``home/pi`` or `home/pi/Download`
 then you need to extract the package by using typing this command `sudo -tar UAVcast-Pro_vx.x.x.tar`
 
 Now you need to navigate to the UAVcast-Pro installation folder
