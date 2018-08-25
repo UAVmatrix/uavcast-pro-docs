@@ -17,6 +17,7 @@ nav:
             - 'UAVcast-Pages/Flight-Controller.md'
             - 'UAVcast-Pages/Ground-Control.md'
             - 'UAVcast-Pages/Cell-Modem.md'
+    - troubleshooting.md
 
 custom_theme:
     main.html
