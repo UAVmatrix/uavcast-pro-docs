@@ -85,7 +85,7 @@ user@ubuntu: ~ $ sudo apt-get install gstreamer1.0-tools gstreamer1.0-plugins-go
 *Note: default port for video in QGC application is 5600*
 
 Here's the app in action
-![capture](/images/pages/camera/qgc.jpg)
+![capture](/images/pages/Camera/qgc.jpg)
 
 ### Mac OS X
 
