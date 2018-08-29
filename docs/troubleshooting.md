@@ -1,5 +1,5 @@
 
-You can at any time contact us at **uavmatrix@uavmatrix.com** or chat directly on our Discord server [https://discord.gg/xwqMTXh](https://discord.gg/xwqMTXh)
+You can at any time contact us at **uavmatrix@uavmatrix.com** or chat privatly on our Discord server [https://discord.gg/xwqMTXh](https://discord.gg/xwqMTXh)
 
 ##Installation issues.
 For any installation issues, please navigate to ``/UAVcast-Pro/install`` folder and copy the ``build.log`` to your computer.
