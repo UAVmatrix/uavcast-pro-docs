@@ -15,3 +15,7 @@ You can start and stop UAVcast-pro from the dashboard. This will simulate the ex
 If you get all green leds then all selected items has started as expected.
 
 This is a nice way to verify that UAVcast-Pro will start as expected when Raspberry Pi starts up.
+
+##Enable  / Disable Autostart
+
+If autostart is enable, then UAVcast-Pro will start all enabled functions every time Raspberry Pi boots up.

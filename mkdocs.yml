@@ -20,6 +20,7 @@ nav:
             - 'UAVcast-Pages/Camera.md'
             - 'UAVcast-Pages/Vpn.md'
     - troubleshooting.md
+    - changelog.md
 
 custom_theme:
     main.html
@@ -49,6 +50,6 @@ markdown_extensions:
   - codehilite:
       guess_lang: false
   - toc:
-      permalink: "Test"
+      permalink: "¶"
 # Copyright
 # copyright: 'Copyright &copy; 2018 - 2019 Bernt Christian Egeland'
