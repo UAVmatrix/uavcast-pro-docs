@@ -1,4 +1,11 @@
 
+##v1.1.3
+
+01.09.2018
+
+* Fixed an bug where TCP Telemetry would not start if USB was selected.
+* Added "Check for update" functionality, and self installation feature.
+
 ##v1.1.2
 
 22.08.2018
