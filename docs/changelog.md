@@ -1,4 +1,10 @@
 
+##v1.1.4
+
+04.09.2018
+
+* Added gstreamer Vertical Flip and Horizontal Flip options. (PiCam Only)
+
 ##v1.1.3
 
 01.09.2018
