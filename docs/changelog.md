@@ -4,6 +4,7 @@
 26.09.2018
 
 * Fixed an issue when uploading openvpn (ovpn) file.
+* Fixed an issue where auto-update function hangs on "restarting server"
 
 ##v1.1.4
 
