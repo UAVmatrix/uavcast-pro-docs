@@ -1,4 +1,10 @@
 
+##v1.1.5
+
+26.09.2018
+
+* Fixed an issue when uploading openvpn (ovpn) file.
+
 ##v1.1.4
 
 04.09.2018
