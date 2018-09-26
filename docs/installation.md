@@ -23,7 +23,7 @@ You need to copy the xx.tar file to your raspberry pi.
 * For **non-desktop** images, you can use SSH client like [Bitevise tunnelier](https://dl.bitvise.com/BvSshClient-Inst.exe) to establish connection to raspberry pi.
 
 Open a shell or terminal window and navigate to the same folder as you saved the file, normally ``home/pi`` or `home/pi/Download`
-then you need to extract the package by using typing this command `sudo -tar UAVcast-Pro_vx.x.x.tar`
+then you need to extract the package by using typing this command `sudo tar -xvmf UAVcast-Pro_vx.x.x.tar`
 
 Now you need to navigate to the UAVcast-Pro installation folder
 `cd UAVcast-Pro/install`
