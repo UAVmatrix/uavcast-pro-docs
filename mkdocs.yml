@@ -17,6 +17,7 @@ nav:
             - 'UAVcast-Pages/Flight-Controller.md'
             - 'UAVcast-Pages/Ground-Control.md'
             - 'UAVcast-Pages/Cell-Modem.md'
+            - 'UAVcast-Pages/Dynamic-DNS.md'
             - 'UAVcast-Pages/Camera.md'
             - 'UAVcast-Pages/Vpn.md'
     - troubleshooting.md
