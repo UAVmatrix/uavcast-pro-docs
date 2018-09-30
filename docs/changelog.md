@@ -1,4 +1,12 @@
 
+##v1.1.6
+
+30.09.2018
+
+* Fixed an issue when downloading logfiles from UAVcast Diagnostic page
+* Added more documentation
+* Improved styling
+
 ##v1.1.5
 
 26.09.2018
