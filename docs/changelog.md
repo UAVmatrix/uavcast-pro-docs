@@ -1,4 +1,17 @@
 
+##v1.1.7
+
+07.10.2018
+
+* Users can now select between Hilink or stick modem. 
+* General styling improvement.
+
+###Improved Ground Control management. 
+* You can now give destinations a unique name. 
+* Options to disable or enable a destination. Convenient if you want to save a destination for later usage.
+* You can choose which destination to send video and telem to by simple switch.
+* Added video port. (Moved from video page)
+
 ##v1.1.6
 
 30.09.2018
