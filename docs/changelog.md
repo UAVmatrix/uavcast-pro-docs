@@ -1,4 +1,12 @@
 
+##v1.1.8
+
+08.10.2018
+
+* Fixed anbug where Logitech C920 & C915 did not work.  (Bug arrived in v1.1.7) 
+* GCS page styling and layout improvement.
+* Now possible to rollback to previous UAVcast-Pro versions
+
 ##v1.1.7
 
 07.10.2018
