@@ -1,4 +1,10 @@
 
+##v2.0.0
+
+11.10.2018
+
+* Added support for Navio+ and Navio2
+
 ##v1.1.8
 
 08.10.2018
