@@ -10,6 +10,8 @@ UAVcast works on several images, such as:
 
 Follow the installation instruction given on their site for the specific image you want to use.
 
+!!! tip
+    For Navio flight controllers, install image provided at https://emlid.com before continue the installation procedure.
 
 ##UAVcast-Pro installation
 

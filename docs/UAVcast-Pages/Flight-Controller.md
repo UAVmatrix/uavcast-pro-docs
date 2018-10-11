@@ -5,9 +5,9 @@ Configure the connection between RPI and the FC.
 
 ##Controller Type##
 * Default value: `None`
-* Options: `Ardupilot / Px4, Navio (Not yet supported), Navio+ (Not yet supported)`
+* Options: `Ardupilot, Navio `
 
-Choose the board you want to use. for Pixhawk, APM, Cube,  select Ardupilot / Px4
+Choose the board you want to use. for Pixhawk, APM, Cube,  select Ardupilot.  
 
    
 ##Connection Method##
