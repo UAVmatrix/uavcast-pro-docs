@@ -3,10 +3,10 @@
 ##Raspberry Pi Image
 
 Start with a fresh Raspberry image, you find images at [raspberry.org](https://www.raspberrypi.org/downloads/) site.
-UAVcast works on several images, such as:
+Confirmed working images:
 
-* Raspian Lite
-* Raspian Desktop
+* Raspbian Stretch Lite
+* Raspbian Stretch With Desktop
 
 Follow the installation instruction given on their site for the specific image you want to use.
 
