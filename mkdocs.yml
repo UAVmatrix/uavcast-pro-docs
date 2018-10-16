@@ -3,7 +3,7 @@ theme_dir: docstheme/material
 site_url: https://docs.uavmatrix.com/
 site_favicon: 'images/favicon.ico'
 extra_css:
-    - UAVcast-Pages/style.css
+    - pages/style.css
 
 authors:
     - Bernt Christian Egeland
@@ -13,14 +13,15 @@ nav:
     - hardware.md
     - installation.md
     - Pages:
-            - 'UAVcast-Pages/Dashboard.md'
-            - 'UAVcast-Pages/Flight-Controller.md'
-            - 'UAVcast-Pages/Ground-Control.md'
-            - 'UAVcast-Pages/Cell-Modem.md'
-            - 'UAVcast-Pages/Dynamic-DNS.md'
-            - 'UAVcast-Pages/Camera.md'
-            - 'UAVcast-Pages/Vpn.md'
+            - 'pages/Dashboard.md'
+            - 'pages/Flight-Controller.md'
+            - 'pages/Ground-Control.md'
+            - 'pages/Cell-Modem.md'
+            - 'pages/Dynamic-DNS.md'
+            - 'pages/Camera.md'
+            - 'pages/Vpn.md'
     - troubleshooting.md
+    - application-update.md
     - changelog.md
 
 custom_theme:

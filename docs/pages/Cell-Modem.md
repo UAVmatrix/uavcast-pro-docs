@@ -9,6 +9,12 @@ Make sure you are using a supported modem
 
 E3372**S** or E3372**H**, has proven to be a good modem for these types of application.
 
+##Model
+* Options: `Stick, HiLink`
+
+Select if your modem is in stick or hilink mode. Read the end character in the model name. Example: E3276<b>H</b> is a hilink and E3276<b>S</b> is a stick modem.
+Read more on HiLink and Stick modems here [Hardware/modem](https://docs.uavmatrix.com/hardware/#modem)
+
 ##Access Point Name (APN)
 * Default value: `internet`
 
