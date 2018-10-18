@@ -1,4 +1,11 @@
 
+
+##v2.0.1
+
+18.10.2018
+
+* Fixed an issue with loading Openvpn configuration file.
+
 ##v2.0.0
 
 11.10.2018
