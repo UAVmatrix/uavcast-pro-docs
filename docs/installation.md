@@ -16,8 +16,6 @@ Follow the installation instruction given on their site for the specific image y
 
 ##UAVcast-Pro installation
 
-!!! tip
-    For the Basic version, just change the **Pro** with **Basic** in the below instructions.
 
 For UAVcast Pro, you will get a download link by mail after you have purchased the product.
 You need to copy the xx.tar file to your raspberry pi.
