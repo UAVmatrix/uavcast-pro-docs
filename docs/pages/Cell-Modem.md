@@ -15,6 +15,19 @@ E3372**S** or E3372**H**, has proven to be a good modem for these types of appli
 Select if your modem is in stick or hilink mode. Read the end character in the model name. Example: E3276<b>H</b> is a hilink and E3276<b>S</b> is a stick modem.
 Read more on HiLink and Stick modems here [Hardware/modem](https://docs.uavmatrix.com/hardware/#modem)
 
+##Use Modem Manager
+* Default value: `No`
+
+UAVcast uses Network Manager to create the GSM connection provied by Modem Manager. 
+However, on some modems this wont work. This option force the connection to be esasblished by Modem Manager only.
+Its recommended to restart RPI if you change this option.
+
+##Interface
+* Default value: Hilink:`eth1` , Stick:`wwan0`
+
+Set the Stick or Hilink modem interface name.<br />
+LED will turn green if the interface has proper internet access.
+
 ##Access Point Name (APN)
 * Default value: `internet`
 

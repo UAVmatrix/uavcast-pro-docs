@@ -1,5 +1,13 @@
 
 
+##v2.0.2
+
+03.11.2018
+
+* Added more options to establish modem connetion. Users can choose between Modem Manager or Network Manager to manage the connetion.
+  Some users experienced issues with certains modems.
+* Fixed issue where Application page was not accessable. This bug was implemented in Version 2.0.1.
+
 ##v2.0.1
 
 18.10.2018
