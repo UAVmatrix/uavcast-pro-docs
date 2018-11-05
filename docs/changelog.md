@@ -1,5 +1,11 @@
 
 
+##v2.0.3
+
+05.11.2018
+
+* Minor changes.  Updated text in modem section. Removed unused tags and code.
+
 ##v2.0.2
 
 03.11.2018
