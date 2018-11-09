@@ -1,6 +1,13 @@
 UAVcast-Pro uses the well known media-handling library gstreamer to proccess the video pipeline towards the Ground Control Station.
 It supports PiCam, Logitech C615, Logitech C920 out of the box. 
 
+
+!!! info
+    Remember to activate camera in Rasperry Config if you are using PiCam.
+
+    `sudo raspi-config`
+    ![raspi-config](/images/pages/Camera/raspi-config.png)
+
 ##Camera Type
 * Options: `PiCam, C615, C920, Custom Pipeline`
 
