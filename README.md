@@ -1,12 +1,18 @@
 ## Contributing
 
 * Install ['MkDocs'](https://www.mkdocs.org/#installation) on your computer.
-* Clone this respository `git clone https://github.com/UAVmatrix/uavcast-pro-docs.git`
+* Fork the uavcast-pro-docs to your git account.
+* Clone your respository `git clone https://github.com/your_account_name/uavcast-pro-docs.git`
+* Clone Material Theme submodule `git submodule update --init`
+* create a new branch for your changes `git checkout -b name_of_your_new_branch`
 * In the root folder, open a new terminal and type `mkdocs serve`, this will start the dev server, can access the docs page by typing `localhost:8000` in chrome. 
 
-## Branching
-* Its recommended to create new branch witht the changes you want to implement. 
-* `git checkout -b name_of_your_new_branch`
+#Push changes
+
+* `git add .`
+* `git commit -m "name_your_changes"`
+* `git push origin your_branch_name`
+
 
 ## Merge Request
-* When you wan to merge your changes with master, fill in a new merge request.
+* When you want to merge your changes with master, fill in a new merge request.
