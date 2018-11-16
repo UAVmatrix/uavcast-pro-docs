@@ -7,7 +7,7 @@
 * create a new branch for your changes `git checkout -b name_of_your_new_branch`
 * In the root folder, open a new terminal and type `mkdocs serve`, this will start the dev server, can access the docs page by typing `localhost:8000` in chrome. 
 
-#Push changes
+##Push changes
 
 * `git add .`
 * `git commit -m "name_your_changes"`
