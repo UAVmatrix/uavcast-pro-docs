@@ -1,5 +1,14 @@
 
 
+##v2.0.4
+
+18.11.2018
+
+* Telemetry or video will restart / start automatically when users toggle the switch in Ground Control Page. (Feature request from Discord user **smee56**)
+* General code imporvement.
+* Added more tools Raspberry diagnostic page.
+* Changed Toaster layout. (notification message)
+
 ##v2.0.3
 
 05.11.2018

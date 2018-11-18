@@ -1,5 +1,16 @@
 
 You can at any time contact us at **uavmatrix@uavmatrix.com** or chat privatly on our Discord server [https://discord.gg/xwqMTXh](https://discord.gg/xwqMTXh)
+##FAQ
+
+**Im not able to receive video or telemetry on my Windows computer**
+
+* Make sure you have added video and telem port to your firewall roules.
+
+**I get omxh264enc erros when starting video with USB camera**
+
+* This could happend if you have edited etc/apt/source.list.  Set this list as default and run the UAVcast-Pro installer again.
+
+
 
 ##Installation issues.
 For any installation issues, please navigate to ``/UAVcast-Pro/install`` folder and copy the ``build.log`` to your computer.

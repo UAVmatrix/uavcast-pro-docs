@@ -6,7 +6,7 @@ Add Telemetry and video destination end-points. You can add as many end points y
     Destinations only applies if you have selected UDP protocol for telemetry or video.  
 
 ##Enable / Disable switch##
-You can choose which end-points should be enabled. Convenient if you want to save a destination for later useage.
+You can choose which end-points should be enabled. Convenient if you want to save a destination for later usage.
 
 ##Name##
 Set a unique name for you destination. 
