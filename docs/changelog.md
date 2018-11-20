@@ -1,5 +1,12 @@
 
 
+
+##v2.0.41
+
+19.11.2018
+
+* Fixed minor styling issue that was introduced in version v2.0.4
+
 ##v2.0.4
 
 18.11.2018
