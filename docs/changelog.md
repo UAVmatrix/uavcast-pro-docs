@@ -1,6 +1,15 @@
 
 
 
+##v2.0.5
+
+16.12.2018
+
+* Added network stats overview on dasboard. 
+* Improved dashboard styling.
+* Added Dark theme option.
+* New Application options page to the main menu.
+
 ##v2.0.41
 
 19.11.2018
