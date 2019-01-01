@@ -23,7 +23,9 @@ However, on some modems this wont work. This option force the connection to be e
 Its recommended to restart RPI if you change this option.
 
 ##Interface
-* Default value: Hilink:`eth1` , Stick:`wwan0`
+* Default value: 
+    * RPI 2/3: Hilink:`eth1`, Stick:`wwan0`
+    * RPI Pi0w: Hilink:`eth0`, Stick:`wwan0`
 
 Set the Stick or Hilink modem interface name.<br />
 LED will turn green if the interface has proper internet access.
