@@ -1,6 +1,22 @@
 
 
 
+##v2.0.6
+
+01.01.2019
+
+* Added Navio Launch option. (-B, -E, -F) [Read more at Emlid.com](https://docs.emlid.com/navio2/common/ardupilot/installation-and-running/#specifying-launching-options)
+* Improved Navio startup sequence.
+* Now possible to add 16 UDP destionations for Navio.
+* Fixed an issue with setting static IP for eth0 interface in /etc/dhcpcd.conf => Issue reported by *@Abraxas*
+* Fixed an issue when using video custom commands. => Issue reported by *@Ed209*
+* Added **do-timestamp=1** to the default UDP video pipeline. This in collaboration with [rtpjitterbuffer](https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-good/html/gst-plugins-good-plugins-rtpjitterbuffer.html) seems to solve the UDP (grey laggy overlay) issue some people has experienced when using Zerotier VPN. Fix reported by *@Snick*
+
+Receiver / GCS Example: 
+
+`gst-launch-1.0 -v udpsrc port=5600 caps="application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264" ! rtpjitterbuffer ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false` 
+
+
 ##v2.0.5
 
 16.12.2018
