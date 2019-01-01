@@ -1,5 +1,11 @@
 
 
+##v2.0.61
+
+01.01.2019
+
+* Fixed minor bugs and code cleaning.
+
 
 ##v2.0.6
 
