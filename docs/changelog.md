@@ -1,5 +1,13 @@
 
 
+##v2.0.7
+
+06.02.2019
+
+* Now possible to change the backend server port from the settings menu. Requested by Discord user *@Rj4*
+* Fixed an bug with Dashboard network stats. Reported by Discord user *@Misant*
+* Fixed typos. Reported by Discord user *@Misant*
+
 ##v2.0.61
 
 01.01.2019

@@ -70,14 +70,14 @@ If any issues, press the Log button to reveal any problems.
 
 ![Start and Stop](/images/pages/Camera/startstop.jpg)
 
-##Receive video (Windows / Mac / Linux / Android)
+##**UDP** video (Windows / Mac / Linux / Android)
 
 ### Ubuntu
 
 If you're going to stream to a Ubuntu PC, install the some packages locally beforehand.
 ```bash
-user@ubuntu: ~ $ sudo apt-get update
-user@ubuntu: ~ $ sudo apt-get install gstreamer1.0-tools gstreamer1.0-plugins-good gstreamer1.0-plugins-bad
+sudo apt-get update
+sudo apt-get install gstreamer1.0-tools gstreamer1.0-plugins-good gstreamer1.0-plugins-bad
 ```
 
 ### Android
@@ -99,28 +99,48 @@ Here's the app in action
 The simplest way is to use brew. To install it run the following in your Mac terminal:
 
 ```bash
-user@mac: ~ $ ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-user@mac: ~ $ brew update
-user@mac: ~ $ brew install gstreamer gst-libav gst-plugins-ugly gst-plugins-base gst-plugins-bad gst-plugins-good
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew update
+brew install gstreamer gst-libav gst-plugins-ugly gst-plugins-base gst-plugins-bad gst-plugins-good
 ```
 
 ### Windows
 **Solution #1**
 
 Download and install [Mission Planner](http://ardupilot.org/planner/docs/mission-planner-installation.html) or [QGroundControl](http://qgroundcontrol.com/downloads/)
-both applications supports video by default on port 5600.
+both applications supports **UDP** video by default on port 5600.
 
 
 **Solution #2**
+
 Download and install [gstreamer for Windows](http://gstreamer.freedesktop.org/data/pkg/windows/1.4.5/gstreamer-1.0-x86_64-1.4.5.msi).
 
-For Ubuntu/Mac OS X:
-```bash
-user@mac ~ $ gst-launch-1.0 -v udpsrc port=5600 caps='application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264' ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=f
-```
-For Windows:
+Open a new command-promt window and navigate to the gstreamer bin folder, usually `C:\gstreamer\1.0\x86_64\bin`
 
+
+###Start gstreamer For Windows/Ubuntu/Mac OS X:
+
+Paste this gstreamer command in the command-prompt(windows) or terminal (unix/mac) to start gstreamer.
 ```bash
 gst-launch-1.0 -v udpsrc port=5600 caps="application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264" ! rtpjitterbuffer ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false
 ```
 From now on, your computer will be waiting for the input stream from Raspberry PI. Once it gets a stream, you'll see the real-time video from your drone.
+##**TCP** video (Windows / Mac / Linux)
+
+Select TCP from the dropdown menu in UAVcast-Pro webinterface. Add your raspberry IP address (if you use Zerotier VPN, add ZT IP address) in the **TCP Host** input box.
+
+Press Start camera button. 
+You should see ***video started successfully*** 
+
+Install gstreamer for your operating system (see above section), then open a new command-prompt(windows) or terminal(unix/mac)
+
+Paste this gstreamer command in the command-prompt(windows) or terminal (unix/mac) to start gstreamer.
+
+!!! info
+    Windows users needs to navigate to gstreamer folder before using the below gstreamer command.
+
+You need to change the **PI_IP** to the same as you used for **TCP Host**
+```bash
+gst-launch-1.0 -v tcpclientsrc host=PI_IP port=5600 ! gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false
+```
+From now on, your computer will be connecting towards Raspberry PI. Once it gets a stream, you'll see the real-time video from your drone.
