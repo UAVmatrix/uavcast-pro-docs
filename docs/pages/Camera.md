@@ -144,3 +144,14 @@ You need to change the **PI_IP** to the same as you used for **TCP Host**
 gst-launch-1.0 -v tcpclientsrc host=PI_IP port=5600 ! gdpdepay ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false
 ```
 From now on, your computer will be connecting towards Raspberry PI. Once it gets a stream, you'll see the real-time video from your drone.
+
+##Startup help files (Windows)
+Its possible to save the gstreamer pipline to a .cmd file, then you can just double click the file and video will start automatically. 
+
+Download files below, then right click and select *edit*.  Change the port number or path of gstreamer if neccessary.
+
+
+[gstreamer UDP start file](https://drive.google.com/uc?authuser=0&id=1SjDT5Tm-N0wExwBla9sG1aPeW5MS1P4b&export=download)
+
+
+[gstreamer TCP start file](https://drive.google.com/uc?authuser=0&id=1JzHNvtGJNaPBxBIfDmD0OI1O_DT08CQ7&export=download)
