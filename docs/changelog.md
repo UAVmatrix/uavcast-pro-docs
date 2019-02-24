@@ -1,5 +1,16 @@
 
 
+##v3.0.0
+
+24.02.2019
+
+This is a major release with many improvements.
+
+* UAVcast-Pro is now tied to license key. **NOTE!** All users who have already bought UAVcast-Pro will get free licens keys with 4 allowed devices registered simultaneously for lifetime usage. Keys can be transfered to other hardware from the settings menu within the application! (License keys are tied to the hardware used) If more devices are needed, then contact uavmatrix@uavmatrix.com.
+* UAVcast-Pro now uses database for all configuration and data storgage. Earlier this was stored in a plain file. This will make the application more robust for uppcomming changes such as user accounts ect.
+* Added spinner and text if server (rpi) disconnects.
+* Improved code in general.
+
 ##v2.0.7
 
 07.02.2019
