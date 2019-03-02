@@ -1,5 +1,15 @@
 
 
+##v3.0.1
+
+03.03.2019
+
+* Added translation files. If someone want to translate into other languages, then please see here [https://github.com/UAVmatrix/uavcast-pro-translations](https://github.com/UAVmatrix/uavcast-pro-translations)
+* Added option to select custom baud rate. Requested by Discord user @twallace
+* Fixed an issue where camera (picam, C920, C615) did not start properly.
+* Fixed an issue when Navio board was selected. "jq cant iterate over null"
+* Improved license manager.
+
 ##v3.0.0
 
 24.02.2019
