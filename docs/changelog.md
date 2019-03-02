@@ -8,6 +8,7 @@
 * Added option to select custom baud rate. Requested by Discord user @twallace
 * Fixed an issue where camera (picam, C920, C615) did not start properly.
 * Fixed an issue when Navio board was selected. "jq cant iterate over null"
+* Fixed an issue with integrated updater tool. Unfortunately it`s not possible to upgrade application in version 3.0.0
 * Improved license manager.
 
 ##v3.0.0
