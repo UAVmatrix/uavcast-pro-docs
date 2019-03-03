@@ -1,5 +1,19 @@
 
 
+##v3.0.2
+
+03.03.2019
+
+* Added server messages pop up information. (Can be disabled from settings menu)
+* Added warning if RPI is underpowered or throttled. Requested by Discord @Misant
+* Fixed continues spinner on Validate button for license registration.
+
+##v3.0.2
+
+03.03.2019
+
+* License manager bug fix
+
 ##v3.0.1
 
 03.03.2019
