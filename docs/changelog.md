@@ -1,5 +1,14 @@
 
 
+##v3.0.4
+
+07.03.2019
+
+* Added Turkish language
+* Added Chinese language
+* Added dropdown menu with a list of detected interfaces for hilink and stick modem. 
+* Fixed an issue with notificaiton duration.
+
 ##v3.0.3
 
 03.03.2019
