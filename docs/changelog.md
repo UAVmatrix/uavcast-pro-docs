@@ -1,5 +1,11 @@
 
 
+##v3.0.41
+
+07.03.2019
+
+* Fixed bug with LED`s in dashboard
+
 ##v3.0.4
 
 07.03.2019
