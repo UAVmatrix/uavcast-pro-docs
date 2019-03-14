@@ -1,5 +1,21 @@
 
 
+
+##v3.0.51
+
+14.03.2019
+
+* Added Spanish language
+
+##v3.0.5
+
+13.03.2019
+
+* Updated Turkish language
+* Fixed an issue were database could be damaged on unintentional shutdown.
+* Fixed typos.
+* Improved logging functionality.
+
 ##v3.0.41
 
 07.03.2019
