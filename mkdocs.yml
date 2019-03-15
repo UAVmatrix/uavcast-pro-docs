@@ -20,6 +20,8 @@ nav:
             - 'pages/Dynamic-DNS.md'
             - 'pages/Camera.md'
             - 'pages/Vpn.md'
+    - Developers:
+                - restapi.md
     - troubleshooting.md
     - application-update.md
     - changelog.md
