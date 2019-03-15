@@ -1,5 +1,4 @@
 
-UAVcast-Pro has embedded update functionality. Access the update page by clicking the verison number as shown on the image below.
 UAVcast-Pro has embedded update functionality. Access the update page by clicking the version number as shown on the image below.
 
 !['Update'](images/pages/Application-Update/menu.png)
@@ -10,4 +9,4 @@ Application will as you to refresh the page when completed.
 
 ##Check For Updates
 Press this button to check if new version is available. If new version detected then press the "Update Now" button to start the installation.
-Application will as you to refresh the page when completed.Application will as you to refresh the page when completed.
+Application will as you to refresh the page when completed.
