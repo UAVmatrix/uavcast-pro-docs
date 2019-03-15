@@ -21,7 +21,9 @@ nav:
             - 'pages/Camera.md'
             - 'pages/Vpn.md'
     - Developers:
-                - restapi.md
+                - developers/restapi.md
+                - developers/translation.md
+    - license/license.md
     - troubleshooting.md
     - application-update.md
     - changelog.md
