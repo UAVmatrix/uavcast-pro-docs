@@ -32,8 +32,8 @@ custom_theme:
     main.html
 google_analytics:
   - 'UA-59911815-6'
-  - 'auto'   
-theme: 
+  - 'auto'
+theme:
         name: null
         custom_dir: 'docstheme/material'
         favicon: 'images/favicon.ico'
@@ -44,7 +44,7 @@ theme:
         font:
                 text: 'Roboto'
                 code: 'Roboto Mono'
-        logo: 
+        logo:
             icon: 'airplanemode_active'
         feature:
             tabs: false

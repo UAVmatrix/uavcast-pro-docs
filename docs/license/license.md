@@ -1,6 +1,6 @@
 # License key
 
-All users who has bought UAVcast-Pro will be issued an license key. This key needs to be activated in the UAVacst-Pro webinterface before usage.
+All users who have bought UAVcast-Pro will be issued a license key. This key needs to be activated in the UAVacst-Pro web interface before usage.
 There are several properties attached to each key.
 
 !['License'](/images/developers/license.jpg)
@@ -14,7 +14,7 @@ There are several properties attached to each key.
 
 
 #### Allowed Devices
-This value refers to the maximum allowed devices (RPI) registerd simuntanusly.
+This value refers to the maximum allowed devices (RPI) registered simultaneously.
 
 #### Remainging Devices
 Remaining activation slots. (Allowed devices - Registered devices).

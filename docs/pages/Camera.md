@@ -1,9 +1,9 @@
 UAVcast-Pro uses the well known media-handling library gstreamer to proccess the video pipeline towards the Ground Control Station.
-It supports PiCam, Logitech C615, Logitech C920 out of the box. 
+It supports PiCam, Logitech C615, Logitech C920 out of the box.
 
 
 !!! info
-    Remember to activate camera in Rasperry Config if you are using PiCam.
+    Remember to activate camera in Raspberry Config if you are using PiCam.
 
     `sudo raspi-config`
     ![raspi-config](/images/pages/Camera/raspi-config.png)
@@ -11,10 +11,10 @@ It supports PiCam, Logitech C615, Logitech C920 out of the box.
 ##Camera Type
 * Options: `PiCam, C615, C920, Custom Pipeline`
 
-Each camera uses diffrent start code, also known as pipeline to be able to communicate or proccess the video source.
-UAVcast-Pro has three diffrent cameras pre-defined from the dropdown menu. However, if your camera is not listed then you can insert a **custom pipline** with the [needed plugins](https://gstreamer.freedesktop.org/documentation/plugins.html) to match your current camera model and type. 
+Each camera uses different start code, also known as pipeline to be able to communicate or process the video source.
+UAVcast-Pro has three diffrent cameras pre-defined from the dropdown menu. However, if your camera is not listed then you can insert a **custom pipline** with the [needed plugins](https://gstreamer.freedesktop.org/documentation/plugins.html) to match your current camera model and type.
 
-You can also send a test video by inserting the pipeline below to UAVcast-Pro custom field section, nice way to check if everyting is working without the camera itself.
+You can also send a test video by inserting the pipeline below to UAVcast-Pro custom field section, nice way to check if everything is working without the camera itself.
 
 Remember to change the Destination address:  
 `gst-launch-1.0 videotestsrc ! x264enc ! video/x-h264, stream-format=byte-stream ! rtph264pay ! udpsink host=GCS_ADDRESS port=5600`
@@ -31,14 +31,14 @@ UAVcast-Pro supports UDP and TCP for PiCam, other cameras only support UDP at th
 ##GCS Destination
 
 All destinations you have added in [Ground Control](Ground-Control.md) page will be shown in the dropdown list.
-Its only possible to select one destination for video.
+It is only possible to select one destination for video.
 
 ##Video resolution
 * Default value: `240p (320x240)`
 * Options: `240p (320x240), 480p (720x480), 540p (960x540), HD (1280x720), Full HD (1920x1080)`
 
 !!! tip
-    If your broadband connection has a low transfer speed, then lower the resoultion to get smooth video.
+    If your broadband connection has a low transfer speed, then lower the resolution to get smooth video.
 
 ##Destination Port
 * Default value: `5600`
@@ -47,7 +47,7 @@ Change the Video network port. **Mission Planner** and **QGroundControl** suppor
 
 ##Bitrate
 * Default value: `2000000`
- 
+
 Change the Bitrate value.
 !!! tip
     If your broadband connection has a low transfer speed, then lower the Bitrate to get smooth video.
@@ -65,7 +65,7 @@ Change the FPS value.
 
 ##Start Video Stream
 
-To verify if camera will start propely, simply press the start button.
+To verify if camera will start properly, simply press the start button.
 If any issues, press the Log button to reveal any problems.
 
 ![Start and Stop](/images/pages/Camera/startstop.jpg)
@@ -115,7 +115,7 @@ both applications supports **UDP** video by default on port 5600.
 
 Download and install [gstreamer for Windows](http://gstreamer.freedesktop.org/data/pkg/windows/1.4.5/gstreamer-1.0-x86_64-1.4.5.msi).
 
-Open a new command-promt window and navigate to the gstreamer bin folder, usually `C:\gstreamer\1.0\x86_64\bin`
+Open a new command-prompt window and navigate to the gstreamer bin folder, usually `C:\gstreamer\1.0\x86_64\bin`
 
 
 ###Start gstreamer For Windows/Ubuntu/Mac OS X:
@@ -127,10 +127,10 @@ gst-launch-1.0 -v udpsrc port=5600 caps="application/x-rtp, media=(string)video,
 From now on, your computer will be waiting for the input stream from Raspberry PI. Once it gets a stream, you'll see the real-time video from your drone.
 ##**TCP** video (Windows / Mac / Linux)
 
-Select TCP from the dropdown menu in UAVcast-Pro webinterface. Add your raspberry IP address (if you use Zerotier VPN, add ZT IP address) in the **TCP Host** input box.
+Select TCP from the dropdown menu in UAVcast-Pro web interface. Add your raspberry IP address (if you use Zerotier VPN, add ZT IP address) in the **TCP Host** input box.
 
-Press Start camera button. 
-You should see ***video started successfully*** 
+Press Start camera button.
+You should see ***video started successfully***
 
 Install gstreamer for your operating system (see above section), then open a new command-prompt(windows) or terminal(unix/mac)
 
@@ -146,9 +146,9 @@ gst-launch-1.0 -v tcpclientsrc host=PI_IP port=5600 ! gdpdepay ! rtph264depay ! 
 From now on, your computer will be connecting towards Raspberry PI. Once it gets a stream, you'll see the real-time video from your drone.
 
 ##Startup help files (Windows)
-Its possible to save the gstreamer pipline to a .cmd file, then you can just double click the file and video will start automatically. 
+It's possible to save the gstreamer pipline to a .cmd file, then you can just double click the file and video will start automatically.
 
-Download files below, then right click and select *edit*.  Change the port number or path of gstreamer if neccessary.
+Download files below, then right click and select *edit*.  Change the port number or path of gstreamer if necessary.
 
 
 [gstreamer UDP start file](https://drive.google.com/uc?authuser=0&id=1SjDT5Tm-N0wExwBla9sG1aPeW5MS1P4b&export=download)
