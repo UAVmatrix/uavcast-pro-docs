@@ -50,7 +50,7 @@ theme:
             tabs: false
 
 repo_name: 'uavmatrix/uavcast-pro-docs'
-repo_url: https://github.com/smee56/uavcast-pro-docs/
+repo_url: https://github.com/UAVmatrix/uavcast-pro-docs/
 markdown_extensions:
   - admonition
   - codehilite:
