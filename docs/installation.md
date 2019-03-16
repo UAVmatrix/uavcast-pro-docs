@@ -24,13 +24,23 @@ You need to copy the xx.tar file to your raspberry pi.
 * For **non-desktop** images, you can use SSH client like [Bitevise tunneller](https://dl.bitvise.com/BvSshClient-Inst.exe) to establish connection to raspberry pi.
 
 Open a shell or terminal window and navigate to the same folder as you saved the file, normally ``home/pi`` or `home/pi/Download`
-then you need to extract the package by using typing this command `sudo tar -xvmf UAVcast-Pro_vx.x.x.tar`
+then you need to extract the package by using typing this command
+```
+sudo tar -xvmf UAVcast-Pro_vx.x.x.tar
+```
 
 Now you need to navigate to the UAVcast-Pro installation folder
-`cd UAVcast-Pro/install`
 
-then start the installation by typing `sudo ./install`
-Installation time is approx 10min on a RPI version 3
+```
+cd UAVcast-Pro/install
+```
+
+Then start the installation by typing
+```
+sudo ./install
+```
+
+The installation time is approx 10min on a Raspberry Pi version 3
 
 When the installation is complete, it will run a validation check, please make sure that you have all green OK status.
 Now you are able to connect UAVcast-Pro by typing the RPI ip in your web browser.

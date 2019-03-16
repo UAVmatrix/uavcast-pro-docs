@@ -1,10 +1,13 @@
 # Hardware
 
 ##Flight Controllers
-* All Ardupilot boards, Pixhawk, APMx, Cube.  
+* All supported Ardupilot boards including Pixhawk, APMx and Cube.
 * Navio+ and Navio2
 
-## Supported Raspberry Pi board
+!!! note
+    The Ardupilot project is often adding support for other flight controllers. The full list of supported flight controllers can be viewed [here](http://ardupilot.org/plane/docs/common-autopilots.html).
+
+## Supported Raspberry Pi boards
 
 * Pi0w
 * PI 2
@@ -33,7 +36,7 @@ Check out this page to find supported modems, [Supported modem](https://www.free
 
 Some Huawei USB modems have a mode called "HiLink" which provides for "driverless" installation on Windows, Macintosh and Linux computers. These modems usually have the HiLink logo marked on the outside, or have letter H in the model name. **Example E3372H**.
 
-Stick modems is a regular modem where you need to send AT commands to establish a cell connection. UAVcast have all the connection stuff you need integrated.
+Stick modems is a regular modem where you need to send AT commands to establish a cell connection. UAVcast has all the connection stuff you need integrate a stick modem.
 
 **HiLink Advantages**
 
@@ -49,7 +52,7 @@ Hilink modems does not support Port Forwarding out of the box. You certainly alm
 However, if you use VPN connection then HiLink is a perfect choice as VPN does't not require any port forwarding.
 
 ## Camera
-There are several cameras that works with UAVcast-Pro, 
+There are several cameras that works with UAVcast-Pro,
 
 * PiCam
 * Logitech C920
