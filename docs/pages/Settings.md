@@ -1,5 +1,5 @@
 #Dark Mode
-Dark mode can bb enabled from the settings page.
+Dark mode can be enabled from the settings page.
 
 !['Dark Mode'](/images/pages/Settings/darkmode.png)
 

@@ -19,7 +19,7 @@ nav:
             - 'pages/Cell-Modem.md'
             - 'pages/Dynamic-DNS.md'
             - 'pages/Camera.md'
-            - 'pages/VPN.md'
+            - 'pages/Vpn.md'
             - 'pages/Settings.md'
     - Developers:
                 - developers/restapi.md
