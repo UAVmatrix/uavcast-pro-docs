@@ -7,7 +7,9 @@ Configure the connection between RPI and the FC.
 * Default value: `None`
 * Options: `Ardupilot, Navio`
 
-Choose the board you want to use. for Pixhawk, APM, Cube,  select Ardupilot.  
+Choose the board you want to use. for Pixhawk, APM, Cube or other Ardupilot variants select Ardupilot.
+
+!['Flight Controller Selection'](/images/pages/Flight-Controller/fc-type.jpg)
 
 ##Vehicle (Navio Only)
 * Options:`ArduPlane, ArduRover, ArduCopter `
@@ -24,6 +26,8 @@ Select the binary you want use.
 * USB
 
 !['Usb'](/images/pages/Flight-Controller/rpi-usb.jpg)
+
+!['Flight Controller Connection Method'](/images/pages/Flight-Controller/fcmethod.png)
 
 ##Baud rate
 * Default value: `57600`
