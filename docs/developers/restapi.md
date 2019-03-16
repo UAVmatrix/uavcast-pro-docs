@@ -1,6 +1,6 @@
 # Rest API
 
-UAVcast-Pro has a integrated RESTfull API activated by default from **version 3.0.6**. This could be usefull when users want to interact or fetch information from 3rd party application.
+UAVcast-Pro has an integrated RESTfull API activated by default from **version 3.0.6**. This could be useful when users want to interact or fetch information from 3rd party application.
 
 ###Available routes
 
@@ -10,7 +10,7 @@ UAVcast-Pro has a integrated RESTfull API activated by default from **version 3.
 
 * GET
     * /api/castStatus
-    * /api/piStatus 
+    * /api/piStatus
 
 * POST
     * /api/action/{json object}

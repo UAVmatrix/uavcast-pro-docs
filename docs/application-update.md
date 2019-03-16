@@ -1,5 +1,5 @@
 
-UAVcast-Pro has embedded update functionality. Access the update page by clicking the verison number as shown on the image below.
+UAVcast-Pro has embedded update functionality. Access the update page by clicking the version number as shown on the image below.
 
 !['Update'](images/pages/Application-Update/menu.png)
 
