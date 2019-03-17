@@ -1,6 +1,15 @@
 
 
 
+##v3.0.7
+
+17.03.2019
+
+* Added Russian language
+* Fixed typos
+* Improved license key validation.
+
+
 ##v3.0.6
 
 15.03.2019
