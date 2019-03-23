@@ -13,7 +13,7 @@ UAVcast-Pro has an integrated RESTfull API activated by default from **version 3
     * /api/piStatus
 
 * POST
-    * /api/action/{json object}
+    * /api/{json object}
 
 
 ##UAVcast casting status
@@ -142,7 +142,7 @@ This GET request will return Raspberry PI information.
 ```
 
 ##Actions
-* route `/api/action/{json object}`
+* route `/api/{json object}`
 * type: POST
 
 Users can start and stop UAVcast from 3rd party application, this actions is eqvalent to press "Start Casting" or "Stop Casting" in the dashboard.
