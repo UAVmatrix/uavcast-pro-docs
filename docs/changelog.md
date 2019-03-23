@@ -1,6 +1,14 @@
 
 
 
+
+##v3.0.8
+
+23.03.2019
+
+* Added Polish language
+* Fixed an issue with Video LED in dashboard.
+
 ##v3.0.7
 
 17.03.2019
