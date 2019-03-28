@@ -123,12 +123,12 @@ both applications supports **UDP** video by default on port 5600 without any ext
 
     **NOTE!**
 
-    Mission Planner always starts its default gstreamer pipeline and listen on default port 5600, when using the custom source above we need to use a diffrent port so it wont make any conflicts. In this example we use **port 5601**. Remember set port [5601](http://localhost:8000/pages/Camera/#destination-port) in UAVcast-Pro as well!
+    Mission Planner always starts its default gstreamer pipeline and listen on default port 5600, when using the custom source above we need to use a diffrent port so it wont make any conflicts. In this example we use **port 5601**. Remember set port [5601](http://docs.uavmatrix.com/pages/Camera/#destination-port) in UAVcast-Pro as well!
     ![hud-source](/images/pages/Camera/hud-gstreamer.jpg)
 
 ####Solution #2
 
-Download and install [gstreamer for Windows](http://gstreamer.freedesktop.org/data/pkg/windows/1.4.5/gstreamer-1.0-x86_64-1.4.5.msi).
+Download and install [gstreamer for Windows](https://gstreamer.freedesktop.org/data/pkg/windows/1.4.5/gstreamer-1.0-x86_64-1.4.5.msi).
 
 Open a new command-prompt window and navigate to the gstreamer bin folder, usually `C:\gstreamer\1.0\x86_64\bin`
 
