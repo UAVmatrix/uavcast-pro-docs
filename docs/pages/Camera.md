@@ -1,3 +1,7 @@
+
+##Configuration
+
+
 UAVcast-Pro uses the well known media-handling library gstreamer to proccess the video pipeline towards the Ground Control Station.
 It supports PiCam, Logitech C615, Logitech C920 out of the box.
 
@@ -8,7 +12,7 @@ It supports PiCam, Logitech C615, Logitech C920 out of the box.
     `sudo raspi-config`
     ![raspi-config](/images/pages/Camera/raspi-config.png)
 
-##Camera Type
+###Camera Type
 * Options: `PiCam, C615, C920, Custom Pipeline`
 
 Each camera uses different start code, also known as pipeline to be able to communicate or process the video source.
@@ -23,29 +27,29 @@ Take a look at this page for pipeline examples
 [http://wiki.oz9aec.net/index.php/Gstreamer_cheat_sheet](http://wiki.oz9aec.net/index.php/Gstreamer_cheat_sheet)
 
 
-##UDP or TCP protocol
+###UDP or TCP protocol
 * Default value: `UDP`
 
 UAVcast-Pro supports UDP and TCP for PiCam, other cameras only support UDP at the moment.
 
-##GCS Destination
+###GCS Destination
 
 All destinations you have added in [Ground Control](Ground-Control.md) page will be shown in the dropdown list.
 It is only possible to select one destination for video.
 
-##Video resolution
+###Video resolution
 * Default value: `240p (320x240)`
 * Options: `240p (320x240), 480p (720x480), 540p (960x540), HD (1280x720), Full HD (1920x1080)`
 
 !!! tip
     If your broadband connection has a low transfer speed, then lower the resolution to get smooth video.
 
-##Destination Port
+###Destination Port
 * Default value: `5600`
 
 Change the Video network port. **Mission Planner** and **QGroundControl** supports video in HUD by default on port 5600.
 
-##Bitrate
+###Bitrate
 * Default value: `2000000`
 
 Change the Bitrate value.
@@ -54,7 +58,7 @@ Change the Bitrate value.
 
     Example: `800000`
 
-##Frames Pr.second
+###Frames Pr.second
 * Default value: `20`
 
 Change the FPS value.
@@ -63,14 +67,14 @@ Change the FPS value.
 
     Example: `8`
 
-##Start Video Stream
+###Start Video Stream
 
 To verify if camera will start properly, simply press the start button.
 If any issues, press the Log button to reveal any problems.
 
 ![Start and Stop](/images/pages/Camera/startstop.jpg)
 
-##**UDP** video (Windows / Mac / Linux / Android)
+##Receive **UDP** video (Windows / Mac / Linux / Android)
 
 ### Ubuntu
 
@@ -105,13 +109,24 @@ brew install gstreamer gst-libav gst-plugins-ugly gst-plugins-base gst-plugins-b
 ```
 
 ### Windows
-**Solution #1**
+####Solution #1
 
 Download and install [Mission Planner](http://ardupilot.org/planner/docs/mission-planner-installation.html) or [QGroundControl](http://qgroundcontrol.com/downloads/)
-both applications supports **UDP** video by default on port 5600.
+both applications supports **UDP** video by default on port 5600 without any extra configuration. Start camera in UAVcast-Pro and open MP or QGC
 
+!!! warning "Streaming over VPN may cause poor video quality in MP and QGC"
+    If you experience issues when streaming by VPN, such as **pixalating frames** or **grey overlay** then change the gstreamer source in Mission Planner HUD, with this pipeline:
 
-**Solution #2**
+    ```
+    udpsrc port=5601 caps = "application/x-rtp, media=video, clock-rate=90000, encoding-name=H264, payload=96" ! rtpjitterbuffer ! rtph264depay ! avdec_h264 ! videoconvert ! video/x-raw,format=BGRA ! appsink name=outsink
+    ```
+
+    **NOTE!**
+
+    Mission Planner always starts its default gstreamer pipeline and listen on default port 5600, when using the custom source above we need to use a diffrent port so it wont make any conflicts. In this example we use **port 5601**. Remember set port [5601](http://localhost:8000/pages/Camera/#destination-port) in UAVcast-Pro as well!
+    ![hud-source](/images/pages/Camera/hud-gstreamer.jpg)
+
+####Solution #2
 
 Download and install [gstreamer for Windows](http://gstreamer.freedesktop.org/data/pkg/windows/1.4.5/gstreamer-1.0-x86_64-1.4.5.msi).
 
