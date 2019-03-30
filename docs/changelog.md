@@ -3,7 +3,7 @@
 
 30.03.2019
 
-* New page "Raspberry LED". No possible to control the onboards LED and attach them to various application states.
+* New page "Raspberry LED". Now possible to control the onboard LED`s and attach them to various application states.
 * Improved the sidebar menu. Active page is now highlighted.
 * Fixed bug in Polish language
 * Improved license verification check. 
