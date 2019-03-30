@@ -3,7 +3,10 @@
 
 30.03.2019
 
-* New page "Raspberry LED". Now possible to control the onboard LED`s and attach them to various application states.
+* New page "Raspberry LED". Now possible to control the onboard LED`s and attach them to various application states. 
+
+    **Note!** If you are on PiZero you need to reboot after the update to have the LED working.
+    
 * Improved the sidebar menu. Active page is now highlighted.
 * Fixed bug in Polish language
 * Improved license verification check. 
