@@ -1,4 +1,11 @@
 
+##v3.1.1
+
+01.04.2019
+
+* Improved export log functionalities. Download logfiles from UAVcast page are much improved and contains allot more information about the application state.
+* Improved application status LED.
+
 ##v3.1.0
 
 30.03.2019
