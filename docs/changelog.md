@@ -1,3 +1,12 @@
+##v3.1.2
+
+02.04.2019
+
+* Improved application performance. (PiZero)
+* Improved read/write database performance (PiZero)
+* Improved export log functionalities.
+* Improved application status LED functionalities.
+* Improved "RPI Disconnected" message.
 
 ##v3.1.1
 
