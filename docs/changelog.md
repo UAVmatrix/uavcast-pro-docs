@@ -1,3 +1,16 @@
+##v3.1.3
+
+16.05.2019
+
+* Improved modem LED function.
+* Added more camera options such as Brightness, Contrast ++
+* Added better overview of connected Zerotier networks.
+* Added Dutch language translation.
+* Fixed bug when Autostart with stick modem. 
+* Improved embedded updater functionality.
+
+NOTE! Due to the changes in embeded application updater, this update will hang at "Innstallation in progress". The installation will be successfully when the "RPI Disconnected" shows up for 5sec, then just refresh the page manually.  Innstallation will not be longer than maximum 10min.
+
 ##v3.1.2
 
 02.04.2019
