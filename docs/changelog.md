@@ -1,3 +1,9 @@
+##v3.1.31
+
+21.05.2019
+
+* Improved autostart. Added database validation before start casting.
+
 ##v3.1.3
 
 16.05.2019
