@@ -1,3 +1,10 @@
+##v3.1.5
+
+19.08.2019
+
+* Added USB modem information, signal idicator and connection status. Only applicable for Huawei HiLink modems.
+
+
 ##v3.1.4
 
 15.06.2019
