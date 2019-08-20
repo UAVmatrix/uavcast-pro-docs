@@ -26,6 +26,7 @@ This is one solution, where we attach the power directly to the USB +/- pins, an
 !!! note
     Make sure you connect the modem to correct USB port where external power supply is connected.
 
+!['raspberry power supply'](images/raspberry-power.png)
 !['raspberry power supply'](images/raspberry-power.jpg)
 
 ## Modem
