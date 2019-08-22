@@ -1,3 +1,11 @@
+##v3.1.6
+
+22.08.2019
+
+* Fixed Zerotier installation on Buster images.
+* Fixed bug with USB modem information.
+
+
 ##v3.1.5
 
 19.08.2019

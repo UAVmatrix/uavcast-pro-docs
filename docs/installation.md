@@ -8,6 +8,8 @@ Confirmed working images:
 
 * Raspbian Stretch Lite
 * Raspbian Stretch With Desktop
+* Raspbian Buster Lite
+* Raspbian Buster With Desktop
 
 Follow the installation instruction given on their site for the specific image you want to use.
 
