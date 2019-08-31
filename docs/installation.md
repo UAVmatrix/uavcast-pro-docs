@@ -2,22 +2,26 @@
 
 ##Raspberry Pi Image
 
-Start with a fresh Raspberry image, you find images at [raspberry.org](https://www.raspberrypi.org/downloads/) site.
+Start with a fresh Raspberry image.
 
 Confirmed working images:
+
+!!! warning
+    There is currently an issue using Raspbian Buster with USB cameras. 
+    [https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=250379](https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=250379)
+
+!!! tip
+    For Navio flight controllers, install image provided at https://emlid.com before continue the installation procedure.
 
 * Raspbian Stretch Lite
 * Raspbian Stretch With Desktop
 * Raspbian Buster Lite
 * Raspbian Buster With Desktop
 
-Follow the installation instruction given on their site for the specific image you want to use.
+Use the [https://www.raspberrypi.org/downloads/](https://www.raspberrypi.org/downloads/) installation instruction.
 
-!!! tip
-    For Navio flight controllers, install image provided at https://emlid.com before continue the installation procedure.
 
 ##UAVcast-Pro installation
-
 
 For UAVcast Pro, you will get a download link by mail after you have purchased the product.
 You need to copy the xx.tar file to your raspberry pi.
@@ -47,11 +51,15 @@ The installation time is approx 10min on a Raspberry Pi version 3
 When the installation is complete, it will run a validation check, please make sure that you have all green OK status.
 Now you are able to connect UAVcast-Pro by typing the RPI ip in your web browser.
 
-**Installation video** can be found here
-[https://drive.google.com/file/d/1tbuUO63gU0by81wyijbuWI1duRYaILXS/view?usp=sharing](https://drive.google.com/file/d/1tbuUO63gU0by81wyijbuWI1duRYaILXS/view?usp=sharing)
+**Installation video**
 
-!!! tip
-    If you are installing UAVcast-Pro version 1.1.0 or older, you need to place UAVcast-Pro_v1.x.x.tar in home/pi, otherwise it will not work.
-    Version 1.1.1 or later supports global install can be installed from anywhere
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Ht7i08WBQBs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+After the installation there will be validating proccess to verify that all component has been loaded successfully.
+You can now access the webinterface using the RPI ip or Host name address in your browser. 
+
+
+[http://raspberrypi/](http://raspberrypi/)
 
 ![](images/validation.jpg)
