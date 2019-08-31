@@ -48,8 +48,6 @@ sudo ./install
 
 The installation time is approx 10min on a Raspberry Pi version 3
 
-When the installation is complete, it will run a validation check, please make sure that you have all green OK status.
-Now you are able to connect UAVcast-Pro by typing the RPI ip in your web browser.
 
 **Installation video**
 
