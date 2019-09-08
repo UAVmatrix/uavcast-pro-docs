@@ -1,3 +1,10 @@
+##v3.2.1
+
+08.09.2019
+
+* Now possible to stream UDP video to multiple destinations for PiCam and Logitech USB camera.
+
+
 ##v3.2.0
 
 08.09.2019
