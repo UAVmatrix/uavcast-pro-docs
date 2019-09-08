@@ -1,8 +1,15 @@
+##v3.2.0
+
+08.09.2019
+
+* Added HTTP in-browser live camera viewer. This will allow multiple users to view video stream from the Vechicle.<br />
+  **NOTE!** Only applicable for Pi Camera. Other cam may be added in the future.
+
+
 ##v3.1.6
 
 22.08.2019
 
-* Fixed Zerotier installation on Buster images.
 * Fixed bug with USB modem information.
 
 

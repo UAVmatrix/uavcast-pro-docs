@@ -12,10 +12,11 @@
 * Pi0w
 * PI 2
 * Pi 3
+* Pi 4
 
 !!! warning
     Pi0w runs fine with UAVcast-Pro, however the CPU usage will be between 50 > 100%.
-    If you intend to use other programs with UAVcast-Pro then Pi3 version is recommended.
+    If you intend to use other programs with UAVcast-Pro then Pi3 or 4 version is recommended.
 
 ##Extra power supply
 It's important that Raspberry Pi gets voltage between 4.8 and 5.3v. If you use LTE modem, then external power supply is needed

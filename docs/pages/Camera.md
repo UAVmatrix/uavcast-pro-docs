@@ -27,10 +27,11 @@ Take a look at this page for pipeline examples
 [http://wiki.oz9aec.net/index.php/Gstreamer_cheat_sheet](http://wiki.oz9aec.net/index.php/Gstreamer_cheat_sheet)
 
 
-###UDP or TCP protocol
+###UDP / TCP / HTTP protocol
 * Default value: `UDP`
 
-UAVcast-Pro supports UDP and TCP for PiCam, other cameras only support UDP at the moment.
+UAVcast-Pro supports UDP, TCP and HTTP live in-browser viewer for PiCam, other cameras only support UDP at the moment.
+Multiple users may view live video using the HTTP protocol.
 
 ###GCS Destination
 
