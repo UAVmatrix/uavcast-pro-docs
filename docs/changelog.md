@@ -1,3 +1,11 @@
+##v3.2.2
+
+09.09.2019
+
+* Fixed several issues with USB camera. 
+* improved HTTP live streaming.
+
+
 ##v3.2.1
 
 08.09.2019
