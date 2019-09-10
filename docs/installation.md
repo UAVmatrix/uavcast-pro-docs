@@ -13,8 +13,8 @@ Confirmed working images:
 !!! tip
     For Navio flight controllers, install image provided at https://emlid.com before continue the installation procedure.
 
-* Raspbian Stretch Lite
-* Raspbian Stretch With Desktop
+* Raspbian Stretch Lite [(Get latest version)](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-04-09/2019-04-08-raspbian-stretch-lite.zip)
+* Raspbian Stretch With Desktop [(Get latest version)](https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip)
 * Raspbian Buster Lite
 * Raspbian Buster With Desktop
 
