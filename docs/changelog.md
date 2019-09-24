@@ -1,3 +1,20 @@
+##v3.2.3
+
+24.09.2019
+
+* (NEW) Added Mavlink validation test. Users can now test if RPI has proper connection with the Flight Controller within the application.
+* (NEW) Each Camera type has its own configuration. Example, if user changes PiCam resolution, C920 or any other cam will not be affected.
+* (NEW) Added Default values to each camera type. Added button for "Reset to default values"
+* (NEW) Added option to delete logfile content.
+* (Improvement) LED and status idicators. 
+* (Improvement) Generall application styles, text and phrases. 
+* (Improvement) Zerotier and validation response. 
+* (Improvement) Modem information should now work for most huawei HiLink modems. (if default username and password is used for the dongle Web UI)
+* (Improvement) Reduced UI and backend workload for Raspberry PiZero boards. Some low priority functionalities are disabled.
+* (Improvement) Camera configuration parameters.
+* (Improvement) In Browser HTTP live stream functionalities.
+
+
 ##v3.2.2
 
 09.09.2019
