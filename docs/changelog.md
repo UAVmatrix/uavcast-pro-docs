@@ -1,3 +1,18 @@
+##v3.2.4
+
+30.09.2019
+
+* (NEW) Added new sub page **Network** to Raspberry page.
+* (NEW) Now possible to change Raspberry Hostname
+* (NEW) Now possible to change IP address for various Network interfaces within the application
+* (NEW) Now possible to disable wifi adapter temporarily. (Will start during next boot)
+* (NEW) Now possible to select default network adapter to reach the outer world (www), usefull when testing modem lateancy without disable WiFi ect.
+* (NEW) Added modal notification when new app version is available.
+* (Improvement) Added spinner when fetching license details.
+* (Improvement) Improved application load time.
+* (Improvement) Fixed bug with gstreamer custom pipeline.
+
+
 ##v3.2.3
 
 24.09.2019
