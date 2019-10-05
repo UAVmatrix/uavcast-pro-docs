@@ -23,7 +23,7 @@
 * (NEW) Added option to delete logfile content.
 * (Improvement) LED and status idicators. 
 * (Improvement) Generall application styles, text and phrases. 
-* (Improvement) Zerotier and validation response. 
+* (Improvement) VPN and validation response. 
 * (Improvement) Modem information should now work for most huawei HiLink modems. (if default username and password is used for the dongle Web UI)
 * (Improvement) Reduced UI and backend workload for Raspberry PiZero boards. Some low priority functionalities are disabled.
 * (Improvement) Camera configuration parameters.
@@ -85,7 +85,7 @@
 
 * Improved modem LED function.
 * Added more camera options such as Brightness, Contrast ++
-* Added better overview of connected Zerotier networks.
+* Added better overview of connected VPN networks.
 * Added Dutch language translation.
 * Fixed bug when Autostart with stick modem. 
 * Improved embedded updater functionality.
@@ -234,7 +234,7 @@ This is a major release with many improvements.
 * Now possible to add 16 UDP destionations for Navio.
 * Fixed an issue with setting static IP for eth0 interface in /etc/dhcpcd.conf => Issue reported by *@Abraxas*
 * Fixed an issue when using video custom commands. => Issue reported by *@Ed209*
-* Added **do-timestamp=1** to the default UDP video pipeline. This in collaboration with [rtpjitterbuffer](https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-good/html/gst-plugins-good-plugins-rtpjitterbuffer.html) seems to solve the UDP (grey laggy overlay) issue some people has experienced when using Zerotier VPN. Fix reported by *@Snick*
+* Added **do-timestamp=1** to the default UDP video pipeline. This in collaboration with [rtpjitterbuffer](https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-good/html/gst-plugins-good-plugins-rtpjitterbuffer.html) seems to solve the UDP (grey laggy overlay) issue some people has experienced when using VPN. Fix reported by *@Snick*
 
 Receiver / GCS Example: 
 
@@ -380,6 +380,5 @@ This version is a total rebuild of the web server installation. Server is now pr
 
 ##v1.0.3
 
-* Upgraded Zerotier VPN client from version 1.2.8 => 1.2.12 Added new
 * Dedicated server at google cloud, only for UAVcast-Pro users.
 * Added option to stream video on TCP when using PiCam
