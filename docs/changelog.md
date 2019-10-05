@@ -374,7 +374,6 @@ This version is a total rebuild of the web server installation. Server is now pr
 
 ##v1.0.4
 
-* Zerotier released new 1.2.12 installation binary link today. Updated with new link.
 * Added installation progress-bar.
 * Added validation check after installation completes.
 
