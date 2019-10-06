@@ -1,3 +1,11 @@
+##v3.2.41
+
+06.10.2019
+
+* (NEW) Added button in application page for deleting database values. This will only delete application configurations and not license or user data. In some cases where users are updateing from a much older application version, this has to be performed. 
+* (Improvement) Added warning if mismatch in database structure and user needs to perform a reset / erase. 
+
+
 ##v3.2.4
 
 30.09.2019
