@@ -60,8 +60,12 @@ There are several cameras that works with UAVcast-Pro,
 * PiCam
 * Logitech C920
 * Logitech C615
-* GoPro. ([Can be used with HDMI to CSI converter](https://www.ebay.com/itm/1-Port-For-Raspberry-Pi-HDMI-To-CSI-2-Bridge-Adapter-Module-UP-To-1080p-25fps-/233297430162)). This allows users to record and view live stream simultaneously. Supported GoPro cams:
-    1. HERO7 Black
+* GoPro. ([Can be used with HDMI to CSI converter](https://www.ebay.com/itm/1-Port-For-Raspberry-Pi-HDMI-To-CSI-2-Bridge-Adapter-Module-UP-To-1080p-25fps-/233297430162)). This allows users to record and view live stream simultaneously. 
+
+    !['UAVcast-Pro and GoPro'](images/pages/hardware/gopro.jpg)
+
+* Supported GoPro cams:
+    * HERO7 Black
     * HERO (2018)
     * HERO6 Black
     * HERO5 Black
@@ -69,7 +73,7 @@ There are several cameras that works with UAVcast-Pro,
     * HERO3+ (Black and Silver Editions)
     * HERO3 (White, Silver, and Black Editions)
     * HERO2)
-        * GoPro example video from one of our users;
+        * GoPro example video from one of our users.
         <iframe width="560" height="315" src="https://www.youtube.com/embed/4CNK3cBvUtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 * Other cameras may also work. search for (camera type) and gStreamer.
