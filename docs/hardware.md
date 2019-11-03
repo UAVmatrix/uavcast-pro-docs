@@ -56,12 +56,25 @@ However, if you use VPN connection then HiLink is a perfect choice as VPN does't
 ## Camera
 There are several cameras that works with UAVcast-Pro,
 
+
 * PiCam
 * Logitech C920
 * Logitech C615
-* Other may also work. search for (camera type) and gStreamer.
+* GoPro. ([Can be used with HDMI to CSI converter](https://www.ebay.com/itm/1-Port-For-Raspberry-Pi-HDMI-To-CSI-2-Bridge-Adapter-Module-UP-To-1080p-25fps-/233297430162)). This allows users to record and view live stream simultaneously. Supported GoPro cams:
+    1. HERO7 Black
+    * HERO (2018)
+    * HERO6 Black
+    * HERO5 Black
+    * HERO4 (Black and Silver Editions)
+    * HERO3+ (Black and Silver Editions)
+    * HERO3 (White, Silver, and Black Editions)
+    * HERO2)
+        * GoPro example video from one of our users;
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4CNK3cBvUtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-PiCam is a perfect camera for this type application and provides 1080p video.
-If you want to use another camera not listed, then make sure it has Hardware Encoder integrated to get the best quality.
+* Other cameras may also work. search for (camera type) and gStreamer.
+
+<!-- PiCam is a perfect camera for this type application and provides 1080p video.
+If you want to use another camera not listed, then make sure it has Hardware Encoder integrated to get the best quality. -->
 
 [Mission Planner](http://ardupilot.org/planner/docs/mission-planner-installation.html) and [QGroundControl](http://qgroundcontrol.com/) supports video stream by default on port 5600.
