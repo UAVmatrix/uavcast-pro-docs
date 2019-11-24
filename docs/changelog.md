@@ -1,3 +1,11 @@
+##v3.2.5
+
+24.11.2019
+
+* (NEW) Added option to search and connect WiFi networks.
+* (Improvement) Changed max video resolution from 24fps to 30fps
+* (REMOVED) Some VPN functionalities has been removed due to license conflict.
+
 ##v3.2.41
 
 06.10.2019
