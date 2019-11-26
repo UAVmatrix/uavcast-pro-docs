@@ -41,15 +41,15 @@ google_analytics:
   - 'UA-59911815-6'
   - 'auto'
 theme:
-        name: null
+        name: material
         custom_dir: 'docstheme/material'
         favicon: 'images/favicon.ico'
         language: 'en'
         palette:
-                primary: 'indigo'
-                accent: 'indigo'
+                primary: 'pink'
+                accent: 'pink'
         font:
-                text: 'Roboto'
+                text: 'Open Sans'
                 code: 'Roboto Mono'
         logo:
             icon: 'airplanemode_active'

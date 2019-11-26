@@ -2,7 +2,8 @@
 
 > Documentation last updated 26.11.2019
 
-!['UAVcast-Pro'](images/ipad.png)
+
+![zoomify](images/ipad.png)
 
 Here you will find information about UAVcast-Pro, 4G LTE Drone software for Raspberry Pi companion computer
 You are free to make a PR on github with any changes you like.
