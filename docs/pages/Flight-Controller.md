@@ -1,7 +1,6 @@
-#Flight Controller
-<!-- !['Flight Controller'](/images/pages/Flight-Controller/overview.jpg) -->
-Configure the connection between RPI and the FC.
+!['Flight Controller Selection'](/images/pages/Flight-Controller/fc-type.jpg)
 
+Configure the connection between Raspberry and the Flight Controller.
 
 ##Controller Type
 * Default value: `None`
@@ -9,7 +8,6 @@ Configure the connection between RPI and the FC.
 
 Choose the board you want to use. for Pixhawk, APM, Cube or other Ardupilot variants select Ardupilot.
 
-!['Flight Controller Selection'](/images/pages/Flight-Controller/fc-type.jpg)
 
 ##Vehicle (Navio Only)
 * Options:`ArduPlane, ArduRover, ArduCopter `
@@ -41,3 +39,13 @@ Select a baud rate you want to use for the telemetry stream.
 * Options: `TCP, UDP`
 
 Select the protocol you want to use for the telemetry stream.
+
+##Validate Mavlink Connection
+Check if raspberry Pi receives mavlink messages from your FlightController. This is usefull when troubleshooting. UAVcast will check if valid HEARTBEAT message is received on the selected connection method above.
+Its recommended to run this test after a reboot
+
+###Success
+!['Flight Controller Connection Check'](/images/pages/Flight-Controller/fc_check_success.jpg)
+
+###Failed
+!['Flight Controller Connection Check'](/images/pages/Flight-Controller/fc_check_failed.jpg)

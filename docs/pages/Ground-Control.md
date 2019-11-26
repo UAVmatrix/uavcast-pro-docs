@@ -1,4 +1,4 @@
-#Ground Control
+!['Ground Control'](/images/pages/Ground-Control/ground-control.jpg)
 
 Add Telemetry and video destination end-points. You can add as many end points you want.
 
@@ -33,8 +33,3 @@ Enable or disable video for each end-point. Only one video destination allowed.
 ##Port Checker##
 Checks whether or not the destination telemetry port is available.
 It is useful if you have issues with NAT and unsure if necessary ports is opened. Not 100% reliable, but most cases will give you a good indication
-
-!['Ground Control'](/images/pages/Ground-Control/ground-control.jpg)
-
-!!! warning
-    UAVcast-Basic does not support UDP protocol. You need Pro version to use this feature. 

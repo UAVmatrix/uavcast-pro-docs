@@ -1,6 +1,5 @@
 
-##Configuration
-
+!['Configuration'](/images/pages/camera/config.jpg)
 
 UAVcast-Pro uses the well known media-handling library gstreamer to proccess the video pipeline towards the Ground Control Station.
 It supports PiCam, Logitech C615, Logitech C920 out of the box.
@@ -13,7 +12,7 @@ It supports PiCam, Logitech C615, Logitech C920 out of the box.
     ![raspi-config](/images/pages/Camera/raspi-config.png)
 
 ###Camera Type
-* Options: `PiCam, C615, C920, Custom Pipeline`
+* Options: `PiCam HTTP, PiCam TCP/UDP,  C615, C920, Custom Pipeline`
 
 Each camera uses different start code, also known as pipeline to be able to communicate or process the video source.
 UAVcast-Pro has three diffrent cameras pre-defined from the dropdown menu. However, if your camera is not listed then you can insert a **custom pipline** with the [needed plugins](https://gstreamer.freedesktop.org/documentation/plugins.html) to match your current camera model and type.
@@ -30,7 +29,7 @@ Take a look at this page for pipeline examples
 ###UDP / TCP / HTTP protocol
 * Default value: `UDP`
 
-UAVcast-Pro supports UDP, TCP and HTTP live in-browser viewer for PiCam, other cameras only support UDP at the moment.
+UAVcast-Pro supports UDP, TCP and [HTTP live in-browser viewer for PiCam](/pages/camera/HTTP Videostream), other cameras only support UDP at the moment.
 Multiple users may view live video using the HTTP protocol.
 
 ###GCS Destination

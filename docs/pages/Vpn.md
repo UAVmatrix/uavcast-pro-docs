@@ -1,3 +1,6 @@
+
+!['VPN'](/images/pages/vpn/overview.jpg)
+
 UAVcast currently supports OpenVPN without the need for any additional software running on the Raspberry Pi.
 
 ##OpenVPN

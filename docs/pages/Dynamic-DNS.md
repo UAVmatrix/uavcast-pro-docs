@@ -1,11 +1,13 @@
-#Dynamic DNS
+
+!['DNS'](/images/pages/dns/overview.jpg)
+
+!!! Info
+    If you are connected using VPN, then DNS is not needed. VPN connections uses static IP address that wont change.
+
 Dynamic DNS allow you to bind an external IP address to a convenient name so we humans can easily remember. 
 The name (Alias) will always be pointing towards the external IP address even though if the IP changes.
 
 As an example, www.google.com is pointing towards 172.217.21.142, if you type that IP address in your browser you will still access the google.com, but those numbers would be hard to remember, hence the name is more convenient.
-
-!!! info
-    If you are using UAVcast with VPN then DNS is not needed. VPN uses static IP address that wont change.
 
 Here is a list for UAVcast supported services.
 Use any of the bellow services and add the name to the DNS System input.

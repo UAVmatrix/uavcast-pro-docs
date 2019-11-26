@@ -1,4 +1,4 @@
-#Cell Modem
+!['Modem'](/images/pages/Cell-modem/modemPage.jpg)
 
 !!! warning
     Do not enable modem in UAVcast if you are using **HiLink** modem. These modems uses embedded connection software.
@@ -58,6 +58,10 @@ This is operator specific. Contact your cell operator and ask for Password if yo
 * Default value: `blank`
 
 Your simcard Pin Code.  It's recommended to disable the pin to get faster connection on startup.
+
+##ModemInformation
+!['ModemInformation'](/images/pages/Cell-modem/modemInformation.jpg)
+You will be able to see general information from your modem. This will only work for some Huawei modems.
 
 ##Validate Connection
 

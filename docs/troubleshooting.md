@@ -1,6 +1,13 @@
 
-You can at any time contact us at **uavmatrix@uavmatrix.com** or chat privately on our Discord server [https://discord.gg/xwqMTXh](https://discord.gg/xwqMTXh)
+You can at any time contact us at **uavmatrix@uavmatrix.com** or chat privately on our Discord server [https://discord.gg/xwqMTXh](https://discord.gg/xwqMTXh) or use our forum section 
+[https://discuss.uavmatrix.com](https://discuss.uavmatrix.com)
 ##FAQ
+
+#Where can i download latest version?
+-   Send us a mail **support@uavmatrix.com** and we will provide you download link for the latest version.
+
+#Cannot activate UAVcast-Pro license
+-   Make sure you have proper internet connection for your RPI. During the validation, RPI needs to contact uavmatrix.com license server for validation.
 
 #Installation validation fails.
 -   Make sure you use a supported raspberry image as decribed in the [installation instructions](/installation/#raspberry-pi-image).

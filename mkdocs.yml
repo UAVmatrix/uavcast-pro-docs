@@ -18,9 +18,15 @@ nav:
             - 'pages/Ground-Control.md'
             - 'pages/Cell-Modem.md'
             - 'pages/Dynamic-DNS.md'
-            - 'pages/Camera.md'
             - 'pages/Vpn.md'
-            - 'pages/Settings.md'
+            - 'pages/Application.md'
+            - Camera:
+                    - 'pages/camera/Configuration.md'
+                    - 'pages/camera/HTTP Videostream.md'
+            - Raspberry:
+                -   'pages/raspberry/diagnostic.md'
+                -   'pages/raspberry/network.md'
+                -   'pages/raspberry/led.md'
     - Developers:
                 - developers/restapi.md
                 - developers/translation.md
