@@ -1,5 +1,5 @@
 
-!['Configuration'](/images/pages/camera/config.jpg)
+!['Configuration'](/images/pages/Camera/config.jpg)
 
 UAVcast-Pro uses the well known media-handling library gstreamer to proccess the video pipeline towards the Ground Control Station.
 It supports PiCam, Logitech C615, Logitech C920 out of the box.
