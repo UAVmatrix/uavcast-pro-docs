@@ -1,3 +1,12 @@
+##v3.2.6
+
+15.12.2019
+
+* (Improvement) Installation validator.
+* (Improvement) Fixed an bug with "check for new version" function.
+* (Improvement) Fixed an issue when changing IP from Network page.
+
+
 ##v3.2.5
 
 24.11.2019
