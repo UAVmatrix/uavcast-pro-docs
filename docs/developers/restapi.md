@@ -5,24 +5,26 @@ UAVcast-Pro has an integrated RESTfull API activated by default from **version 3
 ###Available routes
 
 !!! info
-    Routes should be added just after the RPI address.
-    example: `http://raspberrypi/api/castStatus`
+Routes should be added just after the RPI address.
+example: `http://raspberrypi/api/castStatus`
 
-* GET
-    * /api/castStatus
-    * /api/piStatus
+- GET
 
-* POST
-    * /api/{json object}
+  - /api/castStatus
+  - /api/piStatus
 
+- POST
+  - /api/{json object}
 
 ##UAVcast casting status
-* route `/api/castStatus`
-* type: GET
+
+- route `/api/castStatus`
+- type: GET
 
 This GET request will return casting status from UAVcast. Basically all the LED`s shown in the dashboard.
 
 **example**
+
 ```js
 {
     "castStatus": {
@@ -40,12 +42,14 @@ This GET request will return casting status from UAVcast. Basically all the LED`
 ```
 
 ##Raspberry information
-* route `/api/piStatus`
-* type: GET
+
+- route `/api/piStatus`
+- type: GET
 
 This GET request will return Raspberry PI information.
 
 **example**
+
 ```js
 {
     "piStatus": {
@@ -142,13 +146,15 @@ This GET request will return Raspberry PI information.
 ```
 
 ##Actions
-* route `/api/{json object}`
-* type: POST
+
+- route `/api/startCasting/{json object}`
+- type: POST
 
 Users can start and stop UAVcast from 3rd party application, this actions is eqvalent to press "Start Casting" or "Stop Casting" in the dashboard.
 To interact with UAVcast actions, send a POST request in `JSON (application/json)` format with the following **key:value** pair:
 
 ##Start UAVcast
+
 ```js
 {
     "action":"start"
@@ -156,11 +162,13 @@ To interact with UAVcast actions, send a POST request in `JSON (application/json
 ```
 
 ##Stop UAVcast
+
 ```js
 {
     "action":"stop"
 }
 ```
+
 The above commands will return the following JSON response
 
 ```js
