@@ -6,7 +6,8 @@
 - Navio+ and Navio2
 
 !!! note
-The Ardupilot project is often adding support for other flight controllers. The full list of supported flight controllers can be viewed [here](http://ardupilot.org/plane/docs/common-autopilots.html).
+
+    The Ardupilot project is often adding support for other flight controllers. The full list of supported flight controllers can be viewed [here](http://ardupilot.org/plane/docs/common-autopilots.html).
 
 ## Supported Raspberry Pi boards
 
@@ -16,7 +17,9 @@ The Ardupilot project is often adding support for other flight controllers. The 
 - Pi 4
 
 !!! warning
-Pi0w runs fine with UAVcast-Pro, however the CPU usage will be between 50 > 100%.
+
+    Pi0w runs fine with UAVcast-Pro, however the CPU usage will be between 50 > 100%.
+
 If you intend to use other programs with UAVcast-Pro then Pi3 or 4 version is recommended.
 
 ##Extra power supply
@@ -26,7 +29,8 @@ to keep the voltage within the limits, otherwise the RPI could shutdown by itsel
 This is one solution, where we attach the power directly to the USB +/- pins, and one wire to the RPI fuse. The latter will make sure RPI is booting automatically when powered.
 
 !!! note
-Make sure you connect the modem to correct USB port where external power supply is connected.
+
+    Make sure you connect the modem to correct USB port where external power supply is connected.
 
 !['raspberry power supply'](images/raspberry-power.png)
 !['raspberry power supply'](images/raspberry-power.jpg)
