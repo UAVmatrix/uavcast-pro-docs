@@ -5,8 +5,9 @@ UAVcast-Pro has an integrated RESTfull API activated by default from **version 3
 ###Available routes
 
 !!! info
-Routes should be added just after the RPI address.
-example: `http://raspberrypi/api/castStatus`
+
+    Routes should be added just after the RPI address.
+    example: `http://raspberrypi/api/castStatus`
 
 - GET
 
