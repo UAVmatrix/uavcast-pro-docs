@@ -1,8 +1,18 @@
+##v3.2.8
+
+15.04.2020
+
+- (NEW) Users can now backup and restore configuration from Application page. This will not include user license ect, only the configuration.
+- (Improvement) Added more translations to several page. [https://github.com/UAVmatrix/uavcast-pro-translations](https://github.com/UAVmatrix/uavcast-pro-translations)
+- (Improvement) Added database configuration when downloading logfiles. This will help during troubleshooting.
+- (Improvement) Fixed and issue with REST API.
+- (Improvement) Fixed and issue with telemetry when upgrading from 3.2.6 => 3.2.7
+
 ##v3.2.7
 
 13.04.2020
 
-- (NEW) Added option to set custom internal address for RPI communication with FC. [https://gitlab.com/Sinamics/UAVcast-Pro/-/issues/17](https://gitlab.com/Sinamics/UAVcast-Pro/-/issues/17)
+- (NEW) Added option to set custom internal address for RPI communication with FC. https://github.com/UAVmatrix/uavcast-pro-translations
 - (Improvement) Added more pages to translation files.
 - (Improvement) Merged translation PR #8 [https://github.com/UAVmatrix/uavcast-pro-translations/pull/8](https://github.com/UAVmatrix/uavcast-pro-translations/pull/8).
 - (Improvement) Added online check / warning when starting UAVcast-Pro installation.
