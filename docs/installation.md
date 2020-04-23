@@ -11,16 +11,22 @@ Confirmed working images:
     There is currently an issue using Raspbian Buster with USB cameras. For RPI 4 we recommend using PiCamera
     [https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=250379](https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=250379)
 
-!!! tip
-
-    For Navio flight controllers, install image provided at https://emlid.com before continue the installation procedure.
-
 - Raspbian Stretch Lite [(Get latest version)](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-04-09/2019-04-08-raspbian-stretch-lite.zip)
 - Raspbian Stretch With Desktop [(Get latest version)](https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip)
 - Raspbian Buster Lite
 - Raspbian Buster With Desktop
 
 Use the [https://www.raspberrypi.org/downloads/](https://www.raspberrypi.org/downloads/) installation instruction.
+
+###Navio RTK Image
+For Navio+ and Navio2 boards, please use the installation procedure below:
+
+!!! important
+
+    Do not follow any configuration mentioned at emlid.com, such as selecting vehicle or launch methods. **UAVcast-Pro** will configure everything you need!
+
+- Install the latest image provided by [https://emlid.com](https://emlid.com).
+- Install UAVcast-Pro as described in the [installation](/installation/#uavcast-pro-installation) section.
 
 ##UAVcast-Pro installation
 
