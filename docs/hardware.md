@@ -36,7 +36,7 @@ There is no diffrence in performance but the USB connection is easier and more e
 
 !!! warning
 
-    RPI cannot be powered by FC telem port.  [Make sure you use proper power source for rpi.](/hardware/#extra-power-supply)
+    RPI cannot be powered by FC telem port.  [Make sure you use proper power source for rpi.](/hardware/#power-supply)
 
 !['Gpio'](/images/pages/Flight-Controller/rpi.jpg)
 

@@ -4,7 +4,7 @@ You can at any time contact us at **uavmatrix@uavmatrix.com** or chat privately 
 
 #Where can i download latest version?
 
-- See the [installation](/installation) instructions
+- See the [installation](/installation/#uavcast-pro-installation) instructions
 
 #Cannot activate UAVcast-Pro license
 
