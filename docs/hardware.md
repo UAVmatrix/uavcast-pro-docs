@@ -2,12 +2,43 @@
 
 ##Flight Controllers
 
-- All supported Ardupilot boards including Pixhawk, APMx and Cube.
-- Navio+ and Navio2
+All Mavlink based boards are supported (PX4, Ardupilot).
 
-!!! note
+The Ardupilot project is often adding support for other flight controllers.
+The full list of supported flight controllers can be viewed here [http://ardupilot.org/plane/docs/common-autopilots.html](http://ardupilot.org/plane/docs/common-autopilots.html).
 
-    The Ardupilot project is often adding support for other flight controllers. The full list of supported flight controllers can be viewed [here](http://ardupilot.org/plane/docs/common-autopilots.html).
+To mention some supported board:
+
+- Pixhawk
+- APMx
+- Cube
+- Matek
+- Navio+
+- Navio2
+
+###Connection Methods
+There is two ways to connect the FC to Raspberry PI, either using USB (preferred) or GPIO
+There is no diffrence in performance but the USB connection is easier and more elegant.
+
+####USB
+
+- Connect a micro USB cable between the FC and RPI as shown in the picture bellow.
+
+!!! warning
+
+    Use a USB cable with large cross-sectional area to minimize the voltage drop supplied to Fligth Controller.
+
+!['Usb'](/images/pages/Flight-Controller/rpi-usb.jpg)
+
+####GPIO
+
+- Its very imporant to connect tx, rx and ground if you want to use GPIO, and not only tx & rx.
+
+!!! warning
+
+    RPI cannot be powered by FC telem port.  [Make sure you use proper power source for rpi.](/hardware/#extra-power-supply)
+
+!['Gpio'](/images/pages/Flight-Controller/rpi.jpg)
 
 ## Supported Raspberry Pi boards
 
@@ -18,14 +49,27 @@
 
 !!! warning
 
-    Pi0w runs fine with UAVcast-Pro, however the CPU usage will be between 50 > 100%.
+    Pi0w runs fine with UAVcast-Pro, however the CPU usage will be between 50 > 100%.<br>
+    Some functionalities has been disabled to reduce the CPU load!
 
 If you intend to use other programs with UAVcast-Pro then Pi3 or 4 version is recommended.
 
-##Extra power supply
-It's important that Raspberry Pi gets voltage between 4.8 and 5.3v. If you use LTE modem, then external power supply is needed
-to keep the voltage within the limits, otherwise the RPI could shutdown by itself.
+##Power supply
+It's important that Raspberry Pi gets voltage between **4.8 and 5.3v**. If you use LTE modem, make sure you are not overloading the USB port per. design.
 
+Read the modem specification / datasheet and make sure the modem is not consuming more than MAX output defined in the table below.
+
+!!! info
+
+    If you use USB camera, make sure you include the camera consumption as well.
+
+[https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md](https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md)
+
+- **Limited by PSU** referes the value from the (Recommended PSU current capacity). Make sure you use a proper power supply that are able to deliver above this value.
+
+  !['pi power table'](/images/pages/hardware/pi-power.jpg)
+
+If you need to add external power, please see instructions bellow.
 This is one solution, where we attach the power directly to the USB +/- pins, and one wire to the RPI fuse. The latter will make sure RPI is booting automatically when powered.
 
 !!! note
