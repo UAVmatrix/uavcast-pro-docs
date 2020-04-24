@@ -1,62 +1,60 @@
 site_name: UAVcast-Pro
-theme_dir: docstheme/material
 site_url: https://docs.uavmatrix.com/
-site_favicon: 'images/favicon.ico'
-extra_css:
-    - pages/style.css
 
-authors:
-    - Bernt Christian Egeland
+# site_favicon: "images/favicon.ico"
+extra_css:
+  - pages/style.css
+
+# authors:
+#   - Bernt Christian Egeland
 
 nav:
-    - index.md
-    - hardware.md
-    - installation.md
-    - Pages:
-            - 'pages/Dashboard.md'
-            - 'pages/Flight-Controller.md'
-            - 'pages/Ground-Control.md'
-            - 'pages/Cell-Modem.md'
-            - 'pages/Dynamic-DNS.md'
-            - 'pages/Vpn.md'
-            - 'pages/Application.md'
-            - Camera:
-                    - 'pages/camera/Configuration.md'
-                    - 'pages/camera/HTTP Videostream.md'
-            - Raspberry:
-                -   'pages/raspberry/diagnostic.md'
-                -   'pages/raspberry/network.md'
-                -   'pages/raspberry/led.md'
-    - Developers:
-                - developers/restapi.md
-                - developers/translation.md
-    - license/license.md
-    - troubleshooting.md
-    - application-update.md
-    - changelog.md
+  - index.md
+  - hardware.md
+  - installation.md
+  - Pages:
+      - "pages/Dashboard.md"
+      - "pages/Flight-Controller.md"
+      - "pages/Ground-Control.md"
+      - "pages/Cell-Modem.md"
+      - "pages/Dynamic-DNS.md"
+      - "pages/Vpn.md"
+      - "pages/Application.md"
+      - Camera:
+          - "pages/camera/Configuration.md"
+          - "pages/camera/HTTP Videostream.md"
+      - Raspberry:
+          - "pages/raspberry/diagnostic.md"
+          - "pages/raspberry/network.md"
+          - "pages/raspberry/led.md"
+  - Developers:
+      - developers/restapi.md
+      - developers/translation.md
+  - license/license.md
+  - troubleshooting.md
+  - application-update.md
+  - changelog.md
 
-custom_theme:
-    main.html
 google_analytics:
-  - 'UA-59911815-6'
-  - 'auto'
+  - "UA-59911815-6"
+  - "auto"
 theme:
-        name: material
-        custom_dir: 'docstheme/material'
-        favicon: 'images/favicon.ico'
-        language: 'en'
-        palette:
-                primary: 'pink'
-                accent: 'pink'
-        font:
-                text: 'Open Sans'
-                code: 'Roboto Mono'
-        logo:
-            icon: 'airplanemode_active'
-        feature:
-            tabs: false
+  name: material
+  favicon: "images/favicon.ico"
+  language: "en"
+  palette:
+    primary: "pink"
+    accent: "pink"
+  font:
+    text: "Open Sans"
+    code: "Roboto Mono"
+  icon:
+    logo: material/airplane
+  feature:
+    - tabs
+    - instant
 
-repo_name: 'uavmatrix/uavcast-pro-docs'
+repo_name: "uavmatrix/uavcast-pro-docs"
 repo_url: https://github.com/UAVmatrix/uavcast-pro-docs/
 markdown_extensions:
   - admonition

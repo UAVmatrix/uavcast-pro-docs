@@ -1,3 +1,4 @@
+<!-- prettier-ignore -->
 # Hardware
 
 ##Flight Controllers
@@ -24,7 +25,7 @@ There is no diffrence in performance but the USB connection is easier and more e
 
 - Connect a micro USB cable between the FC and RPI as shown in the picture bellow.
 
-!!! warning
+!!! warning "USB cross-sectional"
 
     Use a USB cable with large cross-sectional area to minimize the voltage drop supplied to Fligth Controller.
 
@@ -47,7 +48,7 @@ There is no diffrence in performance but the USB connection is easier and more e
 - Pi 3
 - Pi 4
 
-!!! warning
+!!! warning "Pi0w"
 
     Pi0w runs fine with UAVcast-Pro, however the CPU usage will be between 50 > 100%.<br>
     Some functionalities has been disabled to reduce the CPU load!
@@ -59,7 +60,7 @@ It's important that Raspberry Pi gets voltage between **4.8 and 5.3v**. If you u
 
 Read the modem specification / datasheet and make sure the modem is not consuming more than MAX output defined in the table below.
 
-!!! info
+!!! info "USB Camera"
 
     If you use USB camera, make sure you include the camera consumption as well.
 
@@ -133,6 +134,19 @@ Check out this page to find supported modems, [Supported modem](https://www.free
 |      USA       |         Sprint         |                 No info                 |                                No Info                                 |
 |      USA       |        T-Mobile        | E3372h-510<br>E3276s-505<br>MS2372h-517 |                   fast.t-mobile.com, epc.tmobile.com                   |
 |      USA       |        Verizon         |               E3372h-510                |                              vzwinternet                               |
+
+
+!!!success "Modem LED Status"
+
+    - Green, flashing twice every 2s: The USB-Modem is powered on.
+    - Green, flashing once every 0.2s: The software of the USB-Modem is being upgraded.
+    - Green, flashing once every 2s: The USB-Modem is registering with a 2G network.
+    - Blue, flashing once every 2s: The USB-Modem is registering with a 3G network.
+    - Cyan, flashing once every 2s: The USB-Modem is registering with a 4G network.
+    - Green, solid: The USB-Modem is connected to a 2G network.
+    - Blue, solid: The USB-Modem is connected to a 3G network.
+    - Cyan, solid: The USB-Modem is connected to a 4G network.
+
 
 **HiLink or Stick modems**
 
