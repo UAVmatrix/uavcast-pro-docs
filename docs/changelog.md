@@ -1,3 +1,13 @@
+##v3.2.9
+
+19.05.2020
+
+- (NEW) Added notification 30 days before license expire.
+- (NEW) Added Hostname and Registration date to all registered devices in Application page. [Issue 21](https://gitlab.com/Sinamics/UAVcast-Pro/-/issues/21)
+- (Improvement) Fixed several issues with Modeminformation.
+- (Improvement) Fixed a rare issue with crypted license data in database. [Issue 20](https://gitlab.com/Sinamics/UAVcast-Pro/-/issues/20)
+- (Improvement) Added more warnings if **Internal Address** in Flight Controller page are missing.
+
 ##v3.2.8
 
 15.04.2020
