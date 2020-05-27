@@ -1,3 +1,9 @@
+##v3.3.0
+
+27.05.2020
+
+- (Improvement) Fixed bug with database connections not closing properly.
+
 ##v3.2.9
 
 19.05.2020
