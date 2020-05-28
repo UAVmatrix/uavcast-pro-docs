@@ -1,3 +1,30 @@
+##v4.0.1
+
+29.05.2020
+
+- (NEW) Added mavlink interaction for UAVcast-Pro.
+- (NEW) New page "Cockpit" that displays map with vehicle position.
+- (NEW) Option for selecting 1Hz, 2Hz, 3Hz, 4Hz, 5Hz update interval betweeen server and UI.
+- (NEW) Camera live view added to the map. Also possible to drag the window and resize.
+- (NEW) Added "get mission" for display waypoints created.
+- (NEW) Added "remove mission" for clear mission polyline from map.
+- (NEW) Added RTL and LOITER buttons.
+- (NEW) Map will display LINK, FC, GPS, POWER values sent from the vehicle.
+- (NEW) Added option to select GCS failsafe.
+- (NEW) Added download logfiles button to appliation page.
+
+- (Improvement) Green LED`s is not set before we actually have HEARTBEATS from the Flight Controller.
+- (Improvement) Improved application update functionalities.
+- (Improvement) Alot of general code improvements.
+
+- (Bug Fix) Flight Controller internal address.
+
+- (Removed) videostream page. (moved to map)
+
+- (Benchmarking) Tested with Ardupilot on Pi0w
+- (Benchmarking) Tested with Ardupilot and Navio 2 on Rpi version 3
+- (Benchmarking) Tested with Ardupilot on Rpi version 4
+
 ##v3.3.0
 
 27.05.2020
