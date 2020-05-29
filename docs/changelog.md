@@ -1,6 +1,13 @@
-##v4.0.1
+##v4.0.3
 
 29.05.2020
+
+- (Improvement) Green LED`s is not set before we actually have HEARTBEATS from the Flight Controller.
+- (Improvement) Improved Navio board telemetry functionalities to match the latest from Emlid. Now using systemd for start and stop.
+
+##v4.0.1
+
+27.05.2020
 
 **You have to perform a REBOOT after this update!!**
 
