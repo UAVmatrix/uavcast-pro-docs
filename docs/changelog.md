@@ -2,6 +2,8 @@
 
 29.05.2020
 
+**You have to perform a REBOOT after this update!!**
+
 - (NEW) Added mavlink interaction for UAVcast-Pro.
 - (NEW) New page "Cockpit" that displays map with vehicle position.
 - (NEW) Option for selecting 1Hz, 2Hz, 3Hz, 4Hz, 5Hz update interval betweeen server and UI.
