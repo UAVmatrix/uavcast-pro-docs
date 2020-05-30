@@ -1,3 +1,10 @@
+##v4.0.31
+
+29.05.2020
+
+- (Bug Fix) Pre-Flight button not accessable. Should be enabled when disarmed.
+- (Bug Fix) Disabled "Validate mavlink" button when telem is active.
+
 ##v4.0.3
 
 29.05.2020
