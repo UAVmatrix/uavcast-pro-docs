@@ -1,3 +1,13 @@
+##v4.0.4
+
+30.05.2020
+
+- (Improvement) Splittet application settings into several card windows, makes better overview
+- (Improvement) General code improvement for license registration.
+- (Removed) Tools => UAVcast page. These functions are available in application page.
+- (Bug Fix) Fixed bug in application page when register new license key
+- (Bug Fix) Fixed bug in application page when unregister a rpi slot.
+
 ##v4.0.31
 
 29.05.2020
