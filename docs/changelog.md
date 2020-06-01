@@ -1,9 +1,17 @@
+##v4.0.5
+
+1.06.2020
+
+- (Bug Fix) Fixed Mavlink core when using Stretch image.
+- (Bug Fix) Fixed UAVcast status in Dashboard.
+
 ##v4.0.4
 
 30.05.2020
 
 - (Improvement) Splittet application settings into several card windows, makes better overview
 - (Improvement) General code improvement for license registration.
+- (Improvement) Changed the main mavlink router core for better functionalities.
 - (Removed) Tools => UAVcast page. These functions are available in application page.
 - (Bug Fix) Fixed bug in application page when register new license key
 - (Bug Fix) Fixed bug in application page when unregister a rpi slot.
