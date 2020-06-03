@@ -1,3 +1,11 @@
+##v4.0.6
+
+4.06.2020
+
+- (New) Added option to select Mavlink version in Flight Controller page. If you connect FC with USB cable, then most likely you need to select Mavlink 2, for GPIO select version 1.
+- (New) Added Auto Pan options to cockpit.
+- (Improvement) Disable Cockpit function.
+
 ##v4.0.5
 
 1.06.2020
