@@ -1,7 +1,9 @@
 #Installation
 
-##Raspberry Pi Image
+- If you are using **Navio** flight controller, goto next section [navio-flight-controller](/installation/#navio-flight-controller)
+- For other flight controllers, continue with the installation bellow [Raspberry image](/installation/#raspberry-image)
 
+##Raspberry image.
 Start with a fresh Raspberry image.
 
 Confirmed working images:
@@ -13,20 +15,26 @@ Confirmed working images:
 
 - Raspbian Stretch Lite [(Get latest version)](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-04-09/2019-04-08-raspbian-stretch-lite.zip)
 - Raspbian Stretch With Desktop [(Get latest version)](https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip)
-- Raspbian Buster Lite
-- Raspbian Buster With Desktop
+- Raspberry Pi OS Lite
+- Raspberry Pi OS With Desktop
 
 Use the [https://www.raspberrypi.org/downloads/](https://www.raspberrypi.org/downloads/) installation instruction.
 
-###Navio RTK Image
+Continue to install UAVcast-Pro as described in the [installation](/installation/#uavcast-pro-installation) section
+
+###Navio Flight Controller
 For Navio+ and Navio2 boards, please use the installation procedure below:
 
-!!! important
-
-    Do not follow any configuration mentioned at emlid.com, such as selecting vehicle or launch methods. **UAVcast-Pro** will configure everything you need!
-
 - Install the latest image provided by [https://emlid.com](https://emlid.com).
-- Install UAVcast-Pro as described in the [installation](/installation/#uavcast-pro-installation) section.
+- Connect to your RPI with SSH and run the **emlidtool** as described in the emlid documentation.[https://docs.emlid.com/navio2/common/ardupilot/installation-and-running/#choosing-a-vehicle-version-and-board](https://docs.emlid.com/navio2/common/ardupilot/installation-and-running/#choosing-a-vehicle-version-and-board)
+- Select your vehicle, version and frame.
+- **On Boot** Select disable
+- **Ardupilot** Select stop
+- **Apply** and exit.
+
+  !['emlidtool Example'](images/pages/installation/emlidtool.jpg)
+
+* Install UAVcast-Pro as described in the [installation](/installation/#uavcast-pro-installation) section.
 
 ##UAVcast-Pro installation
 

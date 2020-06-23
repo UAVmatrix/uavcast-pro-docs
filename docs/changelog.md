@@ -1,4 +1,12 @@
-##v4.0.6
+##v4.0.7
+
+22.06.2020
+
+- (NEW) Added quadcopter icon on cockpit map when any multirotor frame are selected.
+- (Improvement) Added UAVcast Dashboard as homepage.
+- (Buf Fix) Fixed an issue when saving OpenVPN config file.
+
+##v4.0.61
 
 4.06.2020
 
