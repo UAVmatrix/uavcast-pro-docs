@@ -1,3 +1,8 @@
+##v4.0.9
+
+- (Improvement) Dynamic DNS improved.
+- (Improvement) Cleaned and removed unused code.
+
 ##v4.0.8
 
 - (Improvement) Added dev/ttyUSB0 and dev/ttyUSB1 option for the 2nd GPS (Navio)
