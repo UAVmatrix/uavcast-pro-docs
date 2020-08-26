@@ -1,3 +1,9 @@
+##v4.1.0
+
+26.08.2020
+
+- (Improvement) Fixed compatibility issue with latest Rasbian version published 20.8.2020
+
 ##v4.0.9
 
 - (Improvement) Dynamic DNS improved.
