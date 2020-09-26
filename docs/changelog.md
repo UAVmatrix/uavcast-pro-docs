@@ -1,3 +1,9 @@
+##v4.1.1
+
+26.09.2020
+
+- (Bug Fix) Updated NoIp dyndns installer.
+
 ##v4.1.0
 
 26.08.2020
