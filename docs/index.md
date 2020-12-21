@@ -1,6 +1,6 @@
 # Introduction
 
-> Documentation last updated 26.09.2020
+> Documentation last updated 22.12.2020
 
 ![](images/ipad.png)
 

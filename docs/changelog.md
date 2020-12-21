@@ -1,3 +1,12 @@
+##v4.1.2
+
+22.12.2020
+
+- (NEW) Added idicator if picamera is properly connected or not in camera page.
+- (Improvement) Added more details to the license expire notification.
+- (Improvement) Added more information to Tips sections.
+- (Bug Fix) Fixed a bug in License Expire notification, month was of by 1.
+
 ##v4.1.1
 
 26.09.2020
