@@ -1,3 +1,7 @@
+##v4.1.3
+
+- (Bug Fix) Permission issue with telemetry binaries.
+
 ##v4.1.2
 
 22.12.2020
