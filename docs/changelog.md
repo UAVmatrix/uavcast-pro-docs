@@ -1,3 +1,7 @@
+##v4.1.4
+
+- (NEW) Added option to add Zerotier ID from the VPN menu. We have made an agreement with Zerotier Engineering team and sign up for a professional plan allowing us to implement their services in UAVcast-Pro.
+
 ##v4.1.3
 
 - (Bug Fix) Permission issue with telemetry binaries.
