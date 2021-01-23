@@ -1,3 +1,10 @@
+##v4.2.0
+
+!!! warning
+    If you are updating from an earlier version, you would need to reset the database from the settings menu. There will be an notification warning on this subject within the application. Configuration data will be lost, not user data such as license key. 
+
+- (Improvement) Fixed issues with USB camera. "internal data stream error".
+
 ##v4.1.4
 
 - (NEW) Added option to add Zerotier ID from the VPN menu. We have made an agreement with Zerotier Engineering team and sign up for a professional plan allowing us to implement their services in UAVcast-Pro.
