@@ -1,9 +1,5 @@
 #Installation
 
-- If you are using **Navio** flight controller, goto next section [navio-flight-controller](/installation/#navio-flight-controller)
-- For other flight controllers, continue with the installation bellow [Raspberry image](/installation/#raspberry-image)
-
-##Raspberry image.
 Start with a fresh Raspberry image.
 Confirmed working images:
 
@@ -24,7 +20,7 @@ curl -s http://install.uavmatrix.com | sudo bash
 After the installation there will be validating proccess to verify that all component has been loaded successfully.
 You can now access the webinterface using the RPI ip or Host name address in your browser. [http://raspberrypi/](http://raspberrypi/)
 
-###Navio Flight Controller
+##Navio Flight Controller
 For Navio+ and Navio2 boards, please use the installation procedure below:
 
 - Install the latest image provided by [https://emlid.com](https://emlid.com).
@@ -33,7 +29,6 @@ For Navio+ and Navio2 boards, please use the installation procedure below:
 - **On Boot** Select disable
 - **Ardupilot** Select stop
 - **Apply** and exit.
+- Install UAVcast-Pro as described [uavcast-pro-installation](#uavcast-pro-installation)
 
   !['emlidtool Example'](images/pages/installation/emlidtool.jpg)
-
-* Install UAVcast-Pro as described in the [installation](/installation/#uavcast-pro-installation) section.
