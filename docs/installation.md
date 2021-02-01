@@ -7,12 +7,10 @@
 Start with a fresh Raspberry image.
 Confirmed working images:
 
-- Raspbian Stretch Lite [(Get latest version)](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-04-09/2019-04-08-raspbian-stretch-lite.zip)
-- Raspbian Stretch With Desktop [(Get latest version)](https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip)
 - Raspberry Pi OS Lite
 - Raspberry Pi OS With Desktop
 
-See the [https://www.raspberrypi.org/downloads/](https://www.raspberrypi.org/downloads/) for installation instruction. <br>
+See the [https://www.raspberrypi.org/software/operating-systems/](https://www.raspberrypi.org/software/operating-systems/) for installation instruction. <br>
 Continue to install UAVcast-Pro as described in the [installation](/installation/#uavcast-pro-installation) section
 
 ###Navio Flight Controller
