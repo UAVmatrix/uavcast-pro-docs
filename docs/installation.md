@@ -5,21 +5,14 @@
 
 ##Raspberry image.
 Start with a fresh Raspberry image.
-
 Confirmed working images:
-
-!!! warning
-
-    There is currently an issue using Raspbian Buster with USB cameras. For RPI 4 we recommend using PiCamera
-    [https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=250379](https://www.raspberrypi.org/forums/viewtopic.php?f=43&t=250379)
 
 - Raspbian Stretch Lite [(Get latest version)](https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2019-04-09/2019-04-08-raspbian-stretch-lite.zip)
 - Raspbian Stretch With Desktop [(Get latest version)](https://downloads.raspberrypi.org/raspbian/images/raspbian-2019-04-09/2019-04-08-raspbian-stretch.zip)
 - Raspberry Pi OS Lite
 - Raspberry Pi OS With Desktop
 
-Use the [https://www.raspberrypi.org/downloads/](https://www.raspberrypi.org/downloads/) installation instruction.
-
+See the [https://www.raspberrypi.org/downloads/](https://www.raspberrypi.org/downloads/) for installation instruction. <br>
 Continue to install UAVcast-Pro as described in the [installation](/installation/#uavcast-pro-installation) section
 
 ###Navio Flight Controller

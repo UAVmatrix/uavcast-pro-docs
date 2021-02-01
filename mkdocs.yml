@@ -13,56 +13,57 @@ nav:
   - hardware.md
   - installation.md
   - Pages:
-      - "pages/Cockpit.md"
-      - "pages/Dashboard.md"
-      - "pages/Flight-Controller.md"
-      - "pages/Ground-Control.md"
-      - "pages/Cell-Modem.md"
-      - "pages/Dynamic-DNS.md"
-      - "pages/Vpn.md"
-      - "pages/Application.md"
+      - 'pages/Cockpit.md'
+      - 'pages/Dashboard.md'
+      - 'pages/Flight-Controller.md'
+      - 'pages/Ground-Control.md'
+      - 'pages/Cell-Modem.md'
+      - 'pages/Dynamic-DNS.md'
+      - 'pages/Vpn.md'
+      - 'pages/Application.md'
       - Camera:
-          - "pages/camera/Configuration.md"
-          - "pages/camera/HTTP Videostream.md"
+          - 'pages/camera/Configuration.md'
+          - 'pages/camera/HTTP Videostream.md'
       - Raspberry:
-          - "pages/raspberry/diagnostic.md"
-          - "pages/raspberry/network.md"
-          - "pages/raspberry/led.md"
-  - Developers:
-      - developers/restapi.md
-      - developers/translation.md
+          - 'pages/raspberry/diagnostic.md'
+          - 'pages/raspberry/network.md'
+          - 'pages/raspberry/led.md'
   - license/license.md
   - troubleshooting.md
   - application-update.md
+  - vpn/zerotier.md
   - changelog.md
   - libraries.md
+  - Developers:
+      - developers/restapi.md
+      - developers/translation.md
 
 google_analytics:
-  - "UA-59911815-6"
-  - "auto"
+  - 'UA-59911815-6'
+  - 'auto'
 theme:
   name: material
-  favicon: "images/favicon.ico"
-  language: "en"
+  favicon: 'images/favicon.ico'
+  language: 'en'
   palette:
-    primary: "pink"
-    accent: "pink"
+    primary: 'pink'
+    accent: 'pink'
   font:
-    text: "Open Sans"
-    code: "Roboto Mono"
+    text: 'Open Sans'
+    code: 'Roboto Mono'
   icon:
     logo: material/airplane
   feature:
     - tabs
     - instant
 
-repo_name: "uavmatrix/uavcast-pro-docs"
+repo_name: 'uavmatrix/uavcast-pro-docs'
 repo_url: https://github.com/UAVmatrix/uavcast-pro-docs/
 markdown_extensions:
   - admonition
   - codehilite:
       guess_lang: false
   - toc:
-      permalink: "¶"
+      permalink: '¶'
 # Copyright
 # copyright: 'Copyright &copy; 2018 - 2019 Bernt Christian Egeland'
