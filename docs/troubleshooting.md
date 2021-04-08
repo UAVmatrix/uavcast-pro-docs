@@ -2,6 +2,11 @@ You can at any time contact us at **uavmatrix@uavmatrix.com** or chat privately 
 [https://discuss.uavmatrix.com](https://discuss.uavmatrix.com)
 ##FAQ
 
+#Not able to open web interface
+
+- Make sure you use latest raspberry image. Older version might be incompatible.
+- You can type `journalctl -u UAVcast-Web.service --since yesterday` in the rpi console to get more debug information.
+
 #Where can i download latest version?
 
 - See the [installation](/installation/#uavcast-pro-installation) instructions
@@ -24,8 +29,9 @@ You can at any time contact us at **uavmatrix@uavmatrix.com** or chat privately 
 - Verify that you have proper connection with your flight controller. You can run the connection test from the Flight Controller page.
 - If you have changed the default ports for video 5600 or telemetry 14550 you need to change this on your ground control station device as well.
 
-#Validate Mavlink Connection allways fails in UAVcast-Pro
+#No Mavlink Heartbeats received in UAVcast-Pro
 
+- Make sure the configuration in UAVcast-Pro Flight Controller page reflects the settings in the Flight Controller. You can see the FC setttings using Mission Planner => All parameters list => search for Serial0 (USB) or Serial1 (Telem1 port) or Serial2 (Telem2)
 - Make sure you are using a good USB cable with large cross-sectional area to minimize the voltage drop supplied to Fligth Controller.
 - If you are connected by GPIO pins, make sure you have connected the **ground, rx, tx** wires correctly.
 - Make sure you use default configuration in Flight Controller (Ardupilot, Px4) for UART / Telemetry ports.

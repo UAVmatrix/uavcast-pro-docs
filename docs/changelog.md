@@ -1,7 +1,15 @@
+##v4.2.2
+
+- (Bug Fix) Autostart would not work in some cases.
+
+##v4.2.1
+
+- (Bug Fix) Camera feed in cockpit view.
+
 ##v4.2.0
 
 !!! warning
-    If you are updating from an earlier version, you would need to reset the database from the settings menu. There will be an notification warning on this subject within the application. Configuration data will be lost, not user data such as license key. 
+If you are updating from an earlier version, you would need to reset the database from the settings menu. There will be an notification warning on this subject within the application. Configuration data will be lost, not user data such as license key.
 
 - (Improvement) Fixed issues with USB camera. "internal data stream error".
 
