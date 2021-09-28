@@ -1,3 +1,11 @@
+##v4.2.4
+
+- (Bug Fix) speedtest 
+
+##v4.2.3
+
+- (Bug Fix) Fixed custom camera resolution.
+
 ##v4.2.2
 
 - (Bug Fix) Autostart would not work in some cases.
