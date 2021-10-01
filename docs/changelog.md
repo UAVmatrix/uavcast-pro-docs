@@ -1,6 +1,7 @@
-##v4.2.4
+##v4.2.41
 
-- (Bug Fix) speedtest 
+- (Bug Fix) Network Stats
+- (Improvement) speedtest
 
 ##v4.2.3
 
