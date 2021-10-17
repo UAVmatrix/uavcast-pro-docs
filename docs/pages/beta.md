@@ -38,6 +38,13 @@ Also keep in mind that some functionality of previous version 4.x has been remov
 - Version 5.x will not support armv6 architecure (pi0w, rpi1, Compute Module 1). For these board use the 4.x version of uavcast. Goto [installation](/installation) 
 - Jetson Nano CSI camera currently not working, only USB camera will work. (we are working on a solution)
 
+## Remains until stable is relased
+- Language translation.
+- DynDNS implementation
+- CSI camera for Jetson
+- General UI improvements
+- Testing
+
 Please report any issues you might find to support@uavmatrix.com
 
 ## Uninstall
