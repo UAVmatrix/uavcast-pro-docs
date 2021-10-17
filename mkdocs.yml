@@ -33,6 +33,7 @@ nav:
   - application-update.md
   - vpn/zerotier.md
   - changelog.md
+  - pages/beta.md
   - libraries.md
   - Developers:
       - developers/restapi.md

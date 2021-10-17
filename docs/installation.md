@@ -6,10 +6,15 @@ Confirmed working images:
 - Raspberry Pi OS Lite
 - Raspberry Pi OS With Desktop
 
+!!! note "Looking for other boards!"
+    We are currently building UAVcast-Pro for other architectures and OS.
+    [Check out our beta section](/pages/beta/)
+
 See the [https://www.raspberrypi.org/software/operating-systems/](https://www.raspberrypi.org/software/operating-systems/) for installation instruction. <br>
 Continue to install UAVcast-Pro as described in the [installation](/installation/#uavcast-pro-installation) section
 
 ##UAVcast-Pro installation
+
 
 You can install the latest version of UAVcast-Pro by pasting this command into you RPI shell.
 

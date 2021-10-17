@@ -151,7 +151,9 @@ Paste this gstreamer command in the command-prompt(windows) or terminal (unix/ma
 gst-launch-1.0 -v udpsrc port=5600 caps="application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264" ! rtpjitterbuffer ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false
 ```
 
-From now on, your computer will be waiting for the input stream from Raspberry PI. Once it gets a stream, you'll see the real-time video from your drone. ##**TCP** video (Windows / Mac / Linux)
+From now on, your computer will be waiting for the input stream from Raspberry PI. Once it gets a stream, you'll see the real-time video from your drone. 
+
+##**TCP** video (Windows / Mac / Linux)
 
 Select TCP from the dropdown menu in UAVcast-Pro web interface. Add your raspberry IP address (if you use Zerotier VPN, add ZT IP address) in the **TCP Host** input box.
 
