@@ -1,3 +1,8 @@
+##v4.2.41
+
+- (Bug Fix) Network Stats
+- (Improvement) speedtest
+
 ##v4.2.3
 
 - (Bug Fix) Fixed custom camera resolution.
