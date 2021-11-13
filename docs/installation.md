@@ -3,13 +3,8 @@
 Start with a fresh Raspberry image.
 Confirmed working images:
 
-!!! warning "Bullseye release"
-
-    Raspberry organisation just released (01.11.2021) new bullseye image wich is not yet compatible with UAVcast.
-    Please use the previous buster releases from the links bellow:
-
-- [Raspberry Pi OS Lite](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip)
-- [Raspberry Pi OS With Desktop](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/2021-05-07-raspios-buster-armhf.zip)
+- [Raspberry Pi OS Lite](https://www.raspberrypi.com/software/operating-systems/){target=_blank}
+- [Raspberry Pi OS With Desktop](https://www.raspberrypi.com/software/operating-systems/){target=_blank}
 
 !!! note "Looking for other boards!"
     We are currently building UAVcast-Pro for other architectures and OS.

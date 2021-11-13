@@ -1,3 +1,8 @@
+##v4.2.5
+
+- (Improvement) Added support for latest Raspberry Pi OS (bullseye).
+- (Improvement) Added auto detect of mavlink version. Users does not need to select which version they use.
+
 ##v4.2.41
 
 - (Bug Fix) Network Stats
