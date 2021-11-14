@@ -66,5 +66,6 @@ markdown_extensions:
       guess_lang: false
   - toc:
       permalink: '¶'
+  - attr_list
 # Copyright
 # copyright: 'Copyright &copy; 2018 - 2019 Bernt Christian Egeland'
