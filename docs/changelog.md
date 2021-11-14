@@ -1,3 +1,9 @@
+##v4.2.5
+
+- (Improvement) Added support for latest Raspberry Pi OS (bullseye).
+- (Improvement) Improved tooltip information in ground controller page.
+
+
 ##v4.2.41
 
 - (Bug Fix) Network Stats

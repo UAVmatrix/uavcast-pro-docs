@@ -29,7 +29,3 @@ Enable or disable telemetry for each end-point.
 
 ##Enable / Disable Video switch##
 Enable or disable video for each end-point. Only one video destination allowed.
-
-##Port Checker##
-Checks whether or not the destination telemetry port is available.
-It is useful if you have issues with NAT and unsure if necessary ports is opened. Not 100% reliable, but most cases will give you a good indication
