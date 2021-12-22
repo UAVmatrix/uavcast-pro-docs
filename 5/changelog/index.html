@@ -1,0 +1,1687 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://docs.uavmatrix.com/5/changelog/">
+      
+      <link rel="icon" href="../images/favicon.ico">
+      <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-8.1.3">
+    
+    
+      
+        <title>Changelog - UAVcast-Pro</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.edf004c2.min.css">
+      
+        
+        <link rel="stylesheet" href="../assets/stylesheets/palette.e6a45f82.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red">
+  
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)</script>
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#v425" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+        <aside class="md-banner">
+          <div class="md-banner__inner md-grid md-typeset">
+            
+  <!-- Add announcement here, including arbitrary HTML -->
+  <p>Check out our new build for Jetson Nano and many other single board computers. <a href="/pages/beta/">Read More</a></p>
+
+          </div>
+        </aside>
+      
+    </div>
+    
+      <div data-md-component="outdated" hidden>
+        <aside class="md-banner md-banner--warning">
+          
+            <div class="md-banner__inner md-grid md-typeset">
+              
+  You're not viewing the latest version.
+  <a href="../.."> 
+
+    <strong>Click here to go to latest.</strong>
+  </a>
+
+            </div>
+            <script>var el=document.querySelector("[data-md-component=outdated]"),outdated=__md_get("__outdated",sessionStorage);!0===outdated&&el&&(el.hidden=!1)</script>
+          
+        </aside>
+      </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href=".." title="UAVcast-Pro" class="md-header__button md-logo" aria-label="UAVcast-Pro" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.56 3.91c.59.59.59 1.54 0 2.12l-3.89 3.89 2.12 9.19-1.41 1.42-3.88-7.43L9.6 17l.36 2.47-1.07 1.06-1.76-3.18-3.19-1.77L5 14.5l2.5.37L11.37 11 3.94 7.09l1.42-1.41 9.19 2.12 3.89-3.89c.56-.58 1.56-.58 2.12 0z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            UAVcast-Pro
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Changelog
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <form class="md-header__option" data-md-component="palette">
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          
+            <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 6H7c-3.31 0-6 2.69-6 6s2.69 6 6 6h10c3.31 0 6-2.69 6-6s-2.69-6-6-6zm0 10H7c-2.21 0-4-1.79-4-4s1.79-4 4-4h10c2.21 0 4 1.79 4 4s-1.79 4-4 4zM7 9c-1.66 0-3 1.34-3 3s1.34 3 3 3 3-1.34 3-3-1.34-3-3-3z"/></svg>
+            </label>
+          
+        
+          
+          
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="grey" data-md-color-accent="grey"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          
+            <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M17 7H7a5 5 0 0 0-5 5 5 5 0 0 0 5 5h10a5 5 0 0 0 5-5 5 5 0 0 0-5-5m0 8a3 3 0 0 1-3-3 3 3 0 0 1 3-3 3 3 0 0 1 3 3 3 3 0 0 1-3 3z"/></svg>
+            </label>
+          
+        
+      </form>
+    
+    
+    
+      <label class="md-header__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" aria-label="Clear" tabindex="-1">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/UAVmatrix/uavcast-pro-docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    uavmatrix/uavcast-pro-docs
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href=".." class="md-tabs__link">
+      Home
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../installation/" class="md-tabs__link">
+        Getting started
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../hardware/" class="md-tabs__link">
+        Requirements
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../pages/beta/" class="md-tabs__link">
+        Next
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../developers/restapi/" class="md-tabs__link">
+        Developers
+      </a>
+    </li>
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="UAVcast-Pro" class="md-nav__button md-logo" aria-label="UAVcast-Pro" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.56 3.91c.59.59.59 1.54 0 2.12l-3.89 3.89 2.12 9.19-1.41 1.42-3.88-7.43L9.6 17l.36 2.47-1.07 1.06-1.76-3.18-3.19-1.77L5 14.5l2.5.37L11.37 11 3.94 7.09l1.42-1.41 9.19 2.12 3.89-3.89c.56-.58 1.56-.58 2.12 0z"/></svg>
+
+    </a>
+    UAVcast-Pro
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/UAVmatrix/uavcast-pro-docs/" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M439.55 236.05 244 40.45a28.87 28.87 0 0 0-40.81 0l-40.66 40.63 51.52 51.52c27.06-9.14 52.68 16.77 43.39 43.68l49.66 49.66c34.23-11.8 61.18 31 35.47 56.69-26.49 26.49-70.21-2.87-56-37.34L240.22 199v121.85c25.3 12.54 22.26 41.85 9.08 55a34.34 34.34 0 0 1-48.55 0c-17.57-17.6-11.07-46.91 11.25-56v-123c-20.8-8.51-24.6-30.74-18.64-45L142.57 101 8.45 235.14a28.86 28.86 0 0 0 0 40.81l195.61 195.6a28.86 28.86 0 0 0 40.8 0l194.69-194.69a28.86 28.86 0 0 0 0-40.81z"/></svg>
+  </div>
+  <div class="md-source__repository">
+    uavmatrix/uavcast-pro-docs
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+  
+  
+  
+    <li class="md-nav__item">
+      <a href=".." class="md-nav__link">
+        Home
+      </a>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_2" type="checkbox" id="__nav_2" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_2">
+          Getting started
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Getting started" data-md-level="1">
+        <label class="md-nav__title" for="__nav_2">
+          <span class="md-nav__icon md-icon"></span>
+          Getting started
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../installation/" class="md-nav__link">
+        Installation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_3">
+          Requirements
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Requirements" data-md-level="1">
+        <label class="md-nav__title" for="__nav_3">
+          <span class="md-nav__icon md-icon"></span>
+          Requirements
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../hardware/" class="md-nav__link">
+        Hardware
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_4">
+          Next
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Next" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Next
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../pages/beta/" class="md-nav__link">
+        Beta version 5.x
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+      
+      
+      
+      
+        <label class="md-nav__link" for="__nav_5">
+          Developers
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" aria-label="Developers" data-md-level="1">
+        <label class="md-nav__title" for="__nav_5">
+          <span class="md-nav__icon md-icon"></span>
+          Developers
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developers/restapi/" class="md-nav__link">
+        Rest API
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../developers/translation/" class="md-nav__link">
+        Translation
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#v425" class="md-nav__link">
+    v4.2.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v4241" class="md-nav__link">
+    v4.2.41
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v423" class="md-nav__link">
+    v4.2.3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v422" class="md-nav__link">
+    v4.2.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v421" class="md-nav__link">
+    v4.2.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v420" class="md-nav__link">
+    v4.2.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v414" class="md-nav__link">
+    v4.1.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v413" class="md-nav__link">
+    v4.1.3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v412" class="md-nav__link">
+    v4.1.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v411" class="md-nav__link">
+    v4.1.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v410" class="md-nav__link">
+    v4.1.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v409" class="md-nav__link">
+    v4.0.9
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v408" class="md-nav__link">
+    v4.0.8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v407" class="md-nav__link">
+    v4.0.7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v4061" class="md-nav__link">
+    v4.0.61
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v405" class="md-nav__link">
+    v4.0.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v404" class="md-nav__link">
+    v4.0.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v4031" class="md-nav__link">
+    v4.0.31
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v403" class="md-nav__link">
+    v4.0.3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v401" class="md-nav__link">
+    v4.0.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v330" class="md-nav__link">
+    v3.3.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v329" class="md-nav__link">
+    v3.2.9
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v328" class="md-nav__link">
+    v3.2.8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v327" class="md-nav__link">
+    v3.2.7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v326" class="md-nav__link">
+    v3.2.6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v325" class="md-nav__link">
+    v3.2.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v3241" class="md-nav__link">
+    v3.2.41
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v324" class="md-nav__link">
+    v3.2.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v323" class="md-nav__link">
+    v3.2.3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v322" class="md-nav__link">
+    v3.2.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v321" class="md-nav__link">
+    v3.2.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v320" class="md-nav__link">
+    v3.2.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v316" class="md-nav__link">
+    v3.1.6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v315" class="md-nav__link">
+    v3.1.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v314" class="md-nav__link">
+    v3.1.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v3131" class="md-nav__link">
+    v3.1.31
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v313" class="md-nav__link">
+    v3.1.3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v312" class="md-nav__link">
+    v3.1.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v311" class="md-nav__link">
+    v3.1.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v310" class="md-nav__link">
+    v3.1.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v308" class="md-nav__link">
+    v3.0.8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v307" class="md-nav__link">
+    v3.0.7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v306" class="md-nav__link">
+    v3.0.6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v3051" class="md-nav__link">
+    v3.0.51
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v305" class="md-nav__link">
+    v3.0.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v3041" class="md-nav__link">
+    v3.0.41
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v304" class="md-nav__link">
+    v3.0.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v303" class="md-nav__link">
+    v3.0.3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v302" class="md-nav__link">
+    v3.0.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v301" class="md-nav__link">
+    v3.0.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v300" class="md-nav__link">
+    v3.0.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v207" class="md-nav__link">
+    v2.0.7
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v2061" class="md-nav__link">
+    v2.0.61
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v206" class="md-nav__link">
+    v2.0.6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v205" class="md-nav__link">
+    v2.0.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v2041" class="md-nav__link">
+    v2.0.41
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v204" class="md-nav__link">
+    v2.0.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v203" class="md-nav__link">
+    v2.0.3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v202" class="md-nav__link">
+    v2.0.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v201" class="md-nav__link">
+    v2.0.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v200" class="md-nav__link">
+    v2.0.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v118" class="md-nav__link">
+    v1.1.8
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v117" class="md-nav__link">
+    v1.1.7
+  </a>
+  
+    <nav class="md-nav" aria-label="v1.1.7">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#improved-ground-control-management" class="md-nav__link">
+    Improved Ground Control management.
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v116" class="md-nav__link">
+    v1.1.6
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v115" class="md-nav__link">
+    v1.1.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v114" class="md-nav__link">
+    v1.1.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v113" class="md-nav__link">
+    v1.1.3
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v112" class="md-nav__link">
+    v1.1.2
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v111" class="md-nav__link">
+    v1.1.1
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v110" class="md-nav__link">
+    v1.1.0
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v105" class="md-nav__link">
+    v1.0.5
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v104" class="md-nav__link">
+    v1.0.4
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#v103" class="md-nav__link">
+    v1.0.3
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content" data-md-component="content">
+            <article class="md-content__inner md-typeset">
+              
+                
+<a href="https://github.com/UAVmatrix/uavcast-pro-docs/edit/master/docs/changelog.md" title="Edit this page" class="md-content__button md-icon">
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
+</a>
+
+
+  <h1>Changelog</h1>
+
+<h2 id="v425">v4.2.5<a class="headerlink" href="#v425" title="Permanent link">&para;</a></h2>
+<ul>
+<li>(Improvement) Added support for latest Raspberry Pi OS (bullseye).</li>
+<li>(Improvement) Improved tooltip information in ground controller page.</li>
+</ul>
+<h2 id="v4241">v4.2.41<a class="headerlink" href="#v4241" title="Permanent link">&para;</a></h2>
+<ul>
+<li>(Bug Fix) Network Stats</li>
+<li>(Improvement) speedtest</li>
+</ul>
+<h2 id="v423">v4.2.3<a class="headerlink" href="#v423" title="Permanent link">&para;</a></h2>
+<ul>
+<li>(Bug Fix) Fixed custom camera resolution.</li>
+</ul>
+<h2 id="v422">v4.2.2<a class="headerlink" href="#v422" title="Permanent link">&para;</a></h2>
+<ul>
+<li>(Bug Fix) Autostart would not work in some cases.</li>
+</ul>
+<h2 id="v421">v4.2.1<a class="headerlink" href="#v421" title="Permanent link">&para;</a></h2>
+<ul>
+<li>(Bug Fix) Camera feed in cockpit view.</li>
+</ul>
+<h2 id="v420">v4.2.0<a class="headerlink" href="#v420" title="Permanent link">&para;</a></h2>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+</div>
+<p>If you are updating from an earlier version, you would need to reset the database from the settings menu. There will be an notification warning on this subject within the application. Configuration data will be lost, not user data such as license key.</p>
+<ul>
+<li>(Improvement) Fixed issues with USB camera. "internal data stream error".</li>
+</ul>
+<h2 id="v414">v4.1.4<a class="headerlink" href="#v414" title="Permanent link">&para;</a></h2>
+<ul>
+<li>(NEW) Added option to add Zerotier ID from the VPN menu. We have made an agreement with Zerotier Engineering team and sign up for a professional plan allowing us to implement their services in UAVcast-Pro.</li>
+</ul>
+<h2 id="v413">v4.1.3<a class="headerlink" href="#v413" title="Permanent link">&para;</a></h2>
+<ul>
+<li>(Bug Fix) Permission issue with telemetry binaries.</li>
+</ul>
+<h2 id="v412">v4.1.2<a class="headerlink" href="#v412" title="Permanent link">&para;</a></h2>
+<p>22.12.2020</p>
+<ul>
+<li>(NEW) Added idicator if picamera is properly connected or not in camera page.</li>
+<li>(Improvement) Added more details to the license expire notification.</li>
+<li>(Improvement) Added more information to Tips sections.</li>
+<li>(Bug Fix) Fixed a bug in License Expire notification, month was of by 1.</li>
+</ul>
+<h2 id="v411">v4.1.1<a class="headerlink" href="#v411" title="Permanent link">&para;</a></h2>
+<p>26.09.2020</p>
+<ul>
+<li>(Bug Fix) Updated NoIp dyndns installer.</li>
+</ul>
+<h2 id="v410">v4.1.0<a class="headerlink" href="#v410" title="Permanent link">&para;</a></h2>
+<p>26.08.2020</p>
+<ul>
+<li>(Improvement) Fixed compatibility issue with latest Rasbian version published 20.8.2020</li>
+</ul>
+<h2 id="v409">v4.0.9<a class="headerlink" href="#v409" title="Permanent link">&para;</a></h2>
+<ul>
+<li>(Improvement) Dynamic DNS improved.</li>
+<li>(Improvement) Cleaned and removed unused code.</li>
+</ul>
+<h2 id="v408">v4.0.8<a class="headerlink" href="#v408" title="Permanent link">&para;</a></h2>
+<ul>
+<li>(Improvement) Added dev/ttyUSB0 and dev/ttyUSB1 option for the 2<sup>nd</sup> GPS (Navio)</li>
+<li>(Improvement) Cleaned and removed unused code.</li>
+</ul>
+<h2 id="v407">v4.0.7<a class="headerlink" href="#v407" title="Permanent link">&para;</a></h2>
+<p>22.06.2020</p>
+<ul>
+<li>(NEW) Added quadcopter icon on cockpit map when any multirotor frame are selected.</li>
+<li>(Improvement) Added UAVcast Dashboard as homepage.</li>
+<li>(Buf Fix) Fixed an issue when saving OpenVPN config file.</li>
+</ul>
+<h2 id="v4061">v4.0.61<a class="headerlink" href="#v4061" title="Permanent link">&para;</a></h2>
+<p>4.06.2020</p>
+<ul>
+<li>(New) Added option to select Mavlink version in Flight Controller page. If you connect FC with USB cable, then most likely you need to select Mavlink 2, for GPIO select version 1.</li>
+<li>(New) Added Auto Pan options to cockpit.</li>
+<li>(Improvement) Disable Cockpit function.</li>
+</ul>
+<h2 id="v405">v4.0.5<a class="headerlink" href="#v405" title="Permanent link">&para;</a></h2>
+<p>1.06.2020</p>
+<ul>
+<li>(Bug Fix) Fixed Mavlink core when using Stretch image.</li>
+<li>(Bug Fix) Fixed UAVcast status in Dashboard.</li>
+</ul>
+<h2 id="v404">v4.0.4<a class="headerlink" href="#v404" title="Permanent link">&para;</a></h2>
+<p>30.05.2020</p>
+<ul>
+<li>(Improvement) Splittet application settings into several card windows, makes better overview</li>
+<li>(Improvement) General code improvement for license registration.</li>
+<li>(Improvement) Changed the main mavlink router core for better functionalities.</li>
+<li>(Removed) Tools =&gt; UAVcast page. These functions are available in application page.</li>
+<li>(Bug Fix) Fixed bug in application page when register new license key</li>
+<li>(Bug Fix) Fixed bug in application page when unregister a rpi slot.</li>
+</ul>
+<h2 id="v4031">v4.0.31<a class="headerlink" href="#v4031" title="Permanent link">&para;</a></h2>
+<p>29.05.2020</p>
+<ul>
+<li>(Bug Fix) Pre-Flight button not accessable. Should be enabled when disarmed.</li>
+<li>(Bug Fix) Disabled "Validate mavlink" button when telem is active.</li>
+</ul>
+<h2 id="v403">v4.0.3<a class="headerlink" href="#v403" title="Permanent link">&para;</a></h2>
+<p>29.05.2020</p>
+<ul>
+<li>(Improvement) Green LED`s is not set before we actually have HEARTBEATS from the Flight Controller.</li>
+<li>(Improvement) Improved Navio board telemetry functionalities to match the latest from Emlid. Now using systemd for start and stop.</li>
+</ul>
+<h2 id="v401">v4.0.1<a class="headerlink" href="#v401" title="Permanent link">&para;</a></h2>
+<p>27.05.2020</p>
+<p><strong>You have to perform a REBOOT after this update!!</strong></p>
+<ul>
+<li>(NEW) Added mavlink interaction for UAVcast-Pro.</li>
+<li>(NEW) New page "Cockpit" that displays map with vehicle position.</li>
+<li>(NEW) Option for selecting 1Hz, 2Hz, 3Hz, 4Hz, 5Hz update interval betweeen server and UI.</li>
+<li>(NEW) Camera live view added to the map. Also possible to drag the window and resize.</li>
+<li>(NEW) Added "get mission" for display waypoints created.</li>
+<li>(NEW) Added "remove mission" for clear mission polyline from map.</li>
+<li>(NEW) Added RTL and LOITER buttons.</li>
+<li>(NEW) Map will display LINK, FC, GPS, POWER values sent from the vehicle.</li>
+<li>(NEW) Added option to select GCS failsafe.</li>
+<li>
+<p>(NEW) Added download logfiles button to appliation page.</p>
+</li>
+<li>
+<p>(Improvement) Green LED`s is not set before we actually have HEARTBEATS from the Flight Controller.</p>
+</li>
+<li>(Improvement) Improved application update functionalities.</li>
+<li>
+<p>(Improvement) Alot of general code improvements.</p>
+</li>
+<li>
+<p>(Bug Fix) Flight Controller internal address.</p>
+</li>
+<li>
+<p>(Removed) videostream page. (moved to map)</p>
+</li>
+<li>
+<p>(Benchmarking) Tested with Ardupilot on Pi0w</p>
+</li>
+<li>(Benchmarking) Tested with Ardupilot and Navio 2 on Rpi version 3</li>
+<li>(Benchmarking) Tested with Ardupilot on Rpi version 4</li>
+</ul>
+<h2 id="v330">v3.3.0<a class="headerlink" href="#v330" title="Permanent link">&para;</a></h2>
+<p>27.05.2020</p>
+<ul>
+<li>(Improvement) Fixed bug with database connections not closing properly.</li>
+</ul>
+<h2 id="v329">v3.2.9<a class="headerlink" href="#v329" title="Permanent link">&para;</a></h2>
+<p>19.05.2020</p>
+<ul>
+<li>(NEW) Added notification 30 days before license expire.</li>
+<li>(NEW) Added Hostname and Registration date to all registered devices in Application page. <a href="https://gitlab.com/Sinamics/UAVcast-Pro/-/issues/21">Issue 21</a></li>
+<li>(Improvement) Fixed several issues with Modeminformation.</li>
+<li>(Improvement) Fixed a rare issue with crypted license data in database. <a href="https://gitlab.com/Sinamics/UAVcast-Pro/-/issues/20">Issue 20</a></li>
+<li>(Improvement) Added more warnings if <strong>Internal Address</strong> in Flight Controller page are missing.</li>
+</ul>
+<h2 id="v328">v3.2.8<a class="headerlink" href="#v328" title="Permanent link">&para;</a></h2>
+<p>15.04.2020</p>
+<ul>
+<li>(NEW) Users can now backup and restore configuration from Application page. This will not include user license ect, only the configuration.</li>
+<li>(Improvement) Added more translations to several page. <a href="https://github.com/UAVmatrix/uavcast-pro-translations">https://github.com/UAVmatrix/uavcast-pro-translations</a></li>
+<li>(Improvement) Added database configuration when downloading logfiles. This will help during troubleshooting.</li>
+<li>(Improvement) Fixed and issue with REST API.</li>
+<li>(Improvement) Fixed and issue with telemetry when upgrading from 3.2.6 =&gt; 3.2.7</li>
+</ul>
+<h2 id="v327">v3.2.7<a class="headerlink" href="#v327" title="Permanent link">&para;</a></h2>
+<p>13.04.2020</p>
+<ul>
+<li>(NEW) Added option to set custom internal address for RPI communication with FC. <a href="https://github.com/UAVmatrix/uavcast-pro-translations">https://github.com/UAVmatrix/uavcast-pro-translations</a></li>
+<li>(Improvement) Added more pages to translation files.</li>
+<li>(Improvement) Merged translation PR <a class="magiclink magiclink-github magiclink-issue" href="https://github.com/squidfunk/mkdocs-material/issues/8" title="GitHub Issue: squidfunk/mkdocs-material #8">#8</a> <a href="https://github.com/UAVmatrix/uavcast-pro-translations/pull/8">https://github.com/UAVmatrix/uavcast-pro-translations/pull/8</a>.</li>
+<li>(Improvement) Added online check / warning when starting UAVcast-Pro installation.</li>
+</ul>
+<h2 id="v326">v3.2.6<a class="headerlink" href="#v326" title="Permanent link">&para;</a></h2>
+<p>15.12.2019</p>
+<ul>
+<li>(Improvement) Installation validator.</li>
+<li>(Improvement) Fixed an bug with "check for new version" function.</li>
+<li>(Improvement) Fixed an issue when changing IP from Network page.</li>
+</ul>
+<h2 id="v325">v3.2.5<a class="headerlink" href="#v325" title="Permanent link">&para;</a></h2>
+<p>24.11.2019</p>
+<ul>
+<li>(NEW) Added option to search and connect WiFi networks.</li>
+<li>(Improvement) Changed max video resolution from 24fps to 30fps</li>
+<li>(REMOVED) Some VPN functionalities has been removed due to license conflict.</li>
+</ul>
+<h2 id="v3241">v3.2.41<a class="headerlink" href="#v3241" title="Permanent link">&para;</a></h2>
+<p>06.10.2019</p>
+<ul>
+<li>(NEW) Added button in application page for deleting database values. This will only delete application configurations and not license or user data. In some cases where users are updateing from a much older application version, this has to be performed.</li>
+<li>(Improvement) Added warning if mismatch in database structure and user needs to perform a reset / erase.</li>
+</ul>
+<h2 id="v324">v3.2.4<a class="headerlink" href="#v324" title="Permanent link">&para;</a></h2>
+<p>30.09.2019</p>
+<ul>
+<li>(NEW) Added new sub page <strong>Network</strong> to Raspberry page.</li>
+<li>(NEW) Now possible to change Raspberry Hostname</li>
+<li>(NEW) Now possible to change IP address for various Network interfaces within the application</li>
+<li>(NEW) Now possible to disable wifi adapter temporarily. (Will start during next boot)</li>
+<li>(NEW) Now possible to select default network adapter to reach the outer world (www), usefull when testing modem lateancy without disable WiFi ect.</li>
+<li>(NEW) Added modal notification when new app version is available.</li>
+<li>(Improvement) Added spinner when fetching license details.</li>
+<li>(Improvement) Improved application load time.</li>
+<li>(Improvement) Fixed bug with gstreamer custom pipeline.</li>
+</ul>
+<h2 id="v323">v3.2.3<a class="headerlink" href="#v323" title="Permanent link">&para;</a></h2>
+<p>24.09.2019</p>
+<ul>
+<li>(NEW) Added Mavlink validation test. Users can now test if RPI has proper connection with the Flight Controller within the application.</li>
+<li>(NEW) Each Camera type has its own configuration. Example, if user changes PiCam resolution, C920 or any other cam will not be affected.</li>
+<li>(NEW) Added Default values to each camera type. Added button for "Reset to default values"</li>
+<li>(NEW) Added option to delete logfile content.</li>
+<li>(Improvement) LED and status idicators.</li>
+<li>(Improvement) Generall application styles, text and phrases.</li>
+<li>(Improvement) VPN and validation response.</li>
+<li>(Improvement) Modem information should now work for most huawei HiLink modems. (if default username and password is used for the dongle Web UI)</li>
+<li>(Improvement) Reduced UI and backend workload for Raspberry PiZero boards. Some low priority functionalities are disabled.</li>
+<li>(Improvement) Camera configuration parameters.</li>
+<li>(Improvement) In Browser HTTP live stream functionalities.</li>
+</ul>
+<h2 id="v322">v3.2.2<a class="headerlink" href="#v322" title="Permanent link">&para;</a></h2>
+<p>09.09.2019</p>
+<ul>
+<li>Fixed several issues with USB camera.</li>
+<li>improved HTTP live streaming.</li>
+</ul>
+<h2 id="v321">v3.2.1<a class="headerlink" href="#v321" title="Permanent link">&para;</a></h2>
+<p>08.09.2019</p>
+<ul>
+<li>Now possible to stream UDP video to multiple destinations for PiCam and Logitech USB camera.</li>
+</ul>
+<h2 id="v320">v3.2.0<a class="headerlink" href="#v320" title="Permanent link">&para;</a></h2>
+<p>08.09.2019</p>
+<ul>
+<li>Added HTTP in-browser live camera viewer. This will allow multiple users to view video stream from the Vechicle.<br />
+  <strong>NOTE!</strong> Only applicable for Pi Camera. Other cam may be added in the future.</li>
+</ul>
+<h2 id="v316">v3.1.6<a class="headerlink" href="#v316" title="Permanent link">&para;</a></h2>
+<p>22.08.2019</p>
+<ul>
+<li>Fixed bug with USB modem information.</li>
+</ul>
+<h2 id="v315">v3.1.5<a class="headerlink" href="#v315" title="Permanent link">&para;</a></h2>
+<p>19.08.2019</p>
+<ul>
+<li>Added USB modem information, signal idicator and connection status. Only applicable for Huawei HiLink modems.</li>
+</ul>
+<h2 id="v314">v3.1.4<a class="headerlink" href="#v314" title="Permanent link">&para;</a></h2>
+<p>15.06.2019</p>
+<ul>
+<li>Added Italian language</li>
+</ul>
+<h2 id="v3131">v3.1.31<a class="headerlink" href="#v3131" title="Permanent link">&para;</a></h2>
+<p>21.05.2019</p>
+<ul>
+<li>Improved autostart. Added database validation before start casting.</li>
+</ul>
+<h2 id="v313">v3.1.3<a class="headerlink" href="#v313" title="Permanent link">&para;</a></h2>
+<p>16.05.2019</p>
+<ul>
+<li>Improved modem LED function.</li>
+<li>Added more camera options such as Brightness, Contrast ++</li>
+<li>Added better overview of connected VPN networks.</li>
+<li>Added Dutch language translation.</li>
+<li>Fixed bug when Autostart with stick modem.</li>
+<li>Improved embedded updater functionality.</li>
+</ul>
+<p>NOTE! Due to the changes in embeded application updater, this update will hang at "Innstallation in progress". The installation will be successfully when the "RPI Disconnected" shows up for 5sec, then just refresh the page manually. Innstallation will not be longer than maximum 10min.</p>
+<h2 id="v312">v3.1.2<a class="headerlink" href="#v312" title="Permanent link">&para;</a></h2>
+<p>02.04.2019</p>
+<ul>
+<li>Improved application performance. (PiZero)</li>
+<li>Improved read/write database performance (PiZero)</li>
+<li>Improved export log functionalities.</li>
+<li>Improved application status LED functionalities.</li>
+<li>Improved "RPI Disconnected" message.</li>
+</ul>
+<h2 id="v311">v3.1.1<a class="headerlink" href="#v311" title="Permanent link">&para;</a></h2>
+<p>01.04.2019</p>
+<ul>
+<li>Improved export log functionalities. Download logfiles from UAVcast page are much improved and contains allot more information about the application state.</li>
+<li>Improved application status LED.</li>
+</ul>
+<h2 id="v310">v3.1.0<a class="headerlink" href="#v310" title="Permanent link">&para;</a></h2>
+<p>30.03.2019</p>
+<ul>
+<li>New page "Raspberry LED". Now possible to control the onboard LED`s and attach them to various application states.</li>
+</ul>
+<p><strong>Note!</strong> If you are on PiZero you need to reboot after the update to have the LED working.</p>
+<ul>
+<li>Improved the sidebar menu. Active page is now highlighted.</li>
+<li>Fixed bug in Polish language</li>
+<li>Improved license verification check.</li>
+</ul>
+<h2 id="v308">v3.0.8<a class="headerlink" href="#v308" title="Permanent link">&para;</a></h2>
+<p>23.03.2019</p>
+<ul>
+<li>Added Polish language</li>
+<li>Fixed an issue with Video LED in dashboard.</li>
+</ul>
+<h2 id="v307">v3.0.7<a class="headerlink" href="#v307" title="Permanent link">&para;</a></h2>
+<p>17.03.2019</p>
+<ul>
+<li>Added Russian language</li>
+<li>Fixed typos</li>
+<li>Improved license key validation.</li>
+</ul>
+<h2 id="v306">v3.0.6<a class="headerlink" href="#v306" title="Permanent link">&para;</a></h2>
+<p>15.03.2019</p>
+<ul>
+<li>Added REST API interface.</li>
+</ul>
+<h2 id="v3051">v3.0.51<a class="headerlink" href="#v3051" title="Permanent link">&para;</a></h2>
+<p>14.03.2019</p>
+<ul>
+<li>Added Spanish language</li>
+</ul>
+<h2 id="v305">v3.0.5<a class="headerlink" href="#v305" title="Permanent link">&para;</a></h2>
+<p>13.03.2019</p>
+<ul>
+<li>Updated Turkish language</li>
+<li>Fixed an issue were database could be damaged on unintentional shutdown.</li>
+<li>Fixed typos.</li>
+<li>Improved logging functionality.</li>
+</ul>
+<h2 id="v3041">v3.0.41<a class="headerlink" href="#v3041" title="Permanent link">&para;</a></h2>
+<p>07.03.2019</p>
+<ul>
+<li>Fixed bug with LED`s in dashboard</li>
+</ul>
+<h2 id="v304">v3.0.4<a class="headerlink" href="#v304" title="Permanent link">&para;</a></h2>
+<p>07.03.2019</p>
+<ul>
+<li>Added Turkish language</li>
+<li>Added Chinese language</li>
+<li>Added dropdown menu with a list of detected interfaces for hilink and stick modem.</li>
+<li>Fixed an issue with notificaiton duration.</li>
+</ul>
+<h2 id="v303">v3.0.3<a class="headerlink" href="#v303" title="Permanent link">&para;</a></h2>
+<p>03.03.2019</p>
+<ul>
+<li>Added server messages pop up information. (Can be disabled from settings menu)</li>
+<li>Added warning if RPI is underpowered or throttled. Requested by Discord <a class="magiclink magiclink-github magiclink-mention" href="https://github.com/Misant" title="GitHub User: Misant">@Misant</a></li>
+<li>Fixed continues spinner on Validate button for license registration.</li>
+</ul>
+<h2 id="v302">v3.0.2<a class="headerlink" href="#v302" title="Permanent link">&para;</a></h2>
+<p>03.03.2019</p>
+<ul>
+<li>License manager bug fix</li>
+</ul>
+<h2 id="v301">v3.0.1<a class="headerlink" href="#v301" title="Permanent link">&para;</a></h2>
+<p>03.03.2019</p>
+<ul>
+<li>Added translation files. If someone want to translate into other languages, then please see here <a href="https://github.com/UAVmatrix/uavcast-pro-translations">https://github.com/UAVmatrix/uavcast-pro-translations</a></li>
+<li>Added option to select custom baud rate. Requested by Discord user <a class="magiclink magiclink-github magiclink-mention" href="https://github.com/twallace" title="GitHub User: twallace">@twallace</a></li>
+<li>Fixed an issue where camera (picam, C920, C615) did not start properly.</li>
+<li>Fixed an issue when Navio board was selected. "jq cant iterate over null"</li>
+<li>Fixed an issue with integrated updater tool. Unfortunately it`s not possible to upgrade application in version 3.0.0</li>
+<li>Improved license manager.</li>
+</ul>
+<h2 id="v300">v3.0.0<a class="headerlink" href="#v300" title="Permanent link">&para;</a></h2>
+<p>24.02.2019</p>
+<p>This is a major release with many improvements.</p>
+<ul>
+<li>UAVcast-Pro is now tied to license key. <strong>NOTE!</strong> All users who have already bought UAVcast-Pro will get free licens keys with 4 allowed devices registered simultaneously for lifetime usage. Keys can be transfered to other hardware from the settings menu within the application! (License keys are tied to the hardware used) If more devices are needed, then contact <a href="&#109;&#97;&#105;&#108;&#116;&#111;&#58;&#117;&#97;&#118;&#109;&#97;&#116;&#114;&#105;&#120;&#64;&#117;&#97;&#118;&#109;&#97;&#116;&#114;&#105;&#120;&#46;&#99;&#111;&#109;">&#117;&#97;&#118;&#109;&#97;&#116;&#114;&#105;&#120;&#64;&#117;&#97;&#118;&#109;&#97;&#116;&#114;&#105;&#120;&#46;&#99;&#111;&#109;</a>.</li>
+<li>UAVcast-Pro now uses database for all configuration and data storgage. Earlier this was stored in a plain file. This will make the application more robust for uppcomming changes such as user accounts ect.</li>
+<li>Added spinner and text if server (rpi) disconnects.</li>
+<li>Improved code in general.</li>
+</ul>
+<h2 id="v207">v2.0.7<a class="headerlink" href="#v207" title="Permanent link">&para;</a></h2>
+<p>07.02.2019</p>
+<ul>
+<li>Now possible to change the backend server port from the settings menu. Requested by Discord user <em>@Rj4</em></li>
+<li>Fixed an bug with Dashboard network stats. Reported by Discord user <em>@Misant</em></li>
+<li>Improved add/delete GCS functionalities. <a href="https://gitlab.com/Sinamics/UAVcast-Pro/issues/4">IssueTracker</a></li>
+<li>Fixed typos. Reported by Discord user <em>@Misant</em></li>
+</ul>
+<h2 id="v2061">v2.0.61<a class="headerlink" href="#v2061" title="Permanent link">&para;</a></h2>
+<p>01.01.2019</p>
+<ul>
+<li>Fixed minor bugs and code cleaning.</li>
+</ul>
+<h2 id="v206">v2.0.6<a class="headerlink" href="#v206" title="Permanent link">&para;</a></h2>
+<p>01.01.2019</p>
+<ul>
+<li>Added Navio Launch option. (-B, -E, -F) <a href="https://docs.emlid.com/navio2/common/ardupilot/installation-and-running/#specifying-launching-options">Read more at Emlid.com</a></li>
+<li>Improved Navio startup sequence.</li>
+<li>Now possible to add 16 UDP destionations for Navio.</li>
+<li>Fixed an issue with setting static IP for eth0 interface in /etc/dhcpcd.conf =&gt; Issue reported by <em>@Abraxas</em></li>
+<li>Fixed an issue when using video custom commands. =&gt; Issue reported by <em>@Ed209</em></li>
+<li>Added <strong>do-timestamp=1</strong> to the default UDP video pipeline. This in collaboration with <a href="https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-good/html/gst-plugins-good-plugins-rtpjitterbuffer.html">rtpjitterbuffer</a> seems to solve the UDP (grey laggy overlay) issue some people has experienced when using VPN. Fix reported by <em>@Snick</em></li>
+</ul>
+<p>Receiver / GCS Example:</p>
+<p><code>gst-launch-1.0 -v udpsrc port=5600 caps="application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264" ! rtpjitterbuffer ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false</code></p>
+<h2 id="v205">v2.0.5<a class="headerlink" href="#v205" title="Permanent link">&para;</a></h2>
+<p>16.12.2018</p>
+<ul>
+<li>Added network stats overview on dasboard.</li>
+<li>Improved dashboard styling.</li>
+<li>Added Dark theme option.</li>
+<li>New Application options page to the main menu.</li>
+</ul>
+<h2 id="v2041">v2.0.41<a class="headerlink" href="#v2041" title="Permanent link">&para;</a></h2>
+<p>19.11.2018</p>
+<ul>
+<li>Fixed minor styling issue that was introduced in version v2.0.4</li>
+</ul>
+<h2 id="v204">v2.0.4<a class="headerlink" href="#v204" title="Permanent link">&para;</a></h2>
+<p>18.11.2018</p>
+<ul>
+<li>Telemetry or video will restart / start automatically when users toggle the switch in Ground Control Page. (Feature request from Discord user <strong>smee56</strong>)</li>
+<li>General code imporvement.</li>
+<li>Added more tools Raspberry diagnostic page.</li>
+<li>Changed Toaster layout. (notification message)</li>
+</ul>
+<h2 id="v203">v2.0.3<a class="headerlink" href="#v203" title="Permanent link">&para;</a></h2>
+<p>05.11.2018</p>
+<ul>
+<li>Minor changes. Updated text in modem section. Removed unused tags and code.</li>
+</ul>
+<h2 id="v202">v2.0.2<a class="headerlink" href="#v202" title="Permanent link">&para;</a></h2>
+<p>03.11.2018</p>
+<ul>
+<li>Added more options to establish modem connetion. Users can choose between Modem Manager or Network Manager to manage the connetion.
+  Some users experienced issues with certains modems.</li>
+<li>Fixed issue where Application page was not accessable. This bug was implemented in Version 2.0.1.</li>
+</ul>
+<h2 id="v201">v2.0.1<a class="headerlink" href="#v201" title="Permanent link">&para;</a></h2>
+<p>18.10.2018</p>
+<ul>
+<li>Fixed an issue with loading Openvpn configuration file.</li>
+</ul>
+<h2 id="v200">v2.0.0<a class="headerlink" href="#v200" title="Permanent link">&para;</a></h2>
+<p>11.10.2018</p>
+<ul>
+<li>Added support for Navio+ and Navio2</li>
+</ul>
+<h2 id="v118">v1.1.8<a class="headerlink" href="#v118" title="Permanent link">&para;</a></h2>
+<p>08.10.2018</p>
+<ul>
+<li>Fixed anbug where Logitech C920 &amp; C915 did not work. (Bug arrived in v1.1.7)</li>
+<li>GCS page styling and layout improvement.</li>
+<li>Now possible to rollback to previous UAVcast-Pro versions</li>
+</ul>
+<h2 id="v117">v1.1.7<a class="headerlink" href="#v117" title="Permanent link">&para;</a></h2>
+<p>07.10.2018</p>
+<ul>
+<li>Users can now select between Hilink or stick modem.</li>
+<li>General styling improvement.</li>
+</ul>
+<h3 id="improved-ground-control-management">Improved Ground Control management.<a class="headerlink" href="#improved-ground-control-management" title="Permanent link">&para;</a></h3>
+<ul>
+<li>You can now give destinations a unique name.</li>
+<li>Options to disable or enable a destination. Convenient if you want to save a destination for later usage.</li>
+<li>You can choose which destination to send video and telem to by simple switch.</li>
+<li>Added video port. (Moved from video page)</li>
+</ul>
+<h2 id="v116">v1.1.6<a class="headerlink" href="#v116" title="Permanent link">&para;</a></h2>
+<p>30.09.2018</p>
+<ul>
+<li>Fixed an issue when downloading logfiles from UAVcast Diagnostic page</li>
+<li>Added more documentation</li>
+<li>Improved styling</li>
+</ul>
+<h2 id="v115">v1.1.5<a class="headerlink" href="#v115" title="Permanent link">&para;</a></h2>
+<p>26.09.2018</p>
+<ul>
+<li>Fixed an issue when uploading openvpn (ovpn) file.</li>
+<li>Fixed an issue where auto-update function hangs on "restarting server"</li>
+</ul>
+<h2 id="v114">v1.1.4<a class="headerlink" href="#v114" title="Permanent link">&para;</a></h2>
+<p>04.09.2018</p>
+<ul>
+<li>Added gstreamer Vertical Flip and Horizontal Flip options. (PiCam Only)</li>
+</ul>
+<h2 id="v113">v1.1.3<a class="headerlink" href="#v113" title="Permanent link">&para;</a></h2>
+<p>01.09.2018</p>
+<ul>
+<li>Fixed an bug where TCP Telemetry would not start if USB was selected.</li>
+<li>Added "Check for update" functionality, and self installation feature.</li>
+</ul>
+<h2 id="v112">v1.1.2<a class="headerlink" href="#v112" title="Permanent link">&para;</a></h2>
+<p>22.08.2018</p>
+<ul>
+<li>Updated Header link for Documentation and Community</li>
+</ul>
+<h2 id="v111">v1.1.1<a class="headerlink" href="#v111" title="Permanent link">&para;</a></h2>
+<p>20/08/2018</p>
+<ul>
+<li>UAVcast-Pro and Basic now supports global installation. /home/pi is not required anymore.</li>
+</ul>
+<h2 id="v110">v1.1.0<a class="headerlink" href="#v110" title="Permanent link">&para;</a></h2>
+<p>15.08.2018</p>
+<p>This version is a total rebuild of the web server installation. Server is now pre-bundled within the package and will not require any dependencies to be downloaded.</p>
+<ul>
+<li>Improved Telemetry startup, both UDP and TCP.</li>
+<li>Improved functionality when switching between UDP and TCP telemetry.</li>
+<li>Improved camera startup, both UDP and TCP</li>
+<li>Fixed an issue where telemetry would`t autostart on TCP</li>
+<li>Fixed an issue where status LED was not updated when using OpenVpn</li>
+<li>Added functionalities to run the installer with -f option, this will force the install if any issues.</li>
+<li>Added more items to the final installation validation of UAVcast-Pro.</li>
+<li>UAVcast-Pro has now web server pre-bundled, this will reduce the installation time by approx 50%, and there is no dependencies that needs to be installed.</li>
+</ul>
+<h2 id="v105">v1.0.5<a class="headerlink" href="#v105" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Fixed an issue where Raspberry Pi disconnected during installation if you were connected by WiFi</li>
+<li>Fixed an small bug in the camera section if C920 or C615 was chosen.</li>
+</ul>
+<h2 id="v104">v1.0.4<a class="headerlink" href="#v104" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Added installation progress-bar.</li>
+<li>Added validation check after installation completes.</li>
+</ul>
+<h2 id="v103">v1.0.3<a class="headerlink" href="#v103" title="Permanent link">&para;</a></h2>
+<ul>
+<li>Dedicated server at google cloud, only for UAVcast-Pro users.</li>
+<li>Added option to stream video on TCP when using PiCam</li>
+</ul>
+
+              
+            </article>
+          </div>
+        </div>
+        
+          <a href="#" class="md-top md-icon" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+            Back to top
+          </a>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      Copyright &copy; 2018 - 2022 Bernt Christian Egeland
+    </div>
+  
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    <script id="__config" type="application/json">{"base": "..", "features": ["navigation.tabs", "navigation.top", "announce.dismiss"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../assets/javascripts/workers/search.0bbba5b5.min.js", "version": {"provider": "mike", "default": "stable"}}</script>
+    
+    
+      <script src="../assets/javascripts/bundle.e1a181d9.min.js"></script>
+      
+    
+  </body>
+</html>
