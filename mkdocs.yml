@@ -6,7 +6,7 @@ extra:
   generator: false
   version:
     provider: mike
-    # default: latest
+    default: "4.x"
 # extra_css:
 #   - pages/style.css
 
