@@ -1,6 +1,14 @@
 <!-- prettier-ignore -->
 # Hardware
 
+##TL;DR
+You will need a raspbery pi and a mavlink flight controller to get going. You dont need a modem for testing locally in your home network, a local wifi or ethernet connection will work just fine.
+As soon as you have configured everything and are ready to go flying, you need a modem, we recommend a HiLink (Plug and Play) type. 
+
+If you want to control your drone manually during flight, we also recommend using a USB gamepad connected to Mission Planner joystick integration.
+
+See more info bellow.
+
 ##Flight Controllers
 
 All Mavlink based boards are supported (PX4, Ardupilot).
