@@ -7,6 +7,9 @@ extra:
   version:
     provider: mike
     default: "4.x"
+  analytics:
+    provider: google
+    property: 'UA-59911815-6'
 # extra_css:
 #   - pages/style.css
 
@@ -40,13 +43,8 @@ nav:
         - 'pages/raspberry/led.md'
     - application-update.md
   
-  # - license/license.md
-  # - application-update.md
-  # - vpn/zerotier.md
-  # - changelog.md
   - Beta:
     - pages/beta.md
-  # - libraries.md
   - Developers:
       - developers/restapi.md
       - developers/translation.md
@@ -54,9 +52,7 @@ nav:
     - troubleshooting.md
   - UAVnet:
       - vpn/zerotier.md
-google_analytics:
-  - 'UA-59911815-6'
-  - 'auto'
+
 theme:
   name: material
   custom_dir: overrides
