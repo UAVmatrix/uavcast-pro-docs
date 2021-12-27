@@ -1,4 +1,4 @@
-!['Ground Control'](/images/pages/Ground-Control/ground-control.jpg)
+!['Ground Control'](../images/pages/Ground-Control/ground-control.jpg)
 
 Add Telemetry and video destination end-points. You can add as many end points you want.
 

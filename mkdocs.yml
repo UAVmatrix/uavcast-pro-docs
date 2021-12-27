@@ -12,7 +12,14 @@ extra:
     property: 'UA-59911815-6'
 # extra_css:
 #   - pages/style.css
-
+plugins:
+  - mike:
+      # these fields are all optional; the defaults are as below...
+      version_selector: true   # set to false to leave out the version selector
+      css_dir: css             # the directory to put the version selector's CSS
+      javascript_dir: js       # the directory to put the version selector's JS
+      canonical_version: null  # the version for <link rel="canonical">; `null`
+                               # uses the version specified via `mike deploy`
 nav:
   - Home: 
     - index.md
@@ -26,7 +33,7 @@ nav:
     
   
   - Setup:
-    - 'pages/Cockpit.md'
+    - 'pages/Map.md'
     - 'pages/Dashboard.md'
     - 'pages/Flight-Controller.md'
     - 'pages/Ground-Control.md'
@@ -37,17 +44,15 @@ nav:
     - Camera:
         - 'pages/camera/Configuration.md'
         - 'pages/camera/HTTP Videostream.md'
-    - Raspberry:
-        - 'pages/raspberry/diagnostic.md'
-        - 'pages/raspberry/network.md'
-        - 'pages/raspberry/led.md'
-    - application-update.md
+    # - Raspberry:
+    #     - 'pages/raspberry/diagnostic.md'
+    #     - 'pages/raspberry/network.md'
+    #     - 'pages/raspberry/led.md'
+    # - application-update.md
   
-  - Beta:
-    - pages/beta.md
-  - Developers:
-      - developers/restapi.md
-      - developers/translation.md
+  # - Developers:
+  #     - developers/restapi.md
+  #     - developers/translation.md
   - FAQ:
     - troubleshooting.md
   - UAVnet:
@@ -55,19 +60,19 @@ nav:
 
 theme:
   name: material
-  custom_dir: overrides
+  # custom_dir: overrides
   favicon: 'images/favicon.ico'
   language: 'en'
   palette:
     - scheme: default
-      primary: red
-      accent: red
+      primary: grey
+      accent: grey
       toggle:
           icon: material/toggle-switch-off-outline
           name: Switch to dark mode
     - scheme: slate
-      primary: grey
-      accent: grey
+      primary: red
+      accent: red
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
@@ -89,7 +94,7 @@ theme:
     - announce.dismiss
 
 repo_name: 'uavmatrix/uavcast-pro-docs'
-repo_url: https://github.com/UAVmatrix/uavcast-pro-docs/
+repo_url: https://uavmatrix.github.io/
 markdown_extensions:
   - admonition
   - abbr

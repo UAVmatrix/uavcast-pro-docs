@@ -1,7 +1,7 @@
 UAVcast currently supports Zerotier and OpenVPN without the need for any additional software running on the Raspberry Pi.
 
 VPN page Overview
-!['VPN'](/images/pages/vpn/overview.jpg)
+!['VPN'](../images/pages/vpn/overview.jpg)
 
 ##Zerotier
 Zerotier establishes a direct connection between the connected devices, even if they are behind a NAT.
@@ -22,13 +22,13 @@ Many cloud services has prebuildt servers with openvpn for easy startup.
 When you have started your vpn access server, login and add a user / client.
 For the user you want to asign to UAVcast, make sure you have ticked the **auto-login** box.
 
-!['Autologin'](/images/pages/vpn/auto-login-openvpn.jpg)
+!['Autologin'](../images/pages/vpn/auto-login-openvpn.jpg)
 
 Now, login with your newly created user https://your_openvpn_ip:943/
 
 Download the **(Yourself- Autologin profile)**
 
-!['Autologin'](/images/pages/vpn/download-openvpn.jpg)
+!['Autologin'](../images/pages/vpn/download-openvpn.jpg)
 
 Drag this file into UAVcast-Pro => vpn page and hit connect.
 

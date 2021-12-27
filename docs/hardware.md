@@ -37,7 +37,7 @@ There is no diffrence in performance but the USB connection is easier and more e
 
     Use a USB cable with large cross-sectional area to minimize the voltage drop supplied to Fligth Controller.
 
-!['Usb'](/images/pages/Flight-Controller/rpi-usb.jpg)
+!['Usb'](images/pages/Flight-Controller/rpi-usb.jpg)
 
 ####GPIO
 
@@ -47,7 +47,7 @@ There is no diffrence in performance but the USB connection is easier and more e
 
     RPI cannot be powered by FC telem port.  [Make sure you use proper power source for rpi.](/hardware/#power-supply)
 
-!['Gpio'](/images/pages/Flight-Controller/rpi.jpg)
+!['Gpio'](images/pages/Flight-Controller/rpi.jpg)
 
 ## Supported Raspberry Pi boards
 
@@ -76,7 +76,7 @@ Read the modem specification / datasheet and make sure the modem is not consumin
 
 - **Limited by PSU** referes the value from the (Recommended PSU current capacity). Make sure you use a proper power supply that are able to deliver above this value.
 
-  !['pi power table'](/images/pages/hardware/pi-power.jpg)
+  !['pi power table'](images/pages/hardware/pi-power.jpg)
 
 If you need to add external power, please see instructions bellow.
 This is one solution, where we attach the power directly to the USB +/- pins, and one wire to the RPI fuse. The latter will make sure RPI is booting automatically when powered.
