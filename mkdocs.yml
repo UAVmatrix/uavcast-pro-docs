@@ -26,7 +26,7 @@ nav:
     
   
   - Setup:
-    - 'pages/Cockpit.md'
+    - 'pages/Map.md'
     - 'pages/Dashboard.md'
     - 'pages/Flight-Controller.md'
     - 'pages/Ground-Control.md'
@@ -44,7 +44,7 @@ nav:
     - application-update.md
   
   - Beta:
-    - pages/beta.md
+    - /5.x
   - Developers:
       - developers/restapi.md
       - developers/translation.md
