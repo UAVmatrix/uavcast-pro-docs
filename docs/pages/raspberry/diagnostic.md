@@ -1,4 +1,4 @@
-!['Raspberry Diagnostic'](../images/pages/raspberry/diagnostic/diagnostic.jpg)
+!['Raspberry Diagnostic'](../../images/pages/raspberry/diagnostic/diagnostic.jpg)
 
 You have multiple options to diagnose your raspberry pi from this page. 
 
