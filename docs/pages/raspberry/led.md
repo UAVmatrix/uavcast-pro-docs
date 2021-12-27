@@ -1,4 +1,4 @@
-!['Raspberry LED'](/site/images/pages/raspberry/led/led.jpg)
+!['Raspberry LED'](../images/pages/raspberry/led/led.jpg)
 
 !!! warning
     This function is disabled on PiZero board.

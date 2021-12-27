@@ -3,7 +3,7 @@
 Cockpit gives you a nice overview of your vechile position with mavlink telemetry data. Some basic commands can be triggered within the map.
 
 You can select how fast the update intervall should be between your flight controller and map from 1 - 5 Hz. It`s recommended to lower the interval if you use PiZero due to the limited resources.
-!['Cockpit'](/site/images/pages/Cockpit/main.jpg)
+!['Cockpit'](../images/pages/Cockpit/main.jpg)
 
 ##In browser video
 You are able to receive live video feed from your picam within the map. The video container can be scaled and positioned / dragged anywhere in the window.

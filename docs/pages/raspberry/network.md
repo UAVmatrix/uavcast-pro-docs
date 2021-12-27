@@ -1,4 +1,4 @@
-!['Raspberry Network'](/site/images/pages/raspberry/network/network.jpg)
+!['Raspberry Network'](../images/pages/raspberry/network/network.jpg)
 Take full control over your raspberry pi network configuration. 
 
 ##Hostname

@@ -1,4 +1,4 @@
-!['HTTP Live Video feed'](/site/images/pages/Camera/videostream.jpg)
+!['HTTP Live Video feed'](../images/pages/Camera/videostream.jpg)
 
 !!! info
     Doubleclick the video frame to view fullscreen.

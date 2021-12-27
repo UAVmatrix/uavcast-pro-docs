@@ -1,5 +1,5 @@
 
-!['DNS'](/site/images/pages/dns/overview.jpg)
+!['DNS'](../images/pages/dns/overview.jpg)
 
 !!! Info
     If you are connected using VPN, then DNS is not needed. VPN connections uses static IP address that wont change.

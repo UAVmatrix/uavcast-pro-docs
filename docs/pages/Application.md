@@ -1,5 +1,5 @@
 
-!['Dark Theme'](/site/images/pages/Settings/setting.jpg)
+!['Dark Theme'](../images/pages/Settings/setting.jpg)
 
 ##Dark Theme
 Dark mode can be enabled from the settings page.
@@ -44,7 +44,7 @@ If you would like to contribute to UAVcast-Pro by adding a new language, please 
 
 UAVcast is regularly updated, to check if there are any updates available for your installation click the "Check for Update" button.
 
-!['Gpio'](/site/images/pages/Application-Update/update.jpg)
+!['Gpio'](../images/pages/Application-Update/update.jpg)
 
 !!! note
     Once an update has been completed - please refresh your browser.

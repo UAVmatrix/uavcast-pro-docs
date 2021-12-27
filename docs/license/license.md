@@ -7,7 +7,7 @@ There are several properties attached to each key.
     Raspberry pi needs to be connected to internet for register your license key. 
 
 
-!['License'](/site/images/developers/license.jpg)
+!['License'](../images/developers/license.jpg)
 
 
 

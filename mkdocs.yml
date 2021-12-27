@@ -33,7 +33,7 @@ nav:
     
   
   - Setup:
-    - 'pages/Cockpit.md'
+    - 'pages/Map.md'
     - 'pages/Dashboard.md'
     - 'pages/Flight-Controller.md'
     - 'pages/Ground-Control.md'
@@ -44,17 +44,15 @@ nav:
     - Camera:
         - 'pages/camera/Configuration.md'
         - 'pages/camera/HTTP Videostream.md'
-    - Raspberry:
-        - 'pages/raspberry/diagnostic.md'
-        - 'pages/raspberry/network.md'
-        - 'pages/raspberry/led.md'
-    - application-update.md
+    # - Raspberry:
+    #     - 'pages/raspberry/diagnostic.md'
+    #     - 'pages/raspberry/network.md'
+    #     - 'pages/raspberry/led.md'
+    # - application-update.md
   
-  - Beta:
-    - pages/beta.md
-  - Developers:
-      - developers/restapi.md
-      - developers/translation.md
+  # - Developers:
+  #     - developers/restapi.md
+  #     - developers/translation.md
   - FAQ:
     - troubleshooting.md
   - UAVnet:
