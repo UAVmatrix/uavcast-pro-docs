@@ -96,7 +96,7 @@ theme:
     - announce.dismiss
 
 repo_name: 'uavmatrix/uavcast-pro-docs'
-repo_url: https://github.com/UAVmatrix/uavcast-pro-docs/
+repo_url: https://uavmatrix.github.io/
 markdown_extensions:
   - admonition
   - abbr
