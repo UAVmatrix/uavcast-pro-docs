@@ -60,14 +60,14 @@ theme:
   language: 'en'
   palette:
     - scheme: default
-      primary: red
-      accent: red
+      primary: grey
+      accent: grey
       toggle:
           icon: material/toggle-switch-off-outline
           name: Switch to dark mode
     - scheme: slate
-      primary: grey
-      accent: grey
+      primary: red
+      accent: red
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
@@ -77,7 +77,7 @@ theme:
   icon:
     logo: material/airplane
   features:
-    # - navigation.instant
+    - navigation.instant
     # - navigation.tracking
     # - navigation.tabs.sticky
     # - navigation.sections
