@@ -1124,14 +1124,14 @@
 
   <h1>Configuration</h1>
 
-<p><img alt="'Configuration'" src="../images/pages/Camera/config.jpg" /></p>
+<p><img alt="'Configuration'" src="../../../images/pages/Camera/config.jpg" /></p>
 <p>UAVcast-Pro uses the well known media-handling library gstreamer to proccess the video pipeline towards the Ground Control Station.
 It supports PiCam, Logitech C615, Logitech C920 out of the box.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p>Remember to activate camera in Raspberry Config if you are using PiCam.</p>
 <p><code>sudo raspi-config</code>
-<img alt="raspi-config" src="../images/pages/Camera/raspi-config.png" /></p>
+<img alt="raspi-config" src="../../../images/pages/Camera/raspi-config.png" /></p>
 </div>
 <h3 id="camera-type">Camera Type<a class="headerlink" href="#camera-type" title="Permanent link">&para;</a></h3>
 <ul>
@@ -1190,7 +1190,7 @@ It is only possible to select one destination for video.</p>
 <h3 id="start-video-stream">Start Video Stream<a class="headerlink" href="#start-video-stream" title="Permanent link">&para;</a></h3>
 <p>To verify if camera will start properly, simply press the start button.
 If any issues, press the Log button to reveal any problems.</p>
-<p><img alt="Start and Stop" src="../images/pages/Camera/startstop.jpg" /></p>
+<p><img alt="Start and Stop" src="../../../images/pages/Camera/startstop.jpg" /></p>
 <h2 id="receive-udp-video-windows-mac-linux-android">Receive <strong>UDP</strong> video (Windows / Mac / Linux / Android)<a class="headerlink" href="#receive-udp-video-windows-mac-linux-android" title="Permanent link">&para;</a></h2>
 <h3 id="ubuntu">Ubuntu<a class="headerlink" href="#ubuntu" title="Permanent link">&para;</a></h3>
 <p>If you're going to stream to a Ubuntu PC, install the some packages locally beforehand.</p>
@@ -1211,7 +1211,7 @@ sudo apt-get install gstreamer1.0-tools gstreamer1.0-plugins-good gstreamer1.0-p
 </ul>
 <p><em>Note: default port for video in QGC application is 5600</em></p>
 <p>Here's the app in action
-<img alt="capture" src="../images/pages/Camera/qgc.jpg" /></p>
+<img alt="capture" src="../../../images/pages/Camera/qgc.jpg" /></p>
 <h3 id="mac-os-x">Mac OS X<a class="headerlink" href="#mac-os-x" title="Permanent link">&para;</a></h3>
 <p>The simplest way is to use brew. To install it run the following in your Mac terminal:</p>
 <pre><code class="language-bash">ruby -e &quot;$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)&quot;
@@ -1228,7 +1228,7 @@ both applications supports <strong>UDP</strong> video by default on port 5600 wi
 <p><code>udpsrc port=5601 caps = "application/x-rtp, media=video, clock-rate=90000, encoding-name=H264, payload=96" ! rtpjitterbuffer ! rtph264depay ! avdec_h264 ! videoconvert ! video/x-raw,format=BGRA ! appsink name=outsink</code></p>
 <p><strong>NOTE!</strong></p>
 <p>Mission Planner always starts its default gstreamer pipeline and listen on default port 5600, when using the custom source above we need to use a diffrent port so it wont make any conflicts. In this example we use <strong>port 5601</strong>. Remember set port <a href="http://docs.uavmatrix.com/pages/Camera/#destination-port">5601</a> in UAVcast-Pro as well!
-<img alt="hud-source" src="../images/pages/Camera/hud-gstreamer.jpg" /></p>
+<img alt="hud-source" src="../../../images/pages/Camera/hud-gstreamer.jpg" /></p>
 </div>
 <h4 id="solution-2">Solution #2<a class="headerlink" href="#solution-2" title="Permanent link">&para;</a></h4>
 <p>Download and install <a href="https://gstreamer.freedesktop.org/data/pkg/windows/1.4.5/gstreamer-1.0-x86_64-1.4.5.msi">gstreamer for Windows</a>.</p>
