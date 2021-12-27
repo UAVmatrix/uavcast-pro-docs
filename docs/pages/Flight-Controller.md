@@ -1,4 +1,4 @@
-!['Flight Controller Selection'](/images/pages/Flight-Controller/fc-type.jpg)
+!['Flight Controller Selection'](/site/images/pages/Flight-Controller/fc-type.jpg)
 
 Configure the connection between Raspberry and the Flight Controller.
 
@@ -47,7 +47,7 @@ Check if raspberry Pi receives mavlink messages from your FlightController. This
 Its recommended to run this test after a reboot
 
 ###Success
-!['Flight Controller Connection Check'](/images/pages/Flight-Controller/fc_check_success.jpg)
+!['Flight Controller Connection Check'](/site/images/pages/Flight-Controller/fc_check_success.jpg)
 
 ###Failed
-!['Flight Controller Connection Check'](/images/pages/Flight-Controller/fc_check_failed.jpg)
+!['Flight Controller Connection Check'](/site/images/pages/Flight-Controller/fc_check_failed.jpg)

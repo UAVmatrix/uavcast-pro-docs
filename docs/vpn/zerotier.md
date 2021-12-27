@@ -8,4 +8,4 @@ with the same email address used for UAVcast-Pro purchase and you will find the 
 All new customers will get an account at uavnet.uavmatrix.com with same expire date as the UAVcast-Pro license.
 
 Zerotier usage instruction are described in uavnet dashboard.
-!["uavnet.uavmatrix.com"](/images/vpn/uavnet_network.png)
+!["uavnet.uavmatrix.com"](/site/images/vpn/uavnet_network.png)

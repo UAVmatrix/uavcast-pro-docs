@@ -1,4 +1,4 @@
-!['Configuration'](/images/pages/Camera/config.jpg)
+!['Configuration'](/site/images/pages/Camera/config.jpg)
 
 UAVcast-Pro uses the well known media-handling library gstreamer to proccess the video pipeline towards the Ground Control Station.
 It supports PiCam, Logitech C615, Logitech C920 out of the box.
@@ -8,7 +8,7 @@ It supports PiCam, Logitech C615, Logitech C920 out of the box.
     Remember to activate camera in Raspberry Config if you are using PiCam.
 
     `sudo raspi-config`
-    ![raspi-config](/images/pages/Camera/raspi-config.png)
+    ![raspi-config](/site/images/pages/Camera/raspi-config.png)
 
 ###Camera Type
 
@@ -81,7 +81,7 @@ Change the FPS value.
 To verify if camera will start properly, simply press the start button.
 If any issues, press the Log button to reveal any problems.
 
-![Start and Stop](/images/pages/Camera/startstop.jpg)
+![Start and Stop](/site/images/pages/Camera/startstop.jpg)
 
 ##Receive **UDP** video (Windows / Mac / Linux / Android)
 
@@ -105,7 +105,7 @@ sudo apt-get install gstreamer1.0-tools gstreamer1.0-plugins-good gstreamer1.0-p
 _Note: default port for video in QGC application is 5600_
 
 Here's the app in action
-![capture](/images/pages/Camera/qgc.jpg)
+![capture](/site/images/pages/Camera/qgc.jpg)
 
 ### Mac OS X
 
@@ -135,7 +135,7 @@ both applications supports **UDP** video by default on port 5600 without any ext
     **NOTE!**
 
     Mission Planner always starts its default gstreamer pipeline and listen on default port 5600, when using the custom source above we need to use a diffrent port so it wont make any conflicts. In this example we use **port 5601**. Remember set port [5601](http://docs.uavmatrix.com/pages/Camera/#destination-port) in UAVcast-Pro as well!
-    ![hud-source](/images/pages/Camera/hud-gstreamer.jpg)
+    ![hud-source](/site/images/pages/Camera/hud-gstreamer.jpg)
 
 ####Solution #2
 
