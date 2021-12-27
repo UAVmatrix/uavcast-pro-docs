@@ -6,7 +6,7 @@ extra:
   generator: false
   version:
     provider: mike
-    default: "4.x"
+    default: "latest"
   analytics:
     provider: google
     property: 'UA-59911815-6'

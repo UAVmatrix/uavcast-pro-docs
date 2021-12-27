@@ -1,3 +1,8 @@
+##v5.0.0-rc5
+
+- (NEW) Logfile downloader with service selector.
+
+
 ##v4.2.5
 
 - (Improvement) Added support for latest Raspberry Pi OS (bullseye).
