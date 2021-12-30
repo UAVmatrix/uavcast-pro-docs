@@ -10,8 +10,8 @@ extra:
   analytics:
     provider: google
     property: 'UA-59911815-6'
-# extra_css:
-#   - pages/style.css
+extra_css:
+  - stylesheets/extra.css
 plugins:
   - mike:
       # these fields are all optional; the defaults are as below...
@@ -65,14 +65,14 @@ theme:
   language: 'en'
   palette:
     - scheme: default
-      primary: grey
+      primary: blue grey
       accent: grey
       toggle:
           icon: material/toggle-switch-off-outline
           name: Switch to dark mode
     - scheme: slate
-      primary: red
-      accent: red
+      primary: blue grey
+      accent: blue
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
