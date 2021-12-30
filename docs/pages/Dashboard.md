@@ -1,6 +1,6 @@
 #Dashboard
 
-!['Dashboard'](../images/pages/dashboard/dashboard.jpg)
+!['Dashboard'](../images/pages/dashboard/dashboard_overview.jpg)
 
 Dashboard provides a overview of the current casting status and Raspberry Pi internal memory and storage. There is one LED for each item you have enabled in the menu, displaying green or red status of its current operating state.
 
@@ -34,6 +34,3 @@ You are able to view network statistics from the dashboard for all network adapt
 
 !['Network Statistics'](../images/pages/dashboard/networkstats.jpg)
 
-##Storage / Memory
-!['Memory'](../images/pages/dashboard/storage.jpg)
-Overview of free space and used memory

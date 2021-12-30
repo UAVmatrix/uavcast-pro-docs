@@ -2,8 +2,12 @@
 # Hardware
 
 ##TL;DR
-You will need a single board computer (armV6 or arm64) and a mavlink flight controller to get going. You dont need a modem for testing locally in your home network, a local wifi or ethernet connection will work just fine.
+!!! warning "Architecture"
+    Version 5 and beyond will not support armv6 architecure (pi0w, rpi1, Compute Module 1). For these board use the 4.x version of uavcast. Goto [installation](/4.x/installation).
+
+You will need a single board computer (arm32v7 or arm64) and a mavlink flight controller to get started. You dont need a modem for testing locally in your home network, a local wifi or ethernet connection will work just fine.
 As soon as you have configured everything and are ready to go flying, you need a modem, we recommend a HiLink (Plug and Play) type. 
+
 
 If you want to control your drone manually during flight, we also recommend using a USB gamepad connected to Mission Planner joystick integration.
 
@@ -22,8 +26,8 @@ To mention some supported board:
 - APMx
 - Cube
 - Matek
-- Navio+
-- Navio2
+<!-- - Navio+
+- Navio2  -->
 
 ###Connection Methods
 There is two ways to connect the FC to Raspberry PI, either using USB (preferred) or GPIO
@@ -49,19 +53,6 @@ There is no diffrence in performance but the USB connection is easier and more e
 
 !['Gpio'](images/pages/Flight-Controller/rpi.jpg)
 
-## Supported Raspberry Pi boards
-
-- Pi0w
-- PI 2
-- Pi 3
-- Pi 4
-
-!!! warning "Pi0w"
-
-    Pi0w runs fine with UAVcast-Pro, however the CPU usage will be between 50 > 100%.<br>
-    Some functionalities has been disabled to reduce the CPU load!
-
-If you intend to use other programs with UAVcast-Pro then Pi3 or 4 version is recommended.
 
 ##Power supply
 It's important that Raspberry Pi gets voltage between **4.8 and 5.3v**. If you use LTE modem, make sure you are not overloading the USB port per. design.
@@ -182,24 +173,8 @@ There are several cameras that works with UAVcast-Pro,
 - PiCam
 - Logitech C920
 - Logitech C615
-- GoPro. ([Can be used with HDMI to CSI converter](https://www.ebay.com/itm/1-Port-For-Raspberry-Pi-HDMI-To-CSI-2-Bridge-Adapter-Module-UP-To-1080p-25fps-/233297430162)). This allows users to record and view live stream simultaneously.
 
-  !['UAVcast-Pro and GoPro'](images/pages/hardware/gopro.jpg)
-
-- Supported GoPro cams:
-
-  - HERO7 Black
-  - HERO (2018)
-  - HERO6 Black
-  - HERO5 Black
-  - HERO4 (Black and Silver Editions)
-  - HERO3+ (Black and Silver Editions)
-  - HERO3 (White, Silver, and Black Editions)
-  - HERO2)
-    - GoPro example video from one of our users.
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/4CNK3cBvUtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-- Other cameras may also work. search for (camera type) and gStreamer.
+Other USB cameras may also work.
 
 <!-- PiCam is a perfect camera for this type application and provides 1080p video.
 If you want to use another camera not listed, then make sure it has Hardware Encoder integrated to get the best quality. -->
