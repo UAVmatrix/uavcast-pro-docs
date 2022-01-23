@@ -246,8 +246,8 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../vpn/zerotier/" class="md-tabs__link">
-        UAVnet
+      <a href="../../pages/developer/" class="md-tabs__link">
+        Developer
       </a>
     </li>
   
@@ -333,20 +333,6 @@
     <li class="md-nav__item">
       <a href="../.." class="md-nav__link">
         Introduction
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../license/license/" class="md-nav__link">
-        License
       </a>
     </li>
   
@@ -581,20 +567,6 @@
   
   
     <li class="md-nav__item">
-      <a href="../../pages/Vpn/" class="md-nav__link">
-        Vpn
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
       <a href="../../pages/Application/" class="md-nav__link">
         Application
       </a>
@@ -612,18 +584,18 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_9" data-md-state="indeterminate" type="checkbox" id="__nav_3_9" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_8" data-md-state="indeterminate" type="checkbox" id="__nav_3_8" checked>
       
       
       
       
-        <label class="md-nav__link" for="__nav_3_9">
+        <label class="md-nav__link" for="__nav_3_8">
           Camera
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <nav class="md-nav" aria-label="Camera" data-md-level="2">
-        <label class="md-nav__title" for="__nav_3_9">
+        <label class="md-nav__title" for="__nav_3_8">
           <span class="md-nav__icon md-icon"></span>
           Camera
         </label>
@@ -735,14 +707,14 @@
       
       
         <label class="md-nav__link" for="__nav_5">
-          UAVnet
+          Developer
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" aria-label="UAVnet" data-md-level="1">
+      <nav class="md-nav" aria-label="Developer" data-md-level="1">
         <label class="md-nav__title" for="__nav_5">
           <span class="md-nav__icon md-icon"></span>
-          UAVnet
+          Developer
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -752,8 +724,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../vpn/zerotier/" class="md-nav__link">
-        Zerotier VPN
+      <a href="../../pages/developer/" class="md-nav__link">
+        Developer Guide
       </a>
     </li>
   
@@ -877,20 +849,20 @@ example: <code>http://raspberrypi/api/castStatus</code></p>
 </ul>
 <p>This GET request will return casting status from UAVcast. Basically all the LED`s shown in the dashboard.</p>
 <p><strong>example</strong></p>
-<pre><code class="language-js">{
-    &quot;castStatus&quot;: {
-        &quot;mavproxy&quot;: false,
-        &quot;inadyn&quot;: false,
-        &quot;gstreamer&quot;: false,
-        &quot;modem&quot;: false,
-        &quot;systemdActive&quot;: false,
-        &quot;systemdEnable&quot;: false,
-        &quot;vpn&quot;: false,
-        &quot;undervoltage&quot;: false,
-        &quot;throttled&quot;: false
-    }
-}
-</code></pre>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-0-1" name="__codelineno-0-1"></a><span class="p">{</span>
+<a id="__codelineno-0-2" name="__codelineno-0-2"></a>    <span class="s2">&quot;castStatus&quot;</span><span class="o">:</span> <span class="p">{</span>
+<a id="__codelineno-0-3" name="__codelineno-0-3"></a>        <span class="s2">&quot;mavproxy&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-0-4" name="__codelineno-0-4"></a>        <span class="s2">&quot;inadyn&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-0-5" name="__codelineno-0-5"></a>        <span class="s2">&quot;gstreamer&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-0-6" name="__codelineno-0-6"></a>        <span class="s2">&quot;modem&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-0-7" name="__codelineno-0-7"></a>        <span class="s2">&quot;systemdActive&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-0-8" name="__codelineno-0-8"></a>        <span class="s2">&quot;systemdEnable&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-0-9" name="__codelineno-0-9"></a>        <span class="s2">&quot;vpn&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-0-10" name="__codelineno-0-10"></a>        <span class="s2">&quot;undervoltage&quot;</span><span class="o">:</span> <span class="kc">false</span><span class="p">,</span>
+<a id="__codelineno-0-11" name="__codelineno-0-11"></a>        <span class="s2">&quot;throttled&quot;</span><span class="o">:</span> <span class="kc">false</span>
+<a id="__codelineno-0-12" name="__codelineno-0-12"></a>    <span class="p">}</span>
+<a id="__codelineno-0-13" name="__codelineno-0-13"></a><span class="p">}</span>
+</code></pre></div>
 <h2 id="raspberry-information">Raspberry information<a class="headerlink" href="#raspberry-information" title="Permanent link">&para;</a></h2>
 <ul>
 <li>route <code>/api/piStatus</code></li>
@@ -898,99 +870,99 @@ example: <code>http://raspberrypi/api/castStatus</code></p>
 </ul>
 <p>This GET request will return Raspberry PI information.</p>
 <p><strong>example</strong></p>
-<pre><code class="language-js">{
-    &quot;piStatus&quot;: {
-        &quot;time&quot;: {
-            &quot;current&quot;: 1552594820222,
-            &quot;uptime&quot;: 79975,
-            &quot;timezone&quot;: &quot;GMT+0000&quot;,
-            &quot;timezoneName&quot;: &quot;Greenwich Mean Time&quot;
-        },
-        &quot;raspModel&quot;: &quot;Raspberry Pi 3 Model B Rev 1.2&quot;,
-        &quot;cpu&quot;: {
-            &quot;manufacturer&quot;: &quot;ARMv7&quot;,
-            &quot;brand&quot;: &quot;Processor rev 4 (v7l)&quot;,
-            &quot;vendor&quot;: &quot;&quot;,
-            &quot;family&quot;: &quot;&quot;,
-            &quot;model&quot;: &quot;4&quot;,
-            &quot;stepping&quot;: &quot;&quot;,
-            &quot;revision&quot;: &quot;&quot;,
-            &quot;voltage&quot;: &quot;&quot;,
-            &quot;speed&quot;: &quot;1.20&quot;,
-            &quot;speedmin&quot;: &quot;0.60&quot;,
-            &quot;speedmax&quot;: &quot;1.20&quot;,
-            &quot;cores&quot;: 4,
-            &quot;physicalCores&quot;: 4,
-            &quot;processors&quot;: 1,
-            &quot;socket&quot;: &quot;&quot;,
-            &quot;cache&quot;: {
-                &quot;l1d&quot;: &quot;&quot;,
-                &quot;l1i&quot;: &quot;&quot;,
-                &quot;l2&quot;: &quot;&quot;,
-                &quot;l3&quot;: &quot;&quot;
-            }
-        },
-        &quot;fsSize&quot;: [
-            {
-                &quot;fs&quot;: &quot;/dev/root&quot;,
-                &quot;type&quot;: &quot;ext4&quot;,
-                &quot;size&quot;: 15686586368,
-                &quot;used&quot;: 6556151808,
-                &quot;use&quot;: 41.79,
-                &quot;mount&quot;: &quot;/&quot;
-            },
-            {
-                &quot;fs&quot;: &quot;/dev/mmcblk0p1&quot;,
-                &quot;type&quot;: &quot;vfat&quot;,
-                &quot;size&quot;: 45281280,
-                &quot;used&quot;: 23083008,
-                &quot;use&quot;: 50.98,
-                &quot;mount&quot;: &quot;/boot&quot;
-            }
-        ],
-        &quot;memory&quot;: {
-            &quot;total&quot;: 918188032,
-            &quot;free&quot;: 184897536,
-            &quot;used&quot;: 733290496,
-            &quot;active&quot;: 484257792,
-            &quot;available&quot;: 492445696,
-            &quot;buffcache&quot;: 249032704,
-            &quot;swaptotal&quot;: 104853504,
-            &quot;swapused&quot;: 1855488,
-            &quot;swapfree&quot;: 68677632
-        },
-        &quot;osInfo&quot;: {
-            &quot;platform&quot;: &quot;linux&quot;,
-            &quot;distro&quot;: &quot;Raspbian GNU/Linux&quot;,
-            &quot;release&quot;: &quot;9&quot;,
-            &quot;codename&quot;: &quot;&quot;,
-            &quot;kernel&quot;: &quot;4.14.79-v7+&quot;,
-            &quot;arch&quot;: &quot;arm&quot;,
-            &quot;hostname&quot;: &quot;raspberrypi&quot;,
-            &quot;logofile&quot;: &quot;raspbian&quot;,
-            &quot;serial&quot;: &quot;&quot;,
-            &quot;build&quot;: &quot;&quot;
-        },
-        &quot;cpuTemperature&quot;: {
-            &quot;main&quot;: 46.16,
-            &quot;cores&quot;: [],
-            &quot;max&quot;: 46.16
-        },
-        &quot;lateancy&quot;: 15.546,
-        &quot;network&quot;: [
-            {
-                &quot;iface&quot;: &quot;eth0&quot;,
-                &quot;operstate&quot;: &quot;up&quot;,
-                &quot;rx&quot;: 125885225,
-                &quot;tx&quot;: 493692274,
-                &quot;rx_sec&quot;: 5819.369225868111,
-                &quot;tx_sec&quot;: 5121.6948072634605,
-                &quot;ms&quot;: 6278
-            }
-        ]
-    }
-}
-</code></pre>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-1-1" name="__codelineno-1-1"></a><span class="p">{</span>
+<a id="__codelineno-1-2" name="__codelineno-1-2"></a>    <span class="s2">&quot;piStatus&quot;</span><span class="o">:</span> <span class="p">{</span>
+<a id="__codelineno-1-3" name="__codelineno-1-3"></a>        <span class="s2">&quot;time&quot;</span><span class="o">:</span> <span class="p">{</span>
+<a id="__codelineno-1-4" name="__codelineno-1-4"></a>            <span class="s2">&quot;current&quot;</span><span class="o">:</span> <span class="mf">1552594820222</span><span class="p">,</span>
+<a id="__codelineno-1-5" name="__codelineno-1-5"></a>            <span class="s2">&quot;uptime&quot;</span><span class="o">:</span> <span class="mf">79975</span><span class="p">,</span>
+<a id="__codelineno-1-6" name="__codelineno-1-6"></a>            <span class="s2">&quot;timezone&quot;</span><span class="o">:</span> <span class="s2">&quot;GMT+0000&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-7" name="__codelineno-1-7"></a>            <span class="s2">&quot;timezoneName&quot;</span><span class="o">:</span> <span class="s2">&quot;Greenwich Mean Time&quot;</span>
+<a id="__codelineno-1-8" name="__codelineno-1-8"></a>        <span class="p">},</span>
+<a id="__codelineno-1-9" name="__codelineno-1-9"></a>        <span class="s2">&quot;raspModel&quot;</span><span class="o">:</span> <span class="s2">&quot;Raspberry Pi 3 Model B Rev 1.2&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-10" name="__codelineno-1-10"></a>        <span class="s2">&quot;cpu&quot;</span><span class="o">:</span> <span class="p">{</span>
+<a id="__codelineno-1-11" name="__codelineno-1-11"></a>            <span class="s2">&quot;manufacturer&quot;</span><span class="o">:</span> <span class="s2">&quot;ARMv7&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-12" name="__codelineno-1-12"></a>            <span class="s2">&quot;brand&quot;</span><span class="o">:</span> <span class="s2">&quot;Processor rev 4 (v7l)&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-13" name="__codelineno-1-13"></a>            <span class="s2">&quot;vendor&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-14" name="__codelineno-1-14"></a>            <span class="s2">&quot;family&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-15" name="__codelineno-1-15"></a>            <span class="s2">&quot;model&quot;</span><span class="o">:</span> <span class="s2">&quot;4&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-16" name="__codelineno-1-16"></a>            <span class="s2">&quot;stepping&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-17" name="__codelineno-1-17"></a>            <span class="s2">&quot;revision&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-18" name="__codelineno-1-18"></a>            <span class="s2">&quot;voltage&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-19" name="__codelineno-1-19"></a>            <span class="s2">&quot;speed&quot;</span><span class="o">:</span> <span class="s2">&quot;1.20&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-20" name="__codelineno-1-20"></a>            <span class="s2">&quot;speedmin&quot;</span><span class="o">:</span> <span class="s2">&quot;0.60&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-21" name="__codelineno-1-21"></a>            <span class="s2">&quot;speedmax&quot;</span><span class="o">:</span> <span class="s2">&quot;1.20&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-22" name="__codelineno-1-22"></a>            <span class="s2">&quot;cores&quot;</span><span class="o">:</span> <span class="mf">4</span><span class="p">,</span>
+<a id="__codelineno-1-23" name="__codelineno-1-23"></a>            <span class="s2">&quot;physicalCores&quot;</span><span class="o">:</span> <span class="mf">4</span><span class="p">,</span>
+<a id="__codelineno-1-24" name="__codelineno-1-24"></a>            <span class="s2">&quot;processors&quot;</span><span class="o">:</span> <span class="mf">1</span><span class="p">,</span>
+<a id="__codelineno-1-25" name="__codelineno-1-25"></a>            <span class="s2">&quot;socket&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-26" name="__codelineno-1-26"></a>            <span class="s2">&quot;cache&quot;</span><span class="o">:</span> <span class="p">{</span>
+<a id="__codelineno-1-27" name="__codelineno-1-27"></a>                <span class="s2">&quot;l1d&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-28" name="__codelineno-1-28"></a>                <span class="s2">&quot;l1i&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-29" name="__codelineno-1-29"></a>                <span class="s2">&quot;l2&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-30" name="__codelineno-1-30"></a>                <span class="s2">&quot;l3&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
+<a id="__codelineno-1-31" name="__codelineno-1-31"></a>            <span class="p">}</span>
+<a id="__codelineno-1-32" name="__codelineno-1-32"></a>        <span class="p">},</span>
+<a id="__codelineno-1-33" name="__codelineno-1-33"></a>        <span class="s2">&quot;fsSize&quot;</span><span class="o">:</span> <span class="p">[</span>
+<a id="__codelineno-1-34" name="__codelineno-1-34"></a>            <span class="p">{</span>
+<a id="__codelineno-1-35" name="__codelineno-1-35"></a>                <span class="s2">&quot;fs&quot;</span><span class="o">:</span> <span class="s2">&quot;/dev/root&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-36" name="__codelineno-1-36"></a>                <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;ext4&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-37" name="__codelineno-1-37"></a>                <span class="s2">&quot;size&quot;</span><span class="o">:</span> <span class="mf">15686586368</span><span class="p">,</span>
+<a id="__codelineno-1-38" name="__codelineno-1-38"></a>                <span class="s2">&quot;used&quot;</span><span class="o">:</span> <span class="mf">6556151808</span><span class="p">,</span>
+<a id="__codelineno-1-39" name="__codelineno-1-39"></a>                <span class="s2">&quot;use&quot;</span><span class="o">:</span> <span class="mf">41.79</span><span class="p">,</span>
+<a id="__codelineno-1-40" name="__codelineno-1-40"></a>                <span class="s2">&quot;mount&quot;</span><span class="o">:</span> <span class="s2">&quot;/&quot;</span>
+<a id="__codelineno-1-41" name="__codelineno-1-41"></a>            <span class="p">},</span>
+<a id="__codelineno-1-42" name="__codelineno-1-42"></a>            <span class="p">{</span>
+<a id="__codelineno-1-43" name="__codelineno-1-43"></a>                <span class="s2">&quot;fs&quot;</span><span class="o">:</span> <span class="s2">&quot;/dev/mmcblk0p1&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-44" name="__codelineno-1-44"></a>                <span class="s2">&quot;type&quot;</span><span class="o">:</span> <span class="s2">&quot;vfat&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-45" name="__codelineno-1-45"></a>                <span class="s2">&quot;size&quot;</span><span class="o">:</span> <span class="mf">45281280</span><span class="p">,</span>
+<a id="__codelineno-1-46" name="__codelineno-1-46"></a>                <span class="s2">&quot;used&quot;</span><span class="o">:</span> <span class="mf">23083008</span><span class="p">,</span>
+<a id="__codelineno-1-47" name="__codelineno-1-47"></a>                <span class="s2">&quot;use&quot;</span><span class="o">:</span> <span class="mf">50.98</span><span class="p">,</span>
+<a id="__codelineno-1-48" name="__codelineno-1-48"></a>                <span class="s2">&quot;mount&quot;</span><span class="o">:</span> <span class="s2">&quot;/boot&quot;</span>
+<a id="__codelineno-1-49" name="__codelineno-1-49"></a>            <span class="p">}</span>
+<a id="__codelineno-1-50" name="__codelineno-1-50"></a>        <span class="p">],</span>
+<a id="__codelineno-1-51" name="__codelineno-1-51"></a>        <span class="s2">&quot;memory&quot;</span><span class="o">:</span> <span class="p">{</span>
+<a id="__codelineno-1-52" name="__codelineno-1-52"></a>            <span class="s2">&quot;total&quot;</span><span class="o">:</span> <span class="mf">918188032</span><span class="p">,</span>
+<a id="__codelineno-1-53" name="__codelineno-1-53"></a>            <span class="s2">&quot;free&quot;</span><span class="o">:</span> <span class="mf">184897536</span><span class="p">,</span>
+<a id="__codelineno-1-54" name="__codelineno-1-54"></a>            <span class="s2">&quot;used&quot;</span><span class="o">:</span> <span class="mf">733290496</span><span class="p">,</span>
+<a id="__codelineno-1-55" name="__codelineno-1-55"></a>            <span class="s2">&quot;active&quot;</span><span class="o">:</span> <span class="mf">484257792</span><span class="p">,</span>
+<a id="__codelineno-1-56" name="__codelineno-1-56"></a>            <span class="s2">&quot;available&quot;</span><span class="o">:</span> <span class="mf">492445696</span><span class="p">,</span>
+<a id="__codelineno-1-57" name="__codelineno-1-57"></a>            <span class="s2">&quot;buffcache&quot;</span><span class="o">:</span> <span class="mf">249032704</span><span class="p">,</span>
+<a id="__codelineno-1-58" name="__codelineno-1-58"></a>            <span class="s2">&quot;swaptotal&quot;</span><span class="o">:</span> <span class="mf">104853504</span><span class="p">,</span>
+<a id="__codelineno-1-59" name="__codelineno-1-59"></a>            <span class="s2">&quot;swapused&quot;</span><span class="o">:</span> <span class="mf">1855488</span><span class="p">,</span>
+<a id="__codelineno-1-60" name="__codelineno-1-60"></a>            <span class="s2">&quot;swapfree&quot;</span><span class="o">:</span> <span class="mf">68677632</span>
+<a id="__codelineno-1-61" name="__codelineno-1-61"></a>        <span class="p">},</span>
+<a id="__codelineno-1-62" name="__codelineno-1-62"></a>        <span class="s2">&quot;osInfo&quot;</span><span class="o">:</span> <span class="p">{</span>
+<a id="__codelineno-1-63" name="__codelineno-1-63"></a>            <span class="s2">&quot;platform&quot;</span><span class="o">:</span> <span class="s2">&quot;linux&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-64" name="__codelineno-1-64"></a>            <span class="s2">&quot;distro&quot;</span><span class="o">:</span> <span class="s2">&quot;Raspbian GNU/Linux&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-65" name="__codelineno-1-65"></a>            <span class="s2">&quot;release&quot;</span><span class="o">:</span> <span class="s2">&quot;9&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-66" name="__codelineno-1-66"></a>            <span class="s2">&quot;codename&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-67" name="__codelineno-1-67"></a>            <span class="s2">&quot;kernel&quot;</span><span class="o">:</span> <span class="s2">&quot;4.14.79-v7+&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-68" name="__codelineno-1-68"></a>            <span class="s2">&quot;arch&quot;</span><span class="o">:</span> <span class="s2">&quot;arm&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-69" name="__codelineno-1-69"></a>            <span class="s2">&quot;hostname&quot;</span><span class="o">:</span> <span class="s2">&quot;raspberrypi&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-70" name="__codelineno-1-70"></a>            <span class="s2">&quot;logofile&quot;</span><span class="o">:</span> <span class="s2">&quot;raspbian&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-71" name="__codelineno-1-71"></a>            <span class="s2">&quot;serial&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-72" name="__codelineno-1-72"></a>            <span class="s2">&quot;build&quot;</span><span class="o">:</span> <span class="s2">&quot;&quot;</span>
+<a id="__codelineno-1-73" name="__codelineno-1-73"></a>        <span class="p">},</span>
+<a id="__codelineno-1-74" name="__codelineno-1-74"></a>        <span class="s2">&quot;cpuTemperature&quot;</span><span class="o">:</span> <span class="p">{</span>
+<a id="__codelineno-1-75" name="__codelineno-1-75"></a>            <span class="s2">&quot;main&quot;</span><span class="o">:</span> <span class="mf">46.16</span><span class="p">,</span>
+<a id="__codelineno-1-76" name="__codelineno-1-76"></a>            <span class="s2">&quot;cores&quot;</span><span class="o">:</span> <span class="p">[],</span>
+<a id="__codelineno-1-77" name="__codelineno-1-77"></a>            <span class="s2">&quot;max&quot;</span><span class="o">:</span> <span class="mf">46.16</span>
+<a id="__codelineno-1-78" name="__codelineno-1-78"></a>        <span class="p">},</span>
+<a id="__codelineno-1-79" name="__codelineno-1-79"></a>        <span class="s2">&quot;lateancy&quot;</span><span class="o">:</span> <span class="mf">15.546</span><span class="p">,</span>
+<a id="__codelineno-1-80" name="__codelineno-1-80"></a>        <span class="s2">&quot;network&quot;</span><span class="o">:</span> <span class="p">[</span>
+<a id="__codelineno-1-81" name="__codelineno-1-81"></a>            <span class="p">{</span>
+<a id="__codelineno-1-82" name="__codelineno-1-82"></a>                <span class="s2">&quot;iface&quot;</span><span class="o">:</span> <span class="s2">&quot;eth0&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-83" name="__codelineno-1-83"></a>                <span class="s2">&quot;operstate&quot;</span><span class="o">:</span> <span class="s2">&quot;up&quot;</span><span class="p">,</span>
+<a id="__codelineno-1-84" name="__codelineno-1-84"></a>                <span class="s2">&quot;rx&quot;</span><span class="o">:</span> <span class="mf">125885225</span><span class="p">,</span>
+<a id="__codelineno-1-85" name="__codelineno-1-85"></a>                <span class="s2">&quot;tx&quot;</span><span class="o">:</span> <span class="mf">493692274</span><span class="p">,</span>
+<a id="__codelineno-1-86" name="__codelineno-1-86"></a>                <span class="s2">&quot;rx_sec&quot;</span><span class="o">:</span> <span class="mf">5819.369225868111</span><span class="p">,</span>
+<a id="__codelineno-1-87" name="__codelineno-1-87"></a>                <span class="s2">&quot;tx_sec&quot;</span><span class="o">:</span> <span class="mf">5121.6948072634605</span><span class="p">,</span>
+<a id="__codelineno-1-88" name="__codelineno-1-88"></a>                <span class="s2">&quot;ms&quot;</span><span class="o">:</span> <span class="mf">6278</span>
+<a id="__codelineno-1-89" name="__codelineno-1-89"></a>            <span class="p">}</span>
+<a id="__codelineno-1-90" name="__codelineno-1-90"></a>        <span class="p">]</span>
+<a id="__codelineno-1-91" name="__codelineno-1-91"></a>    <span class="p">}</span>
+<a id="__codelineno-1-92" name="__codelineno-1-92"></a><span class="p">}</span>
+</code></pre></div>
 <h2 id="actions">Actions<a class="headerlink" href="#actions" title="Permanent link">&para;</a></h2>
 <ul>
 <li>route <code>/api/startCasting/{json object}</code></li>
@@ -999,21 +971,21 @@ example: <code>http://raspberrypi/api/castStatus</code></p>
 <p>Users can start and stop UAVcast from 3rd party application, this actions is eqvalent to press "Start Casting" or "Stop Casting" in the dashboard.
 To interact with UAVcast actions, send a POST request in <code>JSON (application/json)</code> format with the following <strong>key:value</strong> pair:</p>
 <h2 id="start-uavcast">Start UAVcast<a class="headerlink" href="#start-uavcast" title="Permanent link">&para;</a></h2>
-<pre><code class="language-js">{
-    &quot;action&quot;:&quot;start&quot;
-}
-</code></pre>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a><span class="p">{</span>
+<a id="__codelineno-2-2" name="__codelineno-2-2"></a>    <span class="s2">&quot;action&quot;</span><span class="o">:</span><span class="s2">&quot;start&quot;</span>
+<a id="__codelineno-2-3" name="__codelineno-2-3"></a><span class="p">}</span>
+</code></pre></div>
 <h2 id="stop-uavcast">Stop UAVcast<a class="headerlink" href="#stop-uavcast" title="Permanent link">&para;</a></h2>
-<pre><code class="language-js">{
-    &quot;action&quot;:&quot;stop&quot;
-}
-</code></pre>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-3-1" name="__codelineno-3-1"></a><span class="p">{</span>
+<a id="__codelineno-3-2" name="__codelineno-3-2"></a>    <span class="s2">&quot;action&quot;</span><span class="o">:</span><span class="s2">&quot;stop&quot;</span>
+<a id="__codelineno-3-3" name="__codelineno-3-3"></a><span class="p">}</span>
+</code></pre></div>
 <p>The above commands will return the following JSON response</p>
-<pre><code class="language-js">{
-    &quot;message&quot;: &quot;Starting UAVcast&quot;,
-    &quot;initiated&quot;: true (false if command fails)
-}
-</code></pre>
+<div class="highlight"><pre><span></span><code><a id="__codelineno-4-1" name="__codelineno-4-1"></a><span class="p">{</span>
+<a id="__codelineno-4-2" name="__codelineno-4-2"></a>    <span class="s2">&quot;message&quot;</span><span class="o">:</span> <span class="s2">&quot;Starting UAVcast&quot;</span><span class="p">,</span>
+<a id="__codelineno-4-3" name="__codelineno-4-3"></a>    <span class="s2">&quot;initiated&quot;</span><span class="o">:</span> <span class="kc">true</span> <span class="p">(</span><span class="kc">false</span> <span class="k">if</span> <span class="nx">command</span> <span class="nx">fails</span><span class="p">)</span>
+<a id="__codelineno-4-4" name="__codelineno-4-4"></a><span class="p">}</span>
+</code></pre></div>
 
               
             </article>
@@ -1048,7 +1020,7 @@ To interact with UAVcast actions, send a POST request in <code>JSON (application
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.expand", "navigation.top", "announce.dismiss"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.0bbba5b5.min.js", "version": {"provider": "mike", "default": "latest"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["content.code.annotate", "navigation.tabs", "navigation.expand", "navigation.top", "announce.dismiss"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "../../assets/javascripts/workers/search.0bbba5b5.min.js", "version": {"provider": "mike", "default": "latest"}}</script>
     
     
       <script src="../../assets/javascripts/bundle.e1a181d9.min.js"></script>
