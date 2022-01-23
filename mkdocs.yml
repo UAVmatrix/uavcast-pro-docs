@@ -55,7 +55,7 @@ nav:
 
 theme:
   name: material
-  custom_dir: overrides
+  # custom_dir: overrides
   favicon: 'images/favicon.ico'
   language: 'en'
   palette:
