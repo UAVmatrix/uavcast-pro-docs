@@ -23,7 +23,6 @@ plugins:
 nav:
   - Home: 
     - index.md
-    - License: license/license.md
     - changelog.md
     - libraries.md
   - Getting started:
@@ -39,7 +38,6 @@ nav:
     - 'pages/Ground-Control.md'
     - 'pages/Cell-Modem.md'
     - 'pages/Dynamic-DNS.md'
-    - 'pages/Vpn.md'
     - 'pages/Application.md'
     - Camera:
         - 'pages/camera/Configuration.md'
@@ -55,8 +53,8 @@ nav:
   #     - developers/translation.md
   - FAQ:
     - troubleshooting.md
-  - UAVnet:
-      - vpn/zerotier.md
+  - Developer:
+    - 'pages/developer/index.md'
 
 theme:
   name: material
@@ -82,6 +80,7 @@ theme:
   icon:
     logo: material/airplane
   features:
+    - content.code.annotate
     # - navigation.instant
     # - navigation.tracking
     # - navigation.tabs.sticky
@@ -105,6 +104,11 @@ markdown_extensions:
   - md_in_html
   - toc:
       permalink: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   # - pymdownx.arithmatex:
   #     generic: true
   # - pymdownx.betterem:

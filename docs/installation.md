@@ -18,8 +18,9 @@ It will probably run just fine on many more, but the above has been tested by ua
 This version is built to run on these architectures.
 If you are unsure with arch your specific board uses, type `uname -a` in the console.
 
-- `arm32v7`
-- `arm64v8`
+- `arm32`
+- `arm64`
+- `amd64`
 
 After the installation there will be validating proccess to verify that all component has been loaded successfully.
 You can now access the webinterface using the RPI ip or Host name address in your browser. [http://raspberrypi/](http://raspberrypi/)
