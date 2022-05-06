@@ -158,7 +158,7 @@ Stick modems is a regular modem where you need to send AT commands to establish 
 The big advantages being that the connection time is very fast and hassle free.
 A HiLink modem uses a web browser to access the modem settings.
 
-It acts more or less like a plug and play modem, you don't need to configure any parameters in UAVcast-Pro or Raspberry Pi.
+It acts more or less like a plug and play modem, you don't need to configure any parameters in uavcast or Raspberry Pi.
 
 **HiLink Disadvantages**
 
@@ -168,7 +168,7 @@ However, if you use VPN connection then HiLink is a perfect choice as VPN does't
 
 ## Camera
 
-There are several cameras that works with UAVcast-Pro,
+There are several cameras that works with uavcast,
 
 - PiCam
 - Logitech C920

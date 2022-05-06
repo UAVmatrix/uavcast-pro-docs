@@ -30,6 +30,6 @@ Download the **(Yourself- Autologin profile)**
 
 !['Autologin'](../images/pages/vpn/download-openvpn.jpg)
 
-Drag this file into UAVcast-Pro => vpn page and hit connect.
+Drag this file into uavcast => vpn page and hit connect.
 
 For more information about setting up OpenVPN, please see the [Open VPN Wiki](https://community.openvpn.net/openvpn/wiki).

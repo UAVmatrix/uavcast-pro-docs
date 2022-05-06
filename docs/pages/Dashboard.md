@@ -6,17 +6,17 @@ Dashboard provides a overview of the current casting status and Raspberry Pi int
 
 !['Dashboard'](../images/pages/dashboard/led.jpg)
 
-##Start / Stop UAVcast-Pro
-You can start and stop UAVcast-Pro from the dashboard. This will simulate the exact start up sequence when Raspberry Pi boots up (if autoboot is enabled).
+##Start / Stop uavcast
+You can start and stop uavcast from the dashboard. This will simulate the exact start up sequence when Raspberry Pi boots up (if autoboot is enabled).
 If you get all green led's then all selected items have started as expected.
 
-This is a nice way to verify that UAVcast-Pro will start as expected when Raspberry Pi starts up.
+This is a nice way to verify that uavcast will start as expected when Raspberry Pi starts up.
 
 !['Dashboard start'](../images/pages/dashboard/dashstart.jpg)
 
 ##Enable  / Disable Autostart
 
-If autostart is enable, then UAVcast-Pro will start all enabled functions every time Raspberry Pi boots up.
+If autostart is enable, then uavcast will start all enabled functions every time Raspberry Pi boots up.
 
 ##CPU
 

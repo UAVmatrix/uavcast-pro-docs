@@ -12,7 +12,7 @@ You can choose which end-points should be enabled. Convenient if you want to sav
 Set a unique name for you destination.
 
 ##UDP Host##
-Destination (GCS) IP or DNS name. (UAVcast-Pro will stream telemetry or video towards this end-point)
+Destination (GCS) IP or DNS name. (uavcast will stream telemetry or video towards this end-point)
 
 ##Telem Port##
 * Options: `0 - 65536`

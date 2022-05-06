@@ -4,7 +4,7 @@
 
 ![](images/ipad.png)
 
-Here you will find information about UAVcast-Pro, 4G LTE Drone software for Raspberry Pi companion computer
+Here you will find information about uavcast, 4G LTE Drone software for Raspberry Pi companion computer
 You are free to make a PR on github with any changes you like.
 
 For further inquires, please contact us:

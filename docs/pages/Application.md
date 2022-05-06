@@ -15,13 +15,13 @@ Messages:
 
 ##Server Port
 
-You are able to change the access port for UAVcast-Pro from the default port of 80.
+You are able to change the access port for uavcast from the default port of 80.
 
 ##Reset Logfiles
 Each function in UAVcast stores all operations to logfiles, and to start on a fresh file you can reset them here.
 
 ##Reset Database
-Delete all configuration you have made in UAVcast-Pro. User data will NOT be deleted!
+Delete all configuration you have made in uavcast. User data will NOT be deleted!
 
 
 ##Alternate Languages
@@ -37,7 +37,7 @@ Select a prefered lanuage.
 -   Italien
 -   Portuguese
 
-If you would like to contribute to UAVcast-Pro by adding a new language, please follow the instructions [here](../developers/translation.md).
+If you would like to contribute to uavcast by adding a new language, please follow the instructions [here](../developers/translation.md).
 
 
 ##Updates

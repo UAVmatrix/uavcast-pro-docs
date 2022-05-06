@@ -1,6 +1,6 @@
 !['Configuration'](../../images/pages/Camera/config.jpg)
 
-UAVcast-Pro uses the well known media-handling library gstreamer to proccess the video pipeline towards the Ground Control Station.
+uavcast uses the well known media-handling library gstreamer to proccess the video pipeline towards the Ground Control Station.
 It supports PiCam, Logitech C615, Logitech C920 out of the box.
 
 !!! info
@@ -15,9 +15,9 @@ It supports PiCam, Logitech C615, Logitech C920 out of the box.
 - Options: `PiCam HTTP, PiCam TCP/UDP, C615, C920, Custom Pipeline`
 
 Each camera uses different start code, also known as pipeline to be able to communicate or process the video source.
-UAVcast-Pro has three diffrent cameras pre-defined from the dropdown menu. However, if your camera is not listed then you can insert a **custom pipline** with the [needed plugins](https://gstreamer.freedesktop.org/documentation/plugins.html) to match your current camera model and type.
+uavcast has three diffrent cameras pre-defined from the dropdown menu. However, if your camera is not listed then you can insert a **custom pipline** with the [needed plugins](https://gstreamer.freedesktop.org/documentation/plugins.html) to match your current camera model and type.
 
-You can also send a test video by inserting the pipeline below to UAVcast-Pro custom field section, nice way to check if everything is working without the camera itself.
+You can also send a test video by inserting the pipeline below to uavcast custom field section, nice way to check if everything is working without the camera itself.
 
 Remember to change the Destination address:  
 `gst-launch-1.0 videotestsrc ! x264enc ! video/x-h264, stream-format=byte-stream ! rtph264pay ! udpsink host=GCS_ADDRESS port=5600`
@@ -29,7 +29,7 @@ Take a look at this page for pipeline examples
 
 - Default value: `UDP`
 
-UAVcast-Pro supports UDP, TCP and [HTTP live in-browser viewer for PiCam](/pages/camera/HTTP Videostream), other cameras only support UDP at the moment.
+uavcast supports UDP, TCP and [HTTP live in-browser viewer for PiCam](/pages/camera/HTTP Videostream), other cameras only support UDP at the moment.
 Multiple users may view live video using the HTTP protocol.
 
 ###GCS Destination
@@ -122,7 +122,7 @@ brew install gstreamer gst-libav gst-plugins-ugly gst-plugins-base gst-plugins-b
 ####Solution #1
 
 Download and install [Mission Planner](http://ardupilot.org/planner/docs/mission-planner-installation.html) or [QGroundControl](http://qgroundcontrol.com/downloads/)
-both applications supports **UDP** video by default on port 5600 without any extra configuration. Start camera in UAVcast-Pro and open MP or QGC
+both applications supports **UDP** video by default on port 5600 without any extra configuration. Start camera in uavcast and open MP or QGC
 
 !!! warning "Streaming over VPN may cause poor video quality in MP and QGC"
 
@@ -134,7 +134,7 @@ both applications supports **UDP** video by default on port 5600 without any ext
 
     **NOTE!**
 
-    Mission Planner always starts its default gstreamer pipeline and listen on default port 5600, when using the custom source above we need to use a diffrent port so it wont make any conflicts. In this example we use **port 5601**. Remember set port [5601](http://docs.uavmatrix.com/pages/Camera/#destination-port) in UAVcast-Pro as well!
+    Mission Planner always starts its default gstreamer pipeline and listen on default port 5600, when using the custom source above we need to use a diffrent port so it wont make any conflicts. In this example we use **port 5601**. Remember set port [5601](http://docs.uavmatrix.com/pages/Camera/#destination-port) in uavcast as well!
     ![hud-source](../../images/pages/Camera/hud-gstreamer.jpg)
 
 ####Solution #2
@@ -155,7 +155,7 @@ From now on, your computer will be waiting for the input stream from Raspberry P
 
 ##**TCP** video (Windows / Mac / Linux)
 
-Select TCP from the dropdown menu in UAVcast-Pro web interface. Add your raspberry IP address (if you use Zerotier VPN, add ZT IP address) in the **TCP Host** input box.
+Select TCP from the dropdown menu in uavcast web interface. Add your raspberry IP address (if you use Zerotier VPN, add ZT IP address) in the **TCP Host** input box.
 
 Press Start camera button.
 You should see **_video started successfully_**

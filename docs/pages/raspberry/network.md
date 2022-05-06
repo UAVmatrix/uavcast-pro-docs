@@ -13,7 +13,7 @@ Only physical devices can be selected, not VPN or other bridged interface.
 Raspberry will still be able to use other interfaces, but priority the one you select.
 
 ##WiFi network
-You can search and connect wifi network from within UAVcast-Pro. 
+You can search and connect wifi network from within uavcast. 
 
 ##Interfaces
 Will populate all interfaces and show the current configuration, such as IP, Netmask, Gateway and if you want to enable/disable IPv6.

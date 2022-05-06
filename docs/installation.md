@@ -28,8 +28,8 @@ You can now access the webinterface using the RPI ip or Host name address in you
 
 ## Whats new!
 
-We have rebuilt the whole application from the ground up, and version 5.x of UAVcast-Pro will run in a docker container to have better support for other architectures and OS platforms.
-When installing UAVcast-Pro you will see that it also installs a helper application named uavcast supervisor. This app will assist uavcast
+We have rebuilt the whole application from the ground up, and version 5.x of uavcast will run in a docker container to have better support for other architectures and OS platforms.
+When installing uavcast you will see that it also installs a helper application named uavcast supervisor. This app will assist uavcast
 to manage all the update / downgrade functionalities.
 
 Also keep in mind that some functionality of previous version 4.x has been removed in favor for supporting multiple distro`s and archs such as network configuration.
