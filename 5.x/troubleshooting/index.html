@@ -15,7 +15,7 @@
     
     
       
-        <title>Troubleshooting - UAVcast-Pro</title>
+        <title>Troubleshooting - uavcast</title>
       
     
     
@@ -96,7 +96,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href=".." title="UAVcast-Pro" class="md-header__button md-logo" aria-label="UAVcast-Pro" data-md-component="logo">
+    <a href=".." title="uavcast" class="md-header__button md-logo" aria-label="uavcast" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.56 3.91c.59.59.59 1.54 0 2.12l-3.89 3.89 2.12 9.19-1.41 1.42-3.88-7.43L9.6 17l.36 2.47-1.07 1.06-1.76-3.18-3.19-1.77L5 14.5l2.5.37L11.37 11 3.94 7.09l1.42-1.41 9.19 2.12 3.89-3.89c.56-.58 1.56-.58 2.12 0z"/></svg>
@@ -109,7 +109,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            UAVcast-Pro
+            uavcast
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -276,13 +276,13 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href=".." title="UAVcast-Pro" class="md-nav__button md-logo" aria-label="UAVcast-Pro" data-md-component="logo">
+    <a href=".." title="uavcast" class="md-nav__button md-logo" aria-label="uavcast" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.56 3.91c.59.59.59 1.54 0 2.12l-3.89 3.89 2.12 9.19-1.41 1.42-3.88-7.43L9.6 17l.36 2.47-1.07 1.06-1.76-3.18-3.19-1.77L5 14.5l2.5.37L11.37 11 3.94 7.09l1.42-1.41 9.19 2.12 3.89-3.89c.56-.58 1.56-.58 2.12 0z"/></svg>
 
     </a>
-    UAVcast-Pro
+    uavcast
   </label>
   
     <div class="md-nav__source">
@@ -735,15 +735,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cannot-activate-uavcast-pro-license" class="md-nav__link">
-    Cannot activate UAVcast-Pro license
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installation-validation-fails" class="md-nav__link">
-    Installation validation fails.
+  <a href="#installation-fails" class="md-nav__link">
+    Installation fails.
   </a>
   
 </li>
@@ -756,8 +749,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#no-mavlink-heartbeats-received-in-uavcast-pro" class="md-nav__link">
-    No Mavlink Heartbeats received in UAVcast-Pro
+  <a href="#no-mavlink-heartbeats-received-in-uavcast" class="md-nav__link">
+    No Mavlink Heartbeats received in uavcast
   </a>
   
 </li>
@@ -887,15 +880,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#cannot-activate-uavcast-pro-license" class="md-nav__link">
-    Cannot activate UAVcast-Pro license
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#installation-validation-fails" class="md-nav__link">
-    Installation validation fails.
+  <a href="#installation-fails" class="md-nav__link">
+    Installation fails.
   </a>
   
 </li>
@@ -908,8 +894,8 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#no-mavlink-heartbeats-received-in-uavcast-pro" class="md-nav__link">
-    No Mavlink Heartbeats received in UAVcast-Pro
+  <a href="#no-mavlink-heartbeats-received-in-uavcast" class="md-nav__link">
+    No Mavlink Heartbeats received in uavcast
   </a>
   
 </li>
@@ -943,36 +929,29 @@
 
 <h1 id="faq">FAQ<a class="headerlink" href="#faq" title="Permanent link">&para;</a></h1>
 <h2 id="do-i-need-a-lte-modem">Do i need a LTE modem?<a class="headerlink" href="#do-i-need-a-lte-modem" title="Permanent link">&para;</a></h2>
-<p>No. UAVcast-Pro does not care if you use LTE, Wifi or Ethernet cable. As long as the application is able to communicate with the Ground Control station over TCP/IP stack, it will work.</p>
+<p>No. uavcast does not care if you use LTE, Wifi or Ethernet cable. As long as the application is able to communicate with the Ground Control station over TCP/IP stack, it will work.</p>
 <h2 id="not-able-to-open-web-interface">Not able to open web interface<a class="headerlink" href="#not-able-to-open-web-interface" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Make sure you use latest raspberry image. Older version might be incompatible.</li>
-<li>You can type <code>journalctl -u UAVcast-Web.service --since yesterday</code> in the rpi console to get more debug information.</li>
+<li>Type <code>docker ps | grep uavcast</code> and make sure the container is running. You can also get logs by typing <code>docker logs uavcast</code>.</li>
+<li>Create new Github Issue with the output from above. </li>
 </ul>
 <h2 id="where-can-i-download-latest-version">Where can i download latest version?<a class="headerlink" href="#where-can-i-download-latest-version" title="Permanent link">&para;</a></h2>
 <ul>
-<li>See the <a href="/installation/#uavcast-pro-installation">installation</a> instructions</li>
+<li>See the <a href="/installation/#uavcast-installation">installation</a> instructions</li>
 </ul>
-<h2 id="cannot-activate-uavcast-pro-license">Cannot activate UAVcast-Pro license<a class="headerlink" href="#cannot-activate-uavcast-pro-license" title="Permanent link">&para;</a></h2>
+<h2 id="installation-fails">Installation fails.<a class="headerlink" href="#installation-fails" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Make sure you have proper internet connection for your RPI. During the validation, RPI needs to contact uavmatrix.com license server for validation.</li>
+<li>Create new github issue with the error messages recieved.</li>
 </ul>
-<h2 id="installation-validation-fails">Installation validation fails.<a class="headerlink" href="#installation-validation-fails" title="Permanent link">&para;</a></h2>
-<ul>
-<li>Make sure you use a supported raspberry image as decribed in the <a href="/installation/#raspberry-pi-image">installation instructions</a>.</li>
-<li>For other installation issues, please navigate to <code>UAVcast-Pro/install</code> folder and copy the <code>Installation.log</code> to your computer.
-  Create a new discussion in our forum <a href="https://discuss.uavmatrix.com">discuss.uavmatrix.com</a> and attach the file.</li>
-</ul>
-<p><img alt="logfiles" src="../images/install-logfile.jpg" /></p>
 <h2 id="im-not-able-to-receive-video-or-telemetry">Im not able to receive video or telemetry<a class="headerlink" href="#im-not-able-to-receive-video-or-telemetry" title="Permanent link">&para;</a></h2>
 <ul>
 <li>Make sure you have added video and telemetry port to your firewall rules.</li>
 <li>If you have changed the default ports for video 5600 or telemetry 14550 you need to change this on your ground control station device as well.</li>
-<li>Connect your FC to your computer and connect with Mission Planner. Goto all paramters list and search for the connection port used to Raspberry Pi. Serial0 (USB). Serial1 (Telem1 port), Serial2 (Telem2 port). Take note of the Mavlink Protocol (1 or 2) used, as well as the Baud rate. Make sure you use the same settings in UAVcast-Pro Flight Controller page. </li>
+<li>Connect your FC to your computer and connect with Mission Planner. Goto all paramters list and search for the connection port used to Raspberry Pi. Serial0 (USB). Serial1 (Telem1 port), Serial2 (Telem2 port). Take note of the Mavlink Protocol (1 or 2) used, as well as the Baud rate. Make sure you use the same settings in uavcast Flight Controller page. </li>
 </ul>
-<h2 id="no-mavlink-heartbeats-received-in-uavcast-pro">No Mavlink Heartbeats received in UAVcast-Pro<a class="headerlink" href="#no-mavlink-heartbeats-received-in-uavcast-pro" title="Permanent link">&para;</a></h2>
+<h2 id="no-mavlink-heartbeats-received-in-uavcast">No Mavlink Heartbeats received in uavcast<a class="headerlink" href="#no-mavlink-heartbeats-received-in-uavcast" title="Permanent link">&para;</a></h2>
 <ul>
-<li>Make sure the configuration in UAVcast-Pro Flight Controller page reflects the settings in the Flight Controller. You can see the FC setttings using Mission Planner =&gt; All parameters list =&gt; search for Serial0 (USB) or Serial1 (Telem1 port) or Serial2 (Telem2)</li>
+<li>Make sure the configuration in uavcast Flight Controller page reflects the settings in the Flight Controller. You can see the FC setttings using Mission Planner =&gt; All parameters list =&gt; search for Serial0 (USB) or Serial1 (Telem1 port) or Serial2 (Telem2)</li>
 <li>Make sure you are using a good USB cable with large cross-sectional area to minimize the voltage drop supplied to Fligth Controller.</li>
 <li>If you are connected by GPIO pins, make sure you have connected the <strong>ground, rx, tx</strong> wires correctly.</li>
 <li>Make sure you use default configuration in Flight Controller (Ardupilot, Px4) for UART / Telemetry ports.</li>
@@ -985,11 +964,11 @@
 <h2 id="other-application-issues">Other Application issues.<a class="headerlink" href="#other-application-issues" title="Permanent link">&para;</a></h2>
 <ul>
 <li>
-<p>If you experience any issues with UAVcast running on your Raspberry, please Navigate to the UAVcast page and
-  press "Download Logfiles" button. This will download a zip file containing all logs related to UAVcast and its running components.
+<p>If you experience any issues with uavcast, please Navigate to the Logs page and
+  press "Download" button. This will download a zip file containing all logs related to uavcast and its running components.
   Log content will only contain application data and not user data.</p>
-<p>Create a new discussion in our forum <a href="https://discuss.uavmatrix.com">discuss.uavmatrix.com</a> and attach the zip file, or mail it to our support department support@uavmatrix.com</p>
-<p><img alt="logfiles" src="../images/logfiles-download.jpg" /></p>
+<p>Create a new github issue <a href="https://github.com/sinamics/uavcast/issues">https://github.com/sinamics/uavcast/issues</a> and attach the zip file.</p>
+<p><img alt="logfiles" src="../images/pages/troubleshooting/logfiles-download.jpg" /></p>
 </li>
 </ul>
 <p>You can at any time contact us at <strong>uavmatrix@uavmatrix.com</strong> or chat privately on our Discord server <a href="https://discord.gg/xwqMTXh">https://discord.gg/xwqMTXh</a> or use our forum section

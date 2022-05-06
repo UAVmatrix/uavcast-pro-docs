@@ -2,127 +2,127 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.uavmatrix.com/5.x/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/application-update/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/changelog/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/hardware/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/how_it_works/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/installation/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/libraries/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/troubleshooting/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/developers/restapi/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/developers/translation/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/Application/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/Cell-Modem/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/Dashboard/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/Dynamic-DNS/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/Flight-Controller/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/Ground-Control/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/Map/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/Vpn/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/beta/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/camera/Configuration/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/camera/HTTP%20Videostream/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/developer/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/raspberry/diagnostic/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/raspberry/led/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.uavmatrix.com/5.x/pages/raspberry/network/</loc>
-         <lastmod>2022-04-13</lastmod>
+         <lastmod>2022-05-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

@@ -15,7 +15,7 @@
     
     
       
-        <title>Configuration - UAVcast-Pro</title>
+        <title>Configuration - uavcast</title>
       
     
     
@@ -96,7 +96,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="UAVcast-Pro" class="md-header__button md-logo" aria-label="UAVcast-Pro" data-md-component="logo">
+    <a href="../../.." title="uavcast" class="md-header__button md-logo" aria-label="uavcast" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.56 3.91c.59.59.59 1.54 0 2.12l-3.89 3.89 2.12 9.19-1.41 1.42-3.88-7.43L9.6 17l.36 2.47-1.07 1.06-1.76-3.18-3.19-1.77L5 14.5l2.5.37L11.37 11 3.94 7.09l1.42-1.41 9.19 2.12 3.89-3.89c.56-.58 1.56-.58 2.12 0z"/></svg>
@@ -109,7 +109,7 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            UAVcast-Pro
+            uavcast
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
@@ -276,13 +276,13 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="UAVcast-Pro" class="md-nav__button md-logo" aria-label="UAVcast-Pro" data-md-component="logo">
+    <a href="../../.." title="uavcast" class="md-nav__button md-logo" aria-label="uavcast" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.56 3.91c.59.59.59 1.54 0 2.12l-3.89 3.89 2.12 9.19-1.41 1.42-3.88-7.43L9.6 17l.36 2.47-1.07 1.06-1.76-3.18-3.19-1.77L5 14.5l2.5.37L11.37 11 3.94 7.09l1.42-1.41 9.19 2.12 3.89-3.89c.56-.58 1.56-.58 2.12 0z"/></svg>
 
     </a>
-    UAVcast-Pro
+    uavcast
   </label>
   
     <div class="md-nav__source">
@@ -1090,7 +1090,7 @@
   <h1>Configuration</h1>
 
 <p><img alt="'Configuration'" src="../../../images/pages/Camera/config.jpg" /></p>
-<p>UAVcast-Pro uses the well known media-handling library gstreamer to proccess the video pipeline towards the Ground Control Station.
+<p>uavcast uses the well known media-handling library gstreamer to proccess the video pipeline towards the Ground Control Station.
 It supports PiCam, Logitech C615, Logitech C920 out of the box.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
@@ -1103,8 +1103,8 @@ It supports PiCam, Logitech C615, Logitech C920 out of the box.</p>
 <li>Options: <code>PiCam HTTP, PiCam TCP/UDP, C615, C920, Custom Pipeline</code></li>
 </ul>
 <p>Each camera uses different start code, also known as pipeline to be able to communicate or process the video source.
-UAVcast-Pro has three diffrent cameras pre-defined from the dropdown menu. However, if your camera is not listed then you can insert a <strong>custom pipline</strong> with the <a href="https://gstreamer.freedesktop.org/documentation/plugins.html">needed plugins</a> to match your current camera model and type.</p>
-<p>You can also send a test video by inserting the pipeline below to UAVcast-Pro custom field section, nice way to check if everything is working without the camera itself.</p>
+uavcast has three diffrent cameras pre-defined from the dropdown menu. However, if your camera is not listed then you can insert a <strong>custom pipline</strong> with the <a href="https://gstreamer.freedesktop.org/documentation/plugins.html">needed plugins</a> to match your current camera model and type.</p>
+<p>You can also send a test video by inserting the pipeline below to uavcast custom field section, nice way to check if everything is working without the camera itself.</p>
 <p>Remember to change the Destination address:<br />
 <code>gst-launch-1.0 videotestsrc ! x264enc ! video/x-h264, stream-format=byte-stream ! rtph264pay ! udpsink host=GCS_ADDRESS port=5600</code></p>
 <p>Take a look at this page for pipeline examples
@@ -1113,7 +1113,7 @@ UAVcast-Pro has three diffrent cameras pre-defined from the dropdown menu. Howev
 <ul>
 <li>Default value: <code>UDP</code></li>
 </ul>
-<p>UAVcast-Pro supports UDP, TCP and <a href="/pages/camera/HTTP Videostream">HTTP live in-browser viewer for PiCam</a>, other cameras only support UDP at the moment.
+<p>uavcast supports UDP, TCP and <a href="/pages/camera/HTTP Videostream">HTTP live in-browser viewer for PiCam</a>, other cameras only support UDP at the moment.
 Multiple users may view live video using the HTTP protocol.</p>
 <h3 id="gcs-destination">GCS Destination<a class="headerlink" href="#gcs-destination" title="Permanent link">&para;</a></h3>
 <p>All destinations you have added in <a href="../../Ground-Control/">Ground Control</a> page will be shown in the dropdown list.
@@ -1186,14 +1186,14 @@ If any issues, press the Log button to reveal any problems.</p>
 <h3 id="windows">Windows<a class="headerlink" href="#windows" title="Permanent link">&para;</a></h3>
 <h4 id="solution-1">Solution #1<a class="headerlink" href="#solution-1" title="Permanent link">&para;</a></h4>
 <p>Download and install <a href="http://ardupilot.org/planner/docs/mission-planner-installation.html">Mission Planner</a> or <a href="http://qgroundcontrol.com/downloads/">QGroundControl</a>
-both applications supports <strong>UDP</strong> video by default on port 5600 without any extra configuration. Start camera in UAVcast-Pro and open MP or QGC</p>
+both applications supports <strong>UDP</strong> video by default on port 5600 without any extra configuration. Start camera in uavcast and open MP or QGC</p>
 <div class="admonition warning">
 <p class="admonition-title">Streaming over VPN may cause poor video quality in MP and QGC</p>
 <p>If you experience issues when streaming by VPN, such as <strong>pixalating frames</strong> or <strong>grey overlay</strong> then change the gstreamer source in Mission Planner HUD, with this pipeline:</p>
 <div class="highlight"><pre><span></span><code><a id="__codelineno-2-1" name="__codelineno-2-1"></a>udpsrc port=5601 caps = &quot;application/x-rtp, media=video, clock-rate=90000, encoding-name=H264, payload=96&quot; ! rtpjitterbuffer ! rtph264depay ! avdec_h264 ! videoconvert ! video/x-raw,format=BGRA ! appsink name=outsink
 </code></pre></div>
 <p><strong>NOTE!</strong></p>
-<p>Mission Planner always starts its default gstreamer pipeline and listen on default port 5600, when using the custom source above we need to use a diffrent port so it wont make any conflicts. In this example we use <strong>port 5601</strong>. Remember set port <a href="http://docs.uavmatrix.com/pages/Camera/#destination-port">5601</a> in UAVcast-Pro as well!
+<p>Mission Planner always starts its default gstreamer pipeline and listen on default port 5600, when using the custom source above we need to use a diffrent port so it wont make any conflicts. In this example we use <strong>port 5601</strong>. Remember set port <a href="http://docs.uavmatrix.com/pages/Camera/#destination-port">5601</a> in uavcast as well!
 <img alt="hud-source" src="../../../images/pages/Camera/hud-gstreamer.jpg" /></p>
 </div>
 <h4 id="solution-2">Solution #2<a class="headerlink" href="#solution-2" title="Permanent link">&para;</a></h4>
@@ -1205,7 +1205,7 @@ both applications supports <strong>UDP</strong> video by default on port 5600 wi
 </code></pre></div>
 <p>From now on, your computer will be waiting for the input stream from Raspberry PI. Once it gets a stream, you'll see the real-time video from your drone. </p>
 <h2 id="tcp-video-windows-mac-linux"><strong>TCP</strong> video (Windows / Mac / Linux)<a class="headerlink" href="#tcp-video-windows-mac-linux" title="Permanent link">&para;</a></h2>
-<p>Select TCP from the dropdown menu in UAVcast-Pro web interface. Add your raspberry IP address (if you use Zerotier VPN, add ZT IP address) in the <strong>TCP Host</strong> input box.</p>
+<p>Select TCP from the dropdown menu in uavcast web interface. Add your raspberry IP address (if you use Zerotier VPN, add ZT IP address) in the <strong>TCP Host</strong> input box.</p>
 <p>Press Start camera button.
 You should see <strong><em>video started successfully</em></strong></p>
 <p>Install gstreamer for your operating system (see above section), then open a new command-prompt(windows) or terminal(unix/mac)</p>
