@@ -22,7 +22,7 @@ If you are unsure with arch your specific board uses, type `uname -a` in the con
     version 5.x is still in beta and should be used with caution until stable version is released.
 
 ```bash
-curl -s http://install.uavmatrix.com/next/ | sudo bash
+curl -s http://install.uavmatrix.com/next | sudo bash
 ```
 
 ## Whats new!
@@ -50,5 +50,5 @@ Please report any issues you might find to support@uavmatrix.com
 ## Uninstall
 Use this command to uninstall the beta version completely.
 ```bash
-curl -s http://install.uavmatrix.com/next/ | sudo bash -s -- -r
+curl -s http://install.uavmatrix.com/next | sudo bash -s -- -r
 ```
