@@ -1,3 +1,8 @@
+##v4.2.6
+
+- Updated web dependencies.
+- (Improvement) Embedded app update functionality. 
+
 ##v4.2.5
 
 - (Improvement) Improved tooltip information in ground controller page.
