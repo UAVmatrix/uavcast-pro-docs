@@ -1,12 +1,15 @@
+##v4.2.7
+
+- Updated uavcast-pro expire date.
+
 ##v4.2.6
 
 - Updated web dependencies.
-- (Improvement) Embedded app update functionality. 
+- (Improvement) Embedded app update functionality.
 
 ##v4.2.5
 
 - (Improvement) Improved tooltip information in ground controller page.
-
 
 ##v4.2.41
 
