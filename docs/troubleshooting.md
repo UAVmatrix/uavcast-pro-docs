@@ -1,5 +1,12 @@
-
 #FAQ
+##Not able to register the licenes key
+
+- Make sure you use the 32bit version of Raspberry Pi OS. 64bit is not supported.
+- Make sure you have internet connection on your Raspberry Pi.
+- Make sure you have entered the correct key. You can copy the key from your email and paste it into the license field.
+- Make sure you have the latest version of UAVcast-Pro installed. You can check the version number in the web interface.
+
+If you still have issues, please create a new discussion in our forum [discuss.uavmatrix.com](https://discuss.uavmatrix.com) and attach the logfile to your post, or send it by mail to support@uavmatrix.com. Logfile can be downloaded from the web interface.
 
 ##Do i need a LTE modem?
 No. UAVcast-Pro does not care if you use LTE, Wifi or Ethernet cable. As long as the application is able to communicate with the Ground Control station over TCP/IP stack, it will work.
@@ -29,7 +36,7 @@ No. UAVcast-Pro does not care if you use LTE, Wifi or Ethernet cable. As long as
 
 - Make sure you have added video and telemetry port to your firewall rules.
 - If you have changed the default ports for video 5600 or telemetry 14550 you need to change this on your ground control station device as well.
-- Connect your FC to your computer and connect with Mission Planner. Goto all paramters list and search for the connection port used to Raspberry Pi. Serial0 (USB). Serial1 (Telem1 port), Serial2 (Telem2 port). Take note of the Mavlink Protocol (1 or 2) used, as well as the Baud rate. Make sure you use the same settings in UAVcast-Pro Flight Controller page. 
+- Connect your FC to your computer and connect with Mission Planner. Goto all paramters list and search for the connection port used to Raspberry Pi. Serial0 (USB). Serial1 (Telem1 port), Serial2 (Telem2 port). Take note of the Mavlink Protocol (1 or 2) used, as well as the Baud rate. Make sure you use the same settings in UAVcast-Pro Flight Controller page.
 
 ##No Mavlink Heartbeats received in UAVcast-Pro
 

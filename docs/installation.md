@@ -5,22 +5,15 @@ Confirmed working images:
 
 !!! warning "Bullseye release"
 
-    Raspberry organisation just released (01.11.2021) new bullseye image wich is not yet compatible with UAVcast.
-    Please use the previous buster releases from the links bellow:
+    If you want to use the latest Bullseye image, you would need to enable the legacy camera driver in raspi-config if you use a Raspberry Pi camera module.
 
-- [Raspberry Pi OS Lite](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip)
-- [Raspberry Pi OS With Desktop](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/2021-05-07-raspios-buster-armhf.zip)
-
-
-!!! note "Looking for other boards!"
-    We are currently building UAVcast-Pro for other architectures and OS.
-    [Check out our beta section](/pages/beta/)
+- [Raspberry Pi 32bit OS Lite](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip)
+- [Raspberry Pi 32bit OS With Desktop](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/2021-05-07-raspios-buster-armhf.zip)
 
 See the [https://www.raspberrypi.org/software/operating-systems/](https://www.raspberrypi.org/software/operating-systems/) for installation instruction. <br>
 Continue to install UAVcast-Pro as described in the [installation](/installation/#uavcast-pro-installation) section
 
 ##UAVcast-Pro installation
-
 
 You can install the latest version of UAVcast-Pro by pasting this command into you RPI shell.
 
