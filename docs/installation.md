@@ -3,9 +3,9 @@
 Start with a fresh Raspberry image.
 Confirmed working images:
 
-!!! warning "Bullseye release"
+!!! error "Important"
 
-    If you want to use the latest Bullseye image, you would need to enable the legacy camera driver in raspi-config if you use a Raspberry Pi camera module.
+    Latest PI OS will not work with UAVcast-Pro. Please use the images below.
 
 - [Raspberry Pi 32bit OS Lite](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip)
 - [Raspberry Pi 32bit OS With Desktop](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/2021-05-07-raspios-buster-armhf.zip)

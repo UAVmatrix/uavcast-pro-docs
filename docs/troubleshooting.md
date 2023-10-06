@@ -1,6 +1,10 @@
 #FAQ
 ##Not able to register the licenes key
 
+!!! error "Important"
+
+    Latest PI OS will not work with UAVcast-Pro. Please use one of the images in the [installation](/installation/#raspberry-pi-image) section.
+
 - Make sure you use the 32bit version of Raspberry Pi OS. 64bit is not supported.
 - Make sure you have internet connection on your Raspberry Pi.
 - Make sure you have entered the correct key. You can copy the key from your email and paste it into the license field.
