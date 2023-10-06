@@ -16,3 +16,8 @@
 ## Merge Request
 
 - When you want to merge your changes with master, fill in a new merge request.
+
+## Build
+- `mkdocs build` will build the site and output it to a directory called `site`.
+- `mike deploy 4.x` will deploy the site to the `4.x` branch of the `uavcast-pro-docs` repository.
+- `mike deploy 5.x` will deploy the site to the `5.x` branch of the `uavcast-pro-docs` repository.
