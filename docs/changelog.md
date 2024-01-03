@@ -1,3 +1,7 @@
+##v4.2.9
+
+- Updated uavcast-pro expire date.
+
 ##v4.2.8
 
 - Improved license registration process.
