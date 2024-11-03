@@ -69,7 +69,7 @@ const config: Config = {
 			title: "UAVcast-Pro",
 			logo: {
 				alt: "UAVcast Logo",
-				src: "img/logo.svg",
+				src: "img/uavcast_logo.png",
 			},
 			items: [
 				{
@@ -78,9 +78,9 @@ const config: Config = {
 					position: "left",
 					label: "Docs",
 				},
-				{ to: "/blog", label: "Blog", position: "left" },
+				// { to: "/blog", label: "Blog", position: "left" },
 				{
-					href: "https://github.com/facebook/docusaurus",
+					href: "https://github.com/UAVmatrix/uavcast-pro-docs",
 					label: "GitHub",
 					position: "right",
 				},
