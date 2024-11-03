@@ -3,6 +3,7 @@ slug: /changelog
 title: Changelog
 authors: Bernt Christian Egeland
 tags: []
+sidebar_position: 40
 ---
 
 ## v4.2.9
