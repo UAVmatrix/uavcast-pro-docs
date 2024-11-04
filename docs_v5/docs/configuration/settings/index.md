@@ -44,7 +44,7 @@ Select a prefered lanuage.
 -   Italien
 -   Portuguese
 
-If you would like to contribute to UAVcast-Pro by adding a new language, please follow the instructions [here](../developers/translation.md).
+If you would like to contribute to UAVcast-Pro by adding a new language, please follow the instructions [here](/docs/configuration-developers).
 
 
 ## Updates

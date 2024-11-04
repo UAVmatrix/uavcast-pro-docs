@@ -43,7 +43,7 @@ Multiple users may view live video using the HTTP protocol.
 
 ### GCS Destination
 
-All destinations you have added in [Ground Control](../Ground-Control.md) page will be shown in the dropdown list.
+All destinations you have added in [Ground Control](/docs/configuration-ground-controller) page will be shown in the dropdown list.
 It is only possible to select one destination for video.
 
 ### Video resolution
