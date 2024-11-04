@@ -46,7 +46,7 @@ Use high-quality USB cables with adequate thickness to ensure stable power deliv
 - More complex setup but equally performant
 
 :::warning Power Requirements
-Flight Controller telemetry ports cannot power the Raspberry Pi. See [Power Supply](#power-supply) section for proper power setup.
+Flight Controller telemetry ports cannot power the Raspberry Pi. See [Power Supply](#power-supply-requirements) section for proper power setup.
 :::
 
 !['Gpio'](img/rpi.jpg)
@@ -167,7 +167,6 @@ HiLink is plug-and-play modem technology, offering driverless installation acros
 **Identification:**
 - Look for "HiLink" logo on the modem
 - Model number includes "H" (e.g., E3372H)
-- Listed in our [compatibility table](#compatibility-table)
 
 #### Advantages
 ✓ Instant plug-and-play operation  

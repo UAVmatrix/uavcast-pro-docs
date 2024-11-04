@@ -1,6 +1,6 @@
 ---
-slug: /configuration-developers
-title: Developers
+slug: /configuration-contributors
+title: Contributors
 authors: Bernt Christian Egeland
 tags: []
 sidebar_position: 8

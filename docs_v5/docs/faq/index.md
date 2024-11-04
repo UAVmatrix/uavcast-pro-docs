@@ -10,11 +10,7 @@ sidebar_position: 5
 # FAQ
 ### Not able to register the licenes key
 
-:::danger Important
-  Latest PI OS will not work with UAVcast-Pro version 4.x. Please use one of the images in the [installation](installation/#raspberry-pi-image) section.
-:::
-
-- Make sure you use the 32bit version of Raspberry Pi OS. 64bit is not supported.
+- Make sure you use the 64bit version of Raspberry Pi OS. 32bit is not supported.
 - Make sure you have internet connection on your Raspberry Pi.
 - Make sure you have entered the correct key. You can copy the key from your email and paste it into the license field.
 - Make sure you have the latest version of UAVcast-Pro installed. You can check the version number in the web interface.
@@ -27,7 +23,7 @@ No. UAVcast-Pro does not care if you use LTE, Wifi or Ethernet cable. As long as
 ### Not able to open web interface
 
 - Make sure you use latest raspberry image. Older version might be incompatible.
-- You can type `journalctl -u UAVcast-Web.service --since yesterday` in the rpi console to get more debug information.
+- You can type `journalctl -u uavcast-web.service --since yesterday` in the rpi console to get more debug information.
 
 ### Where can i download latest version?
 
@@ -40,10 +36,8 @@ No. UAVcast-Pro does not care if you use LTE, Wifi or Ethernet cable. As long as
 ### Installation validation fails.
 
 - Make sure you use a supported raspberry image as decribed in the [installation instructions](installation/#raspberry-pi-image).
-- For other installation issues, please navigate to `UAVcast-Pro/install` folder and copy the `Installation.log` to your computer.
-  Create a new discussion in our forum [discuss.uavmatrix.com](https://discuss.uavmatrix.com) and attach the file.
-
-![logfiles](img/install-logfile.jpg)
+- For other installation issues, please navigate to `/opt/uavcast-pro/logs` folder and copy the `uavcast_installation.log` to your computer.
+  Email the logfile to **support@uavmatrix.com**
 
 ### Im not able to receive video or telemetry
 
@@ -65,13 +59,10 @@ No. UAVcast-Pro does not care if you use LTE, Wifi or Ethernet cable. As long as
 
 ### Other Application issues.
 
-- If you experience any issues with UAVcast running on your Raspberry, please Navigate to the UAVcast page and
+- If you experience any issues with UAVcast running on your Raspberry, please Navigate to the UAVcast Settings page and
   press "Download Logfiles" button. This will download a zip file containing all logs related to UAVcast and its running components.
   Log content will only contain application data and not user data.
 
       Create a new discussion in our forum [discuss.uavmatrix.com](https://discuss.uavmatrix.com) and attach the zip file, or mail it to our support department support@uavmatrix.com
 
-      ![logfiles](img/logfiles-download.jpg)
-
-You can at any time contact us at **uavmatrix@uavmatrix.com** or chat privately on our Discord server [https://discord.gg/xwqMTXh](https://discord.gg/xwqMTXh) or use our forum section
-[https://discuss.uavmatrix.com](https://discuss.uavmatrix.com)
+You can at any time contact us at **support@uavmatrix.com** or chat privately on our Discord server [https://discord.gg/xwqMTXh](https://discord.gg/xwqMTXh)
