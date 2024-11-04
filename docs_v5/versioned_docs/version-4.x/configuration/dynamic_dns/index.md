@@ -7,7 +7,7 @@ tags: []
 
 !['DNS'](img/overview.jpg)
 
-:::Info
+:::info
     If you are connected using VPN, then DNS is not needed. VPN connections uses static IP address that wont change.
 :::
 
