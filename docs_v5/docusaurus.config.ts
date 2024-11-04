@@ -71,6 +71,11 @@ const config: Config = {
 
 	themeConfig: {
 		// Replace with your project's social card
+		colorMode: {
+			defaultMode: "dark",
+			respectPrefersColorScheme: false,
+			disableSwitch: false,
+		},
 		image: "img/docusaurus-social-card.jpg",
 		navbar: {
 			title: "UAVcast-Pro",
@@ -103,8 +108,8 @@ const config: Config = {
 					title: "Docs",
 					items: [
 						{
-							label: "Tutorial",
-							to: "/docs/intro",
+							label: "Quickstart Tutorial",
+							to: "/docs/5.x/quick-start",
 						},
 					],
 				},
