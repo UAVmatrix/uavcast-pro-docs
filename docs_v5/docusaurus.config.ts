@@ -102,34 +102,34 @@ const config: Config = {
 					title: "Community",
 					items: [
 						{
-							label: "Stack Overflow",
-							href: "https://stackoverflow.com/questions/tagged/docusaurus",
+							label: "Discussion Forum",
+							href: "https://discuss.uavmatrix.com/",
 						},
 						{
 							label: "Discord",
-							href: "https://discordapp.com/invite/docusaurus",
-						},
-						{
-							label: "Twitter",
-							href: "https://twitter.com/docusaurus",
+							href: "https://discord.gg/xwqMTXh",
 						},
 					],
 				},
 				{
 					title: "More",
 					items: [
+						// {
+						// 	label: "Blog",
+						// 	to: "/blog",
+						// },
 						{
-							label: "Blog",
-							to: "/blog",
+							label: "Store",
+							href: "https://uavmatrix.com/",
 						},
 						{
 							label: "GitHub",
-							href: "https://github.com/facebook/docusaurus",
+							href: "https://github.com/UAVmatrix/uavcast-pro-docs",
 						},
 					],
 				},
 			],
-			copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+			copyright: `Copyright © ${new Date().getFullYear()} uavmatrix.com`,
 		},
 		prism: {
 			theme: prismThemes.github,
