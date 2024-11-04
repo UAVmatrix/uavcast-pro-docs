@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# License Key
+# License Activation
 
 UAVcast-Pro requires an active license key to operate. Each purchase includes a unique license key that must be activated through the web interface.
 
