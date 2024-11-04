@@ -26,7 +26,7 @@ const HomepageHeader = () => {
 				</div>
 
 				<div className={styles.buttonContainer}>
-					<Link className={styles.buttonPrimary} to="/docs/introduction">
+					<Link className={styles.buttonPrimary} to="/docs/5.x/introduction">
 						Get Started
 					</Link>
 					{/* <Link className={styles.buttonSecondary} to="/demo">
