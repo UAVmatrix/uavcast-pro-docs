@@ -1,33 +1,47 @@
 ---
 sidebar_position: 2
 ---
-# License key
 
-All users who have bought UAVcast-Pro will be issued a license key. This key needs to be activated in the UAVacst-Pro web interface before usage.
-There are several properties attached to each key.
+# License Key
 
+UAVcast-Pro requires an active license key to operate. Each purchase includes a unique license key that must be activated through the web interface.
 
+## License Activation
 
-:::info
-Raspberry pi needs to be connected to internet for register your license key. 
+1. Access the UAVcast-Pro web interface
+2. Navigate to the License section
+3. Enter your license key
+4. Click Activate
+
+:::info Internet Requirement
+Your Raspberry Pi must have an active internet connection during the license activation process.
 :::
 
-!['License'](img/license.jpg)
+## License Properties
 
+### Status Indicators
+- **Activated**: License is valid and properly registered on the current device
+- **Expired**: License has reached its expiration date and is no longer valid
 
+### Device Management
 
-#### License Status
+#### Device Limits
+- **Allowed Devices**: Maximum number of devices that can use this license simultaneously
+- **Remaining Slots**: Number of additional devices that can still be activated (Allowed Devices - Currently Registered Devices)
 
-* `Activated` => License key has been successfully registered and activated on the current device.
-* `Expired` => Current date > Expired date.  
+#### Managing Registered Devices
+- View all currently registered devices
+- Each device shows an "Unregister" option
+- Unregistering a device frees up a license slot for use on another Raspberry Pi
 
+:::tip Unregistering Devices
+To free up a license slot:
+1. Locate the device in the registered devices list
+2. Click the "Unregister" link next to the device name
+3. Confirm the unregistration
+:::
 
-#### Allowed Devices
-This value refers to the maximum allowed devices (RPI) registered simultaneously.
-
-#### Remainging Devices
-Remaining activation slots. (Allowed devices - Registered devices).
-
-#### Unregister devices
-Each registered devices will have a `unregister` link after its name. 
-You can delete or unregister any device you want to free up available slots.
+:::note
+- Unregistering a device immediately frees up the license slot
+- You can re-register an unregistered device at any time if slots are available
+:::

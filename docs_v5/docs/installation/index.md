@@ -8,40 +8,60 @@ sidebar_position: 2
 
 # Installation
 
-Start with a fresh Raspberry image.
-Confirmed working images:
-
-:::warning Important
-
-    Latest PI OS will not work with UAVcast-Pro 4.x versions. Please use the images below.
+:::warning Critical Requirements
+UAVcast-Pro v5 **ONLY** supports the latest Raspberry Pi OS 64-bit operating system. Earlier versions and 32-bit systems are NOT compatible.
 :::
 
-- [Raspberry Pi 32bit OS Lite](https://downloads.raspberrypi.org/raspios_lite_armhf/images/raspios_lite_armhf-2021-05-28/2021-05-07-raspios-buster-armhf-lite.zip)
-- [Raspberry Pi 32bit OS With Desktop](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/2021-05-07-raspios-buster-armhf.zip)
+## Operating System Requirements
 
-See the [https://www.raspberrypi.org/software/operating-systems/](https://www.raspberrypi.org/software/operating-systems/) for installation instruction. 
-Continue to install UAVcast-Pro as described in the [installation](/installation/#uavcast-pro-installation) section
+You must use:
+- Latest Raspberry Pi OS (64-bit) 
+- Download from: [Raspberry Pi OS Downloads](https://www.raspberrypi.com/software/operating-systems/)
 
-## UAVcast-Pro installation
+## Operating System Installation
 
-You can install the latest version of UAVcast-Pro by pasting this command into you RPI shell.
+1. Download the latest Raspberry Pi OS 64-bit from the official website
+2. Install using Raspberry Pi Imager (recommended) or your preferred imaging tool
+3. Complete the initial OS setup and ensure your system is up to date:
+
+```bash
+sudo apt update
+sudo apt upgrade
+```
+
+## UAVcast-Pro Installation
+
+Install UAVcast-Pro v5 by running this command in your terminal:
 
 ```bash
 curl -s http://install.uavmatrix.com | sudo bash
 ```
 
-After the installation there will be validating proccess to verify that all component has been loaded successfully.
-You can now access the webinterface using the RPI ip or Host name address in your browser. [http://raspberrypi/](http://raspberrypi/)
+### Post-Installation Steps
 
-##Navio Flight Controller
-For Navio+ and Navio2 boards, please use the installation procedure below:
+1. The installer will validate all components
+2. Access the web interface using:
+   - Your Raspberry Pi's IP address: `http://<your-pi-ip>/`
+   - Default hostname: [http://raspberrypi.local](http://raspberrypi/)
 
-- Install the latest image provided by [https://emlid.com](https://emlid.com).
-- Connect to your RPI with SSH and run the **emlidtool** as described in the emlid documentation.[https://docs.emlid.com/navio2/common/ardupilot/installation-and-running/#choosing-a-vehicle-version-and-board](https://docs.emlid.com/navio2/common/ardupilot/installation-and-running/#choosing-a-vehicle-version-and-board)
-- Select your vehicle, version and frame.
-- **On Boot** Select disable
-- **Ardupilot** Select stop
-- **Apply** and exit.
-- Install UAVcast-Pro as described [uavcast-pro-installation](#uavcast-pro-installation)
+### System Requirements
 
-  !['emlidtool Example'](img/emlidtool.jpg)
+- Raspberry Pi Zero 2w, 3, 4, 5, or newer
+- 64-bit capable Raspberry Pi hardware
+- Active internet connection during installation
+
+### Upgrading from Previous Versions
+
+:::danger Important Database Changes
+UAVcast-Pro v5 uses a completely new database structure. Data and configurations from version 4.x cannot be imported or used in version 5.
+:::
+
+If you're using UAVcast-Pro 4.x:
+1. Document your current settings (take screenshots or notes)
+2. Install the latest Raspberry Pi OS 64-bit
+3. Perform a fresh installation of UAVcast-Pro v5
+4. Manually reconfigure your settings in v5
+
+For additional support, visit our [community forum](https://discuss.uavmatrix.com) or [contact support](https://uavmatrix.com/contact-us).
+```
+

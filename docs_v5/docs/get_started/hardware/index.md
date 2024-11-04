@@ -7,93 +7,87 @@ sidebar_position: 4
 ---
 
 <!-- prettier-ignore -->
-# Hardware
+# Hardware Requirements
 
-## TL;DR
-To get started, you'll need a Raspberry Pi and a MAVLink flight controller. For local testing within your home network, a WiFi or Ethernet connection is sufficient - no modem is required. However, once you're ready for actual flight operations, you'll need a modem. We recommend using a HiLink (Plug and Play) type modem for the best experience.
+## Quick Overview
+UAVcast-Pro v5 requires:
+- 64-bit capable Raspberry Pi
+- MAVLink flight controller
+- Internet connection (Wi-Fi/Ethernet for testing, Modem for flight operations)
 
-For manual drone control during flight, we recommend connecting a USB gamepad to Mission Planner using its joystick integration feature.
-
-See additional details below.
+For manual flight control, we recommend using Mission Planner with USB gamepad integration.
 
 ## Flight Controllers
 
-All MAVLink-based flight controller boards are supported, including both PX4 and Ardupilot systems.
-
-The Ardupilot project continuously adds support for new flight controllers. You can find the complete list of supported flight controllers at [http://ardupilot.org/plane/docs/common-autopilots.html](http://ardupilot.org/plane/docs/common-autopilots.html).
-
-Here are some of our supported boards:
-
-- Pixhawk
-- APMx
+UAVcast-Pro supports all MAVLink-based flight controllers, including:
+- Pixhawk series
 - Cube
-- Matek
-- Navio+
-- Navio2
+- Matek systems
+- Other PX4 and Ardupilot compatible boards
 
+Find supported Ardupilot controllers at: [Ardupilot Autopilot List](http://ardupilot.org/plane/docs/common-autopilots.html)
 
 ### Connection Methods
-There is two ways to connect the FC to Raspberry PI, either using USB (preferred) or GPIO
-There is no diffrence in performance but the USB connection is easier and more elegant.
 
-#### USB
+Connect your flight controller using either:
 
-- Connect a micro USB cable between the FC and RPI as shown in the picture bellow.
+#### 1. USB Connection (Recommended)
+- Simply connect FC to Raspberry Pi using USB
+- Provides cleaner setup with less wiring
 
-:::warning USB cross-sectional
-
-    Use a USB cable with large cross-sectional area to minimize the voltage drop supplied to Fligth Controller.
+:::warning USB Cable Quality
+Use high-quality USB cables with adequate thickness to ensure stable power delivery to the Flight Controller.
 :::
 
 !['Usb'](img/rpi-usb.jpg)
 
-#### GPIO
+#### 2. GPIO Connection
+- Requires proper connection of TX, RX, and Ground
+- More complex setup but equally performant
 
-- Its very imporant to connect tx, rx and ground if you want to use GPIO, and not only tx & rx.
-
-:::warning
-    RPI cannot be powered by FC telem port.  [Make sure you use proper power source for rpi.](/hardware/#power-supply)
+:::warning Power Requirements
+Flight Controller telemetry ports cannot power the Raspberry Pi. See [Power Supply](#power-supply) section for proper power setup.
 :::
 
 !['Gpio'](img/rpi.jpg)
 
-## Supported Raspberry Pi boards
+## Supported Raspberry Pi Models
 
-- Pi0w
-- PI 2
-- Pi 3
-- Pi 4
+UAVcast-Pro v5 supports 64-bit capable Raspberry Pi models:
+- Raspberry Pi Zero 2 W
+- Raspberry Pi 3
+- Raspberry Pi 4
+- Raspberry Pi 5
 
-:::warning Pi0w
-
-    Pi0w runs fine with UAVcast-Pro, however the CPU usage will be between 50 > 100%.
-    Some functionalities has been disabled to reduce the CPU load!
+:::tip Recommended
+Raspberry Pi 4 with 4GB+ RAM is recommended for optimal performance, especially when running additional software alongside UAVcast-Pro.
 :::
 
-If you intend to use other programs with UAVcast-Pro then Pi3 or 4 version is recommended.
+## Power Supply Requirements
 
-##Power supply
-It's important that Raspberry Pi gets voltage between **4.8 and 5.3v**. If you use LTE modem, make sure you are not overloading the USB port per. design.
+Proper power delivery is critical for stable operation.
 
-Read the modem specification / datasheet and make sure the modem is not consuming more than MAX output defined in the table below.
+### Voltage Requirements
+- Input voltage: 4.8V to 5.3V
+- Must account for all connected devices (modem, camera, etc.)
 
-:::info USB Camera
+### Power Considerations
+1. Check your modem's power consumption against Raspberry Pi USB specifications
+2. Include USB camera power requirements if used
+3. Use proper power supply matching your setup's total power needs
 
-    If you use USB camera, make sure you include the camera consumption as well.
-:::
+Reference: [Raspberry Pi Power Specifications](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#typical-power-requirements)
 
-[https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md](https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md)
+!['pi power table'](img/pi-power.jpg)
 
-- **Limited by PSU** referes the value from the (Recommended PSU current capacity). Make sure you use a proper power supply that are able to deliver above this value.
+### External Power Setup
+For high-power setups (modem + camera), consider external power:
 
-  !['pi power table'](img/pi-power.jpg)
-
-If you need to add external power, please see instructions bellow.
-This is one solution, where we attach the power directly to the USB +/- pins, and one wire to the RPI fuse. The latter will make sure RPI is booting automatically when powered.
+1. Connect power directly to USB +/- pins
+2. Connect to RPI fuse for auto-boot capability
 
 :::note
-
-    Make sure you connect the modem to correct USB port where external power supply is connected.
+When using external power, connect high-power devices (modems) to the USB port with external power connection.
 :::
 
 !['raspberry power supply'](img/raspberry-power.png)
@@ -103,10 +97,9 @@ This is one solution, where we attach the power directly to the USB +/- pins, an
 UAVcast uses modem manager and network manager to control the LTE connection.
 Check out this page to find supported modems, [Supported modem](https://www.freedesktop.org/wiki/Software/ModemManager/SupportedDevices/)
 
-###Recommended Huawei HiLink modems by Countries
+### Recommended Huawei HiLink modems by Countries
 
 :::note
-
     Please send a mail to **support@uavmatrix.com** or open a new PR on [github](https://github.com/UAVmatrix/uavcast-pro-docs) if you know of other working Huawei modems in your country!
 :::
 
@@ -166,24 +159,34 @@ Check out this page to find supported modems, [Supported modem](https://www.free
     - Cyan, solid: The USB-Modem is connected to a 4G network.
 :::
 
-**HiLink or Stick modems**
+## HiLink vs. Stick Modems
 
-Some Huawei USB modems have a mode called "HiLink" which provides for "driverless" installation on Windows, Macintosh and Linux computers. These modems usually have the HiLink logo marked on the outside, or have letter H in the model name. **Example E3372H**. All modems in the table above is HiLink!
+### HiLink Modems
+HiLink is plug-and-play modem technology, offering driverless installation across operating systems.
 
-Stick modems is a regular modem where you need to send AT commands to establish a cell connection. UAVcast has all the connection stuff you need integrate a stick modem.
+**Identification:**
+- Look for "HiLink" logo on the modem
+- Model number includes "H" (e.g., E3372H)
+- Listed in our [compatibility table](#compatibility-table)
 
-**HiLink Advantages**
+#### Advantages
+✓ Instant plug-and-play operation  
+✓ Fast connection establishment  
+✓ Web-based interface for settings  
+✓ Simple integration with Raspberry Pi  
 
-The big advantages being that the connection time is very fast and hassle free.
-A HiLink modem uses a web browser to access the modem settings.
+### Stick Modems
+Traditional USB modems requiring AT commands for cellular connection setup.
 
-It acts more or less like a plug and play modem, you don't need to configure any parameters in UAVcast-Pro or Raspberry Pi.
+#### Key Features
+- Full configuration control
+- Native port forwarding support
+- Requires initial setup in UAVcast-Pro
+- Integrated AT command support in UAVcast-Pro
 
-**HiLink Disadvantages**
-
-Hilink modems does not support Port Forwarding out of the box. You certainly almost every-time need to flash new firmware to access the Port Forwarding menu in the modem web interface.
-
-However, if you use VPN connection then HiLink is a perfect choice as VPN does't not require any port forwarding.
+:::note Configuration
+UAVcast-Pro includes all necessary tools and commands for stick modem setup - no manual AT command knowledge required.
+:::
 
 ## Camera
 
@@ -192,24 +195,9 @@ There are several cameras that works with UAVcast-Pro,
 - PiCam
 - Logitech C920
 - Logitech C615
+- Many Other USB cameras will probably work.
 - GoPro. ([Can be used with HDMI to CSI converter](https://www.ebay.com/itm/1-Port-For-Raspberry-Pi-HDMI-To-CSI-2-Bridge-Adapter-Module-UP-To-1080p-25fps-/233297430162)). This allows users to record and view live stream simultaneously.
 
-  !['UAVcast-Pro and GoPro'](img/gopro.jpg)
-
-- Supported GoPro cams:
-
-  - HERO7 Black
-  - HERO (2018)
-  - HERO6 Black
-  - HERO5 Black
-  - HERO4 (Black and Silver Editions)
-  - HERO3+ (Black and Silver Editions)
-  - HERO3 (White, Silver, and Black Editions)
-  - HERO2)
-    - GoPro example video from one of our users.
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/4CNK3cBvUtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-- Other cameras may also work. search for (camera type) and gStreamer.
 
 <!-- PiCam is a perfect camera for this type application and provides 1080p video.
 If you want to use another camera not listed, then make sure it has Hardware Encoder integrated to get the best quality. -->

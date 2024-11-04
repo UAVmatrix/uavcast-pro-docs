@@ -82,7 +82,7 @@ Read the modem specification / datasheet and make sure the modem is not consumin
     If you use USB camera, make sure you include the camera consumption as well.
 :::
 
-[https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md](https://www.raspberrypi.org/documentation/hardware/raspberrypi/power/README.md)
+[https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#typical-power-requirements](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html#typical-power-requirements)
 
 - **Limited by PSU** referes the value from the (Recommended PSU current capacity). Make sure you use a proper power supply that are able to deliver above this value.
 
