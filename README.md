@@ -1,5 +1,7 @@
 ## Contributing
 
+Docs now using Docusaurus 3, a modern static website generator. You can contribute to the docs by following the steps below:
+
 - Fork the uavcast-pro-docs to your git account.
 - Clone your respository `git clone https://github.com/your_account_name/uavcast-pro-docs.git`
 - create a new branch for your changes `git checkout -b name_of_your_new_branch`
