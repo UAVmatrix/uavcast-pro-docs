@@ -16,12 +16,10 @@ const HomepageHeader = () => {
 
 				<div className={styles.titleContainer}>
 					<h1 className={styles.heroTitle}>
-						Build <span className={styles.highlight}>optimized</span> drone
-						controls
+						Beyond Line of <span className={styles.highlight}>sight</span>
 					</h1>
 					<h2 className={styles.heroSubtitle}>
-						<span className={styles.highlight}>quickly</span>, focus on your{" "}
-						<span className={styles.highlight}>flight</span>
+						Always in <span className={styles.highlight}>Control</span>
 					</h2>
 				</div>
 
