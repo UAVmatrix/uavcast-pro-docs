@@ -31,7 +31,7 @@ sudo apt upgrade
 
 ## UAVcast-Pro Installation
 
-Install UAVcast-Pro v5 by running this command in your terminal:
+Install UAVcast-Pro by running this command in your terminal:
 
 ```bash
 curl -s http://install.uavmatrix.com | sudo bash
