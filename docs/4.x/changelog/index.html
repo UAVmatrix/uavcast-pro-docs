@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-4.x docs-doc-page docs-doc-id-changelog/index" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.6.0">
+<title data-rh="true">Changelog | UAVcast-Pro Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://docs.uavmatrix.com/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://docs.uavmatrix.com/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://docs.uavmatrix.com/docs/4.x/changelog"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="4.x"><meta data-rh="true" name="docusaurus_tag" content="docs-default-4.x"><meta data-rh="true" name="docsearch:version" content="4.x"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-4.x"><meta data-rh="true" property="og:title" content="Changelog | UAVcast-Pro Documentation"><meta data-rh="true" name="description" content="v4.2.9"><meta data-rh="true" property="og:description" content="v4.2.9"><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://docs.uavmatrix.com/docs/4.x/changelog"><link data-rh="true" rel="alternate" href="https://docs.uavmatrix.com/docs/4.x/changelog" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.uavmatrix.com/docs/4.x/changelog" hreflang="x-default"><link rel="stylesheet" href="/assets/css/styles.d994e2ad.css">
+<script src="/assets/js/runtime~main.99b9084f.js" defer="defer"></script>
+<script src="/assets/js/main.e9eacfa6.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();t(null!==e?e:"dark")}(),function(){try{const n=new URLSearchParams(window.location.search).entries();for(var[t,e]of n)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="navbar navbar--fixed-top"><div class="navbar__inner"><div class="navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/uavcast_logo.png" alt="UAVcast Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/uavcast_logo.png" alt="UAVcast Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">UAVcast-Pro</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/4.x/introduction">Docs</a><div class="navbar__item dropdown dropdown--hoverable"><a aria-current="page" class="navbar__link active" aria-haspopup="true" aria-expanded="false" role="button" href="/docs/4.x/changelog">4.x</a><ul class="dropdown__menu"><li><a class="dropdown__link" href="/docs/5.x/changelog">5.x</a></li><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/docs/4.x/changelog">4.x</a></li></ul></div></div><div class="navbar__items navbar__items--right"><a href="https://github.com/UAVmatrix/uavcast-pro-docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="Switch between dark and light mode (currently dark mode)" aria-label="Switch between dark and light mode (currently dark mode)" aria-live="polite" aria-pressed="true"><svg viewBox="0 0 24 24" width="24" height="24" class="lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" class="darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/4.x/introduction">Introduction</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/4.x/installation">Installation</a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/4.x/category/get-started">Get Started</a><button aria-label="Expand sidebar category &#x27;Get Started&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="menu__link menu__link--sublist" href="/docs/4.x/category/configuration">Configuration</a><button aria-label="Expand sidebar category &#x27;Configuration&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/4.x/frequently-asked-questions">Frequently Asked Questions</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/4.x/configuration-developers">Developers</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/4.x/configuration-libraries">Libraries</a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/docs/4.x/changelog">Changelog</a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="theme-doc-version-banner alert alert--warning margin-bottom--md" role="alert"><div>This is documentation for <!-- -->UAVcast-Pro Documentation<!-- --> <b>4.x</b>, which is no longer actively maintained.</div><div class="margin-top--md">For up-to-date documentation, see the <b><a href="/docs/5.x/changelog">latest version</a></b> (<!-- -->5.x<!-- -->).</div></div><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs" itemscope="" itemtype="https://schema.org/BreadcrumbList"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li itemscope="" itemprop="itemListElement" itemtype="https://schema.org/ListItem" class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link" itemprop="name">Changelog</span><meta itemprop="position" content="1"></li></ul></nav><span class="theme-doc-version-badge badge badge--secondary">Version: 4.x</span><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Changelog</h1></header><h2 class="anchor anchorWithStickyNavbar_LWe7" id="v429">v4.2.9<a href="#v429" class="hash-link" aria-label="Direct link to v4.2.9" title="Direct link to v4.2.9">​</a></h2>
+<ul>
+<li>Updated uavcast-pro expire date.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v428">v4.2.8<a href="#v428" class="hash-link" aria-label="Direct link to v4.2.8" title="Direct link to v4.2.8">​</a></h2>
+<ul>
+<li>Improved license registration process.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v427">v4.2.7<a href="#v427" class="hash-link" aria-label="Direct link to v4.2.7" title="Direct link to v4.2.7">​</a></h2>
+<ul>
+<li>Updated uavcast-pro expire date.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v426">v4.2.6<a href="#v426" class="hash-link" aria-label="Direct link to v4.2.6" title="Direct link to v4.2.6">​</a></h2>
+<ul>
+<li>Updated web dependencies.</li>
+<li>(Improvement) Embedded app update functionality.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v425">v4.2.5<a href="#v425" class="hash-link" aria-label="Direct link to v4.2.5" title="Direct link to v4.2.5">​</a></h2>
+<ul>
+<li>(Improvement) Improved tooltip information in ground controller page.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v4241">v4.2.41<a href="#v4241" class="hash-link" aria-label="Direct link to v4.2.41" title="Direct link to v4.2.41">​</a></h2>
+<ul>
+<li>(Bug Fix) Network Stats</li>
+<li>(Improvement) speedtest</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v423">v4.2.3<a href="#v423" class="hash-link" aria-label="Direct link to v4.2.3" title="Direct link to v4.2.3">​</a></h2>
+<ul>
+<li>(Bug Fix) Fixed custom camera resolution.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v422">v4.2.2<a href="#v422" class="hash-link" aria-label="Direct link to v4.2.2" title="Direct link to v4.2.2">​</a></h2>
+<ul>
+<li>(Bug Fix) Autostart would not work in some cases.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v421">v4.2.1<a href="#v421" class="hash-link" aria-label="Direct link to v4.2.1" title="Direct link to v4.2.1">​</a></h2>
+<ul>
+<li>(Bug Fix) Camera feed in cockpit view.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v420">v4.2.0<a href="#v420" class="hash-link" aria-label="Direct link to v4.2.0" title="Direct link to v4.2.0">​</a></h2>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>warning</div><div class="admonitionContent_BuS1"><p>If you are updating from an earlier version, you would need to reset the database from the settings menu. There will be an notification warning on this subject within the application. Configuration data will be lost, not user data such as license key.</p></div></div>
+<ul>
+<li>(Improvement) Fixed issues with USB camera. &quot;internal data stream error&quot;.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v414">v4.1.4<a href="#v414" class="hash-link" aria-label="Direct link to v4.1.4" title="Direct link to v4.1.4">​</a></h2>
+<ul>
+<li>(NEW) Added option to add Zerotier ID from the VPN menu. We have made an agreement with Zerotier Engineering team and sign up for a professional plan allowing us to implement their services in UAVcast-Pro.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v413">v4.1.3<a href="#v413" class="hash-link" aria-label="Direct link to v4.1.3" title="Direct link to v4.1.3">​</a></h2>
+<ul>
+<li>(Bug Fix) Permission issue with telemetry binaries.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v412">v4.1.2<a href="#v412" class="hash-link" aria-label="Direct link to v4.1.2" title="Direct link to v4.1.2">​</a></h2>
+<p>22.12.2020</p>
+<ul>
+<li>(NEW) Added idicator if picamera is properly connected or not in camera page.</li>
+<li>(Improvement) Added more details to the license expire notification.</li>
+<li>(Improvement) Added more information to Tips sections.</li>
+<li>(Bug Fix) Fixed a bug in License Expire notification, month was of by 1.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v411">v4.1.1<a href="#v411" class="hash-link" aria-label="Direct link to v4.1.1" title="Direct link to v4.1.1">​</a></h2>
+<p>26.09.2020</p>
+<ul>
+<li>(Bug Fix) Updated NoIp dyndns installer.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v410">v4.1.0<a href="#v410" class="hash-link" aria-label="Direct link to v4.1.0" title="Direct link to v4.1.0">​</a></h2>
+<p>26.08.2020</p>
+<ul>
+<li>(Improvement) Fixed compatibility issue with latest Rasbian version published 20.8.2020</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v409">v4.0.9<a href="#v409" class="hash-link" aria-label="Direct link to v4.0.9" title="Direct link to v4.0.9">​</a></h2>
+<ul>
+<li>(Improvement) Dynamic DNS improved.</li>
+<li>(Improvement) Cleaned and removed unused code.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v408">v4.0.8<a href="#v408" class="hash-link" aria-label="Direct link to v4.0.8" title="Direct link to v4.0.8">​</a></h2>
+<ul>
+<li>(Improvement) Added dev/ttyUSB0 and dev/ttyUSB1 option for the 2nd GPS (Navio)</li>
+<li>(Improvement) Cleaned and removed unused code.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v407">v4.0.7<a href="#v407" class="hash-link" aria-label="Direct link to v4.0.7" title="Direct link to v4.0.7">​</a></h2>
+<p>22.06.2020</p>
+<ul>
+<li>(NEW) Added quadcopter icon on cockpit map when any multirotor frame are selected.</li>
+<li>(Improvement) Added UAVcast Dashboard as homepage.</li>
+<li>(Buf Fix) Fixed an issue when saving OpenVPN config file.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v4061">v4.0.61<a href="#v4061" class="hash-link" aria-label="Direct link to v4.0.61" title="Direct link to v4.0.61">​</a></h2>
+<p>4.06.2020</p>
+<ul>
+<li>(New) Added option to select Mavlink version in Flight Controller page. If you connect FC with USB cable, then most likely you need to select Mavlink 2, for GPIO select version 1.</li>
+<li>(New) Added Auto Pan options to cockpit.</li>
+<li>(Improvement) Disable Cockpit function.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v405">v4.0.5<a href="#v405" class="hash-link" aria-label="Direct link to v4.0.5" title="Direct link to v4.0.5">​</a></h2>
+<p>1.06.2020</p>
+<ul>
+<li>(Bug Fix) Fixed Mavlink core when using Stretch image.</li>
+<li>(Bug Fix) Fixed UAVcast status in Dashboard.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v404">v4.0.4<a href="#v404" class="hash-link" aria-label="Direct link to v4.0.4" title="Direct link to v4.0.4">​</a></h2>
+<p>30.05.2020</p>
+<ul>
+<li>(Improvement) Splittet application settings into several card windows, makes better overview</li>
+<li>(Improvement) General code improvement for license registration.</li>
+<li>(Improvement) Changed the main mavlink router core for better functionalities.</li>
+<li>(Removed) Tools =&gt; UAVcast page. These functions are available in application page.</li>
+<li>(Bug Fix) Fixed bug in application page when register new license key</li>
+<li>(Bug Fix) Fixed bug in application page when unregister a rpi slot.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v4031">v4.0.31<a href="#v4031" class="hash-link" aria-label="Direct link to v4.0.31" title="Direct link to v4.0.31">​</a></h2>
+<p>29.05.2020</p>
+<ul>
+<li>(Bug Fix) Pre-Flight button not accessable. Should be enabled when disarmed.</li>
+<li>(Bug Fix) Disabled &quot;Validate mavlink&quot; button when telem is active.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v403">v4.0.3<a href="#v403" class="hash-link" aria-label="Direct link to v4.0.3" title="Direct link to v4.0.3">​</a></h2>
+<p>29.05.2020</p>
+<ul>
+<li>(Improvement) Green LED`s is not set before we actually have HEARTBEATS from the Flight Controller.</li>
+<li>(Improvement) Improved Navio board telemetry functionalities to match the latest from Emlid. Now using systemd for start and stop.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v401">v4.0.1<a href="#v401" class="hash-link" aria-label="Direct link to v4.0.1" title="Direct link to v4.0.1">​</a></h2>
+<p>27.05.2020</p>
+<p><strong>You have to perform a REBOOT after this update!!</strong></p>
+<ul>
+<li>
+<p>(NEW) Added mavlink interaction for UAVcast-Pro.</p>
+</li>
+<li>
+<p>(NEW) New page &quot;Cockpit&quot; that displays map with vehicle position.</p>
+</li>
+<li>
+<p>(NEW) Option for selecting 1Hz, 2Hz, 3Hz, 4Hz, 5Hz update interval betweeen server and UI.</p>
+</li>
+<li>
+<p>(NEW) Camera live view added to the map. Also possible to drag the window and resize.</p>
+</li>
+<li>
+<p>(NEW) Added &quot;get mission&quot; for display waypoints created.</p>
+</li>
+<li>
+<p>(NEW) Added &quot;remove mission&quot; for clear mission polyline from map.</p>
+</li>
+<li>
+<p>(NEW) Added RTL and LOITER buttons.</p>
+</li>
+<li>
+<p>(NEW) Map will display LINK, FC, GPS, POWER values sent from the vehicle.</p>
+</li>
+<li>
+<p>(NEW) Added option to select GCS failsafe.</p>
+</li>
+<li>
+<p>(NEW) Added download logfiles button to appliation page.</p>
+</li>
+<li>
+<p>(Improvement) Green LED`s is not set before we actually have HEARTBEATS from the Flight Controller.</p>
+</li>
+<li>
+<p>(Improvement) Improved application update functionalities.</p>
+</li>
+<li>
+<p>(Improvement) Alot of general code improvements.</p>
+</li>
+<li>
+<p>(Bug Fix) Flight Controller internal address.</p>
+</li>
+<li>
+<p>(Removed) videostream page. (moved to map)</p>
+</li>
+<li>
+<p>(Benchmarking) Tested with Ardupilot on Pi0w</p>
+</li>
+<li>
+<p>(Benchmarking) Tested with Ardupilot and Navio 2 on Rpi version 3</p>
+</li>
+<li>
+<p>(Benchmarking) Tested with Ardupilot on Rpi version 4</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v330">v3.3.0<a href="#v330" class="hash-link" aria-label="Direct link to v3.3.0" title="Direct link to v3.3.0">​</a></h2>
+<p>27.05.2020</p>
+<ul>
+<li>(Improvement) Fixed bug with database connections not closing properly.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v329">v3.2.9<a href="#v329" class="hash-link" aria-label="Direct link to v3.2.9" title="Direct link to v3.2.9">​</a></h2>
+<p>19.05.2020</p>
+<ul>
+<li>(NEW) Added notification 30 days before license expire.</li>
+<li>(NEW) Added Hostname and Registration date to all registered devices in Application page. <a href="https://gitlab.com/Sinamics/UAVcast-Pro/-/issues/21" target="_blank" rel="noopener noreferrer">Issue 21</a></li>
+<li>(Improvement) Fixed several issues with Modeminformation.</li>
+<li>(Improvement) Fixed a rare issue with crypted license data in database. <a href="https://gitlab.com/Sinamics/UAVcast-Pro/-/issues/20" target="_blank" rel="noopener noreferrer">Issue 20</a></li>
+<li>(Improvement) Added more warnings if <strong>Internal Address</strong> in Flight Controller page are missing.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v328">v3.2.8<a href="#v328" class="hash-link" aria-label="Direct link to v3.2.8" title="Direct link to v3.2.8">​</a></h2>
+<p>15.04.2020</p>
+<ul>
+<li>(NEW) Users can now backup and restore configuration from Application page. This will not include user license ect, only the configuration.</li>
+<li>(Improvement) Added more translations to several page. <a href="https://github.com/UAVmatrix/uavcast-pro-translations" target="_blank" rel="noopener noreferrer">https://github.com/UAVmatrix/uavcast-pro-translations</a></li>
+<li>(Improvement) Added database configuration when downloading logfiles. This will help during troubleshooting.</li>
+<li>(Improvement) Fixed and issue with REST API.</li>
+<li>(Improvement) Fixed and issue with telemetry when upgrading from 3.2.6 =&gt; 3.2.7</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v327">v3.2.7<a href="#v327" class="hash-link" aria-label="Direct link to v3.2.7" title="Direct link to v3.2.7">​</a></h2>
+<p>13.04.2020</p>
+<ul>
+<li>(NEW) Added option to set custom internal address for RPI communication with FC. <a href="https://github.com/UAVmatrix/uavcast-pro-translations" target="_blank" rel="noopener noreferrer">https://github.com/UAVmatrix/uavcast-pro-translations</a></li>
+<li>(Improvement) Added more pages to translation files.</li>
+<li>(Improvement) Merged translation PR #8 <a href="https://github.com/UAVmatrix/uavcast-pro-translations/pull/8" target="_blank" rel="noopener noreferrer">https://github.com/UAVmatrix/uavcast-pro-translations/pull/8</a>.</li>
+<li>(Improvement) Added online check / warning when starting UAVcast-Pro installation.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v326">v3.2.6<a href="#v326" class="hash-link" aria-label="Direct link to v3.2.6" title="Direct link to v3.2.6">​</a></h2>
+<p>15.12.2019</p>
+<ul>
+<li>(Improvement) Installation validator.</li>
+<li>(Improvement) Fixed an bug with &quot;check for new version&quot; function.</li>
+<li>(Improvement) Fixed an issue when changing IP from Network page.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v325">v3.2.5<a href="#v325" class="hash-link" aria-label="Direct link to v3.2.5" title="Direct link to v3.2.5">​</a></h2>
+<p>24.11.2019</p>
+<ul>
+<li>(NEW) Added option to search and connect WiFi networks.</li>
+<li>(Improvement) Changed max video resolution from 24fps to 30fps</li>
+<li>(REMOVED) Some VPN functionalities has been removed due to license conflict.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v3241">v3.2.41<a href="#v3241" class="hash-link" aria-label="Direct link to v3.2.41" title="Direct link to v3.2.41">​</a></h2>
+<p>06.10.2019</p>
+<ul>
+<li>(NEW) Added button in application page for deleting database values. This will only delete application configurations and not license or user data. In some cases where users are updateing from a much older application version, this has to be performed.</li>
+<li>(Improvement) Added warning if mismatch in database structure and user needs to perform a reset / erase.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v324">v3.2.4<a href="#v324" class="hash-link" aria-label="Direct link to v3.2.4" title="Direct link to v3.2.4">​</a></h2>
+<p>30.09.2019</p>
+<ul>
+<li>(NEW) Added new sub page <strong>Network</strong> to Raspberry page.</li>
+<li>(NEW) Now possible to change Raspberry Hostname</li>
+<li>(NEW) Now possible to change IP address for various Network interfaces within the application</li>
+<li>(NEW) Now possible to disable wifi adapter temporarily. (Will start during next boot)</li>
+<li>(NEW) Now possible to select default network adapter to reach the outer world (www), usefull when testing modem lateancy without disable WiFi ect.</li>
+<li>(NEW) Added modal notification when new app version is available.</li>
+<li>(Improvement) Added spinner when fetching license details.</li>
+<li>(Improvement) Improved application load time.</li>
+<li>(Improvement) Fixed bug with gstreamer custom pipeline.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v323">v3.2.3<a href="#v323" class="hash-link" aria-label="Direct link to v3.2.3" title="Direct link to v3.2.3">​</a></h2>
+<p>24.09.2019</p>
+<ul>
+<li>(NEW) Added Mavlink validation test. Users can now test if RPI has proper connection with the Flight Controller within the application.</li>
+<li>(NEW) Each Camera type has its own configuration. Example, if user changes PiCam resolution, C920 or any other cam will not be affected.</li>
+<li>(NEW) Added Default values to each camera type. Added button for &quot;Reset to default values&quot;</li>
+<li>(NEW) Added option to delete logfile content.</li>
+<li>(Improvement) LED and status idicators.</li>
+<li>(Improvement) Generall application styles, text and phrases.</li>
+<li>(Improvement) VPN and validation response.</li>
+<li>(Improvement) Modem information should now work for most huawei HiLink modems. (if default username and password is used for the dongle Web UI)</li>
+<li>(Improvement) Reduced UI and backend workload for Raspberry PiZero boards. Some low priority functionalities are disabled.</li>
+<li>(Improvement) Camera configuration parameters.</li>
+<li>(Improvement) In Browser HTTP live stream functionalities.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v322">v3.2.2<a href="#v322" class="hash-link" aria-label="Direct link to v3.2.2" title="Direct link to v3.2.2">​</a></h2>
+<p>09.09.2019</p>
+<ul>
+<li>Fixed several issues with USB camera.</li>
+<li>improved HTTP live streaming.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v321">v3.2.1<a href="#v321" class="hash-link" aria-label="Direct link to v3.2.1" title="Direct link to v3.2.1">​</a></h2>
+<p>08.09.2019</p>
+<ul>
+<li>Now possible to stream UDP video to multiple destinations for PiCam and Logitech USB camera.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v320">v3.2.0<a href="#v320" class="hash-link" aria-label="Direct link to v3.2.0" title="Direct link to v3.2.0">​</a></h2>
+<p>08.09.2019</p>
+<ul>
+<li>Added HTTP in-browser live camera viewer. This will allow multiple users to view video stream from the Vechicle.<br>
+<strong>NOTE!</strong> Only applicable for Pi Camera. Other cam may be added in the future.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v316">v3.1.6<a href="#v316" class="hash-link" aria-label="Direct link to v3.1.6" title="Direct link to v3.1.6">​</a></h2>
+<p>22.08.2019</p>
+<ul>
+<li>Fixed bug with USB modem information.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v315">v3.1.5<a href="#v315" class="hash-link" aria-label="Direct link to v3.1.5" title="Direct link to v3.1.5">​</a></h2>
+<p>19.08.2019</p>
+<ul>
+<li>Added USB modem information, signal idicator and connection status. Only applicable for Huawei HiLink modems.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v314">v3.1.4<a href="#v314" class="hash-link" aria-label="Direct link to v3.1.4" title="Direct link to v3.1.4">​</a></h2>
+<p>15.06.2019</p>
+<ul>
+<li>Added Italian language</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v3131">v3.1.31<a href="#v3131" class="hash-link" aria-label="Direct link to v3.1.31" title="Direct link to v3.1.31">​</a></h2>
+<p>21.05.2019</p>
+<ul>
+<li>Improved autostart. Added database validation before start casting.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v313">v3.1.3<a href="#v313" class="hash-link" aria-label="Direct link to v3.1.3" title="Direct link to v3.1.3">​</a></h2>
+<p>16.05.2019</p>
+<ul>
+<li>Improved modem LED function.</li>
+<li>Added more camera options such as Brightness, Contrast ++</li>
+<li>Added better overview of connected VPN networks.</li>
+<li>Added Dutch language translation.</li>
+<li>Fixed bug when Autostart with stick modem.</li>
+<li>Improved embedded updater functionality.</li>
+</ul>
+<p>NOTE! Due to the changes in embeded application updater, this update will hang at &quot;Innstallation in progress&quot;. The installation will be successfully when the &quot;RPI Disconnected&quot; shows up for 5sec, then just refresh the page manually. Innstallation will not be longer than maximum 10min.</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v312">v3.1.2<a href="#v312" class="hash-link" aria-label="Direct link to v3.1.2" title="Direct link to v3.1.2">​</a></h2>
+<p>02.04.2019</p>
+<ul>
+<li>Improved application performance. (PiZero)</li>
+<li>Improved read/write database performance (PiZero)</li>
+<li>Improved export log functionalities.</li>
+<li>Improved application status LED functionalities.</li>
+<li>Improved &quot;RPI Disconnected&quot; message.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v311">v3.1.1<a href="#v311" class="hash-link" aria-label="Direct link to v3.1.1" title="Direct link to v3.1.1">​</a></h2>
+<p>01.04.2019</p>
+<ul>
+<li>Improved export log functionalities. Download logfiles from UAVcast page are much improved and contains allot more information about the application state.</li>
+<li>Improved application status LED.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v310">v3.1.0<a href="#v310" class="hash-link" aria-label="Direct link to v3.1.0" title="Direct link to v3.1.0">​</a></h2>
+<p>30.03.2019</p>
+<ul>
+<li>
+<p>New page &quot;Raspberry LED&quot;. Now possible to control the onboard LED`s and attach them to various application states.</p>
+<p><strong>Note!</strong> If you are on PiZero you need to reboot after the update to have the LED working.</p>
+</li>
+<li>
+<p>Improved the sidebar menu. Active page is now highlighted.</p>
+</li>
+<li>
+<p>Fixed bug in Polish language</p>
+</li>
+<li>
+<p>Improved license verification check.</p>
+</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v308">v3.0.8<a href="#v308" class="hash-link" aria-label="Direct link to v3.0.8" title="Direct link to v3.0.8">​</a></h2>
+<p>23.03.2019</p>
+<ul>
+<li>Added Polish language</li>
+<li>Fixed an issue with Video LED in dashboard.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v307">v3.0.7<a href="#v307" class="hash-link" aria-label="Direct link to v3.0.7" title="Direct link to v3.0.7">​</a></h2>
+<p>17.03.2019</p>
+<ul>
+<li>Added Russian language</li>
+<li>Fixed typos</li>
+<li>Improved license key validation.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v306">v3.0.6<a href="#v306" class="hash-link" aria-label="Direct link to v3.0.6" title="Direct link to v3.0.6">​</a></h2>
+<p>15.03.2019</p>
+<ul>
+<li>Added REST API interface.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v3051">v3.0.51<a href="#v3051" class="hash-link" aria-label="Direct link to v3.0.51" title="Direct link to v3.0.51">​</a></h2>
+<p>14.03.2019</p>
+<ul>
+<li>Added Spanish language</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v305">v3.0.5<a href="#v305" class="hash-link" aria-label="Direct link to v3.0.5" title="Direct link to v3.0.5">​</a></h2>
+<p>13.03.2019</p>
+<ul>
+<li>Updated Turkish language</li>
+<li>Fixed an issue were database could be damaged on unintentional shutdown.</li>
+<li>Fixed typos.</li>
+<li>Improved logging functionality.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v3041">v3.0.41<a href="#v3041" class="hash-link" aria-label="Direct link to v3.0.41" title="Direct link to v3.0.41">​</a></h2>
+<p>07.03.2019</p>
+<ul>
+<li>Fixed bug with LED`s in dashboard</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v304">v3.0.4<a href="#v304" class="hash-link" aria-label="Direct link to v3.0.4" title="Direct link to v3.0.4">​</a></h2>
+<p>07.03.2019</p>
+<ul>
+<li>Added Turkish language</li>
+<li>Added Chinese language</li>
+<li>Added dropdown menu with a list of detected interfaces for hilink and stick modem.</li>
+<li>Fixed an issue with notificaiton duration.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v303">v3.0.3<a href="#v303" class="hash-link" aria-label="Direct link to v3.0.3" title="Direct link to v3.0.3">​</a></h2>
+<p>03.03.2019</p>
+<ul>
+<li>Added server messages pop up information. (Can be disabled from settings menu)</li>
+<li>Added warning if RPI is underpowered or throttled. Requested by Discord @Misant</li>
+<li>Fixed continues spinner on Validate button for license registration.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v302">v3.0.2<a href="#v302" class="hash-link" aria-label="Direct link to v3.0.2" title="Direct link to v3.0.2">​</a></h2>
+<p>03.03.2019</p>
+<ul>
+<li>License manager bug fix</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v301">v3.0.1<a href="#v301" class="hash-link" aria-label="Direct link to v3.0.1" title="Direct link to v3.0.1">​</a></h2>
+<p>03.03.2019</p>
+<ul>
+<li>Added translation files. If someone want to translate into other languages, then please see here <a href="https://github.com/UAVmatrix/uavcast-pro-translations" target="_blank" rel="noopener noreferrer">https://github.com/UAVmatrix/uavcast-pro-translations</a></li>
+<li>Added option to select custom baud rate. Requested by Discord user @twallace</li>
+<li>Fixed an issue where camera (picam, C920, C615) did not start properly.</li>
+<li>Fixed an issue when Navio board was selected. &quot;jq cant iterate over null&quot;</li>
+<li>Fixed an issue with integrated updater tool. Unfortunately it`s not possible to upgrade application in version 3.0.0</li>
+<li>Improved license manager.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v300">v3.0.0<a href="#v300" class="hash-link" aria-label="Direct link to v3.0.0" title="Direct link to v3.0.0">​</a></h2>
+<p>24.02.2019</p>
+<p>This is a major release with many improvements.</p>
+<ul>
+<li>UAVcast-Pro is now tied to license key. <strong>NOTE!</strong> All users who have already bought UAVcast-Pro will get free licens keys with 4 allowed devices registered simultaneously for lifetime usage. Keys can be transfered to other hardware from the settings menu within the application! (License keys are tied to the hardware used) If more devices are needed, then contact <a href="mailto:uavmatrix@uavmatrix.com" target="_blank" rel="noopener noreferrer">uavmatrix@uavmatrix.com</a>.</li>
+<li>UAVcast-Pro now uses database for all configuration and data storgage. Earlier this was stored in a plain file. This will make the application more robust for uppcomming changes such as user accounts ect.</li>
+<li>Added spinner and text if server (rpi) disconnects.</li>
+<li>Improved code in general.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v207">v2.0.7<a href="#v207" class="hash-link" aria-label="Direct link to v2.0.7" title="Direct link to v2.0.7">​</a></h2>
+<p>07.02.2019</p>
+<ul>
+<li>Now possible to change the backend server port from the settings menu. Requested by Discord user <em>@Rj4</em></li>
+<li>Fixed an bug with Dashboard network stats. Reported by Discord user <em>@Misant</em></li>
+<li>Improved add/delete GCS functionalities. <a href="https://gitlab.com/Sinamics/UAVcast-Pro/issues/4" target="_blank" rel="noopener noreferrer">IssueTracker</a></li>
+<li>Fixed typos. Reported by Discord user <em>@Misant</em></li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v2061">v2.0.61<a href="#v2061" class="hash-link" aria-label="Direct link to v2.0.61" title="Direct link to v2.0.61">​</a></h2>
+<p>01.01.2019</p>
+<ul>
+<li>Fixed minor bugs and code cleaning.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v206">v2.0.6<a href="#v206" class="hash-link" aria-label="Direct link to v2.0.6" title="Direct link to v2.0.6">​</a></h2>
+<p>01.01.2019</p>
+<ul>
+<li>Added Navio Launch option. (-B, -E, -F) <a href="https://docs.emlid.com/navio2/common/ardupilot/installation-and-running/#specifying-launching-options" target="_blank" rel="noopener noreferrer">Read more at Emlid.com</a></li>
+<li>Improved Navio startup sequence.</li>
+<li>Now possible to add 16 UDP destionations for Navio.</li>
+<li>Fixed an issue with setting static IP for eth0 interface in /etc/dhcpcd.conf =&gt; Issue reported by <em>@Abraxas</em></li>
+<li>Fixed an issue when using video custom commands. =&gt; Issue reported by <em>@Ed209</em></li>
+<li>Added <strong>do-timestamp=1</strong> to the default UDP video pipeline. This in collaboration with <a href="https://gstreamer.freedesktop.org/data/doc/gstreamer/head/gst-plugins-good/html/gst-plugins-good-plugins-rtpjitterbuffer.html" target="_blank" rel="noopener noreferrer">rtpjitterbuffer</a> seems to solve the UDP (grey laggy overlay) issue some people has experienced when using VPN. Fix reported by <em>@Snick</em></li>
+</ul>
+<p>Receiver / GCS Example:</p>
+<p><code>gst-launch-1.0 -v udpsrc port=5600 caps=&quot;application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264&quot; ! rtpjitterbuffer ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink sync=false</code></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v205">v2.0.5<a href="#v205" class="hash-link" aria-label="Direct link to v2.0.5" title="Direct link to v2.0.5">​</a></h2>
+<p>16.12.2018</p>
+<ul>
+<li>Added network stats overview on dasboard.</li>
+<li>Improved dashboard styling.</li>
+<li>Added Dark theme option.</li>
+<li>New Application options page to the main menu.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v2041">v2.0.41<a href="#v2041" class="hash-link" aria-label="Direct link to v2.0.41" title="Direct link to v2.0.41">​</a></h2>
+<p>19.11.2018</p>
+<ul>
+<li>Fixed minor styling issue that was introduced in version v2.0.4</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v204">v2.0.4<a href="#v204" class="hash-link" aria-label="Direct link to v2.0.4" title="Direct link to v2.0.4">​</a></h2>
+<p>18.11.2018</p>
+<ul>
+<li>Telemetry or video will restart / start automatically when users toggle the switch in Ground Control Page. (Feature request from Discord user <strong>smee56</strong>)</li>
+<li>General code imporvement.</li>
+<li>Added more tools Raspberry diagnostic page.</li>
+<li>Changed Toaster layout. (notification message)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v203">v2.0.3<a href="#v203" class="hash-link" aria-label="Direct link to v2.0.3" title="Direct link to v2.0.3">​</a></h2>
+<p>05.11.2018</p>
+<ul>
+<li>Minor changes. Updated text in modem section. Removed unused tags and code.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v202">v2.0.2<a href="#v202" class="hash-link" aria-label="Direct link to v2.0.2" title="Direct link to v2.0.2">​</a></h2>
+<p>03.11.2018</p>
+<ul>
+<li>Added more options to establish modem connetion. Users can choose between Modem Manager or Network Manager to manage the connetion.
+Some users experienced issues with certains modems.</li>
+<li>Fixed issue where Application page was not accessable. This bug was implemented in Version 2.0.1.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v201">v2.0.1<a href="#v201" class="hash-link" aria-label="Direct link to v2.0.1" title="Direct link to v2.0.1">​</a></h2>
+<p>18.10.2018</p>
+<ul>
+<li>Fixed an issue with loading Openvpn configuration file.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v200">v2.0.0<a href="#v200" class="hash-link" aria-label="Direct link to v2.0.0" title="Direct link to v2.0.0">​</a></h2>
+<p>11.10.2018</p>
+<ul>
+<li>Added support for Navio+ and Navio2</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v118">v1.1.8<a href="#v118" class="hash-link" aria-label="Direct link to v1.1.8" title="Direct link to v1.1.8">​</a></h2>
+<p>08.10.2018</p>
+<ul>
+<li>Fixed anbug where Logitech C920 &amp; C915 did not work. (Bug arrived in v1.1.7)</li>
+<li>GCS page styling and layout improvement.</li>
+<li>Now possible to rollback to previous UAVcast-Pro versions</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v117">v1.1.7<a href="#v117" class="hash-link" aria-label="Direct link to v1.1.7" title="Direct link to v1.1.7">​</a></h2>
+<p>07.10.2018</p>
+<ul>
+<li>Users can now select between Hilink or stick modem.</li>
+<li>General styling improvement.</li>
+</ul>
+<p>###Improved Ground Control management.</p>
+<ul>
+<li>You can now give destinations a unique name.</li>
+<li>Options to disable or enable a destination. Convenient if you want to save a destination for later usage.</li>
+<li>You can choose which destination to send video and telem to by simple switch.</li>
+<li>Added video port. (Moved from video page)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v116">v1.1.6<a href="#v116" class="hash-link" aria-label="Direct link to v1.1.6" title="Direct link to v1.1.6">​</a></h2>
+<p>30.09.2018</p>
+<ul>
+<li>Fixed an issue when downloading logfiles from UAVcast Diagnostic page</li>
+<li>Added more documentation</li>
+<li>Improved styling</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v115">v1.1.5<a href="#v115" class="hash-link" aria-label="Direct link to v1.1.5" title="Direct link to v1.1.5">​</a></h2>
+<p>26.09.2018</p>
+<ul>
+<li>Fixed an issue when uploading openvpn (ovpn) file.</li>
+<li>Fixed an issue where auto-update function hangs on &quot;restarting server&quot;</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v114">v1.1.4<a href="#v114" class="hash-link" aria-label="Direct link to v1.1.4" title="Direct link to v1.1.4">​</a></h2>
+<p>04.09.2018</p>
+<ul>
+<li>Added gstreamer Vertical Flip and Horizontal Flip options. (PiCam Only)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v113">v1.1.3<a href="#v113" class="hash-link" aria-label="Direct link to v1.1.3" title="Direct link to v1.1.3">​</a></h2>
+<p>01.09.2018</p>
+<ul>
+<li>Fixed an bug where TCP Telemetry would not start if USB was selected.</li>
+<li>Added &quot;Check for update&quot; functionality, and self installation feature.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v112">v1.1.2<a href="#v112" class="hash-link" aria-label="Direct link to v1.1.2" title="Direct link to v1.1.2">​</a></h2>
+<p>22.08.2018</p>
+<ul>
+<li>Updated Header link for Documentation and Community</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v111">v1.1.1<a href="#v111" class="hash-link" aria-label="Direct link to v1.1.1" title="Direct link to v1.1.1">​</a></h2>
+<p>20/08/2018</p>
+<ul>
+<li>UAVcast-Pro and Basic now supports global installation. /home/pi is not required anymore.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v110">v1.1.0<a href="#v110" class="hash-link" aria-label="Direct link to v1.1.0" title="Direct link to v1.1.0">​</a></h2>
+<p>15.08.2018</p>
+<p>This version is a total rebuild of the web server installation. Server is now pre-bundled within the package and will not require any dependencies to be downloaded.</p>
+<ul>
+<li>Improved Telemetry startup, both UDP and TCP.</li>
+<li>Improved functionality when switching between UDP and TCP telemetry.</li>
+<li>Improved camera startup, both UDP and TCP</li>
+<li>Fixed an issue where telemetry would`t autostart on TCP</li>
+<li>Fixed an issue where status LED was not updated when using OpenVpn</li>
+<li>Added functionalities to run the installer with -f option, this will force the install if any issues.</li>
+<li>Added more items to the final installation validation of UAVcast-Pro.</li>
+<li>UAVcast-Pro has now web server pre-bundled, this will reduce the installation time by approx 50%, and there is no dependencies that needs to be installed.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v105">v1.0.5<a href="#v105" class="hash-link" aria-label="Direct link to v1.0.5" title="Direct link to v1.0.5">​</a></h2>
+<ul>
+<li>Fixed an issue where Raspberry Pi disconnected during installation if you were connected by WiFi</li>
+<li>Fixed an small bug in the camera section if C920 or C615 was chosen.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v104">v1.0.4<a href="#v104" class="hash-link" aria-label="Direct link to v1.0.4" title="Direct link to v1.0.4">​</a></h2>
+<ul>
+<li>Added installation progress-bar.</li>
+<li>Added validation check after installation completes.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="v103">v1.0.3<a href="#v103" class="hash-link" aria-label="Direct link to v1.0.3" title="Direct link to v1.0.3">​</a></h2>
+<ul>
+<li>Dedicated server at google cloud, only for UAVcast-Pro users.</li>
+<li>Added option to stream video on TCP when using PiCam</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/versioned_docs/version-4.x/changelog/index.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="pagination-nav docusaurus-mt-lg" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/4.x/configuration-libraries"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">Libraries</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#v429" class="table-of-contents__link toc-highlight">v4.2.9</a></li><li><a href="#v428" class="table-of-contents__link toc-highlight">v4.2.8</a></li><li><a href="#v427" class="table-of-contents__link toc-highlight">v4.2.7</a></li><li><a href="#v426" class="table-of-contents__link toc-highlight">v4.2.6</a></li><li><a href="#v425" class="table-of-contents__link toc-highlight">v4.2.5</a></li><li><a href="#v4241" class="table-of-contents__link toc-highlight">v4.2.41</a></li><li><a href="#v423" class="table-of-contents__link toc-highlight">v4.2.3</a></li><li><a href="#v422" class="table-of-contents__link toc-highlight">v4.2.2</a></li><li><a href="#v421" class="table-of-contents__link toc-highlight">v4.2.1</a></li><li><a href="#v420" class="table-of-contents__link toc-highlight">v4.2.0</a></li><li><a href="#v414" class="table-of-contents__link toc-highlight">v4.1.4</a></li><li><a href="#v413" class="table-of-contents__link toc-highlight">v4.1.3</a></li><li><a href="#v412" class="table-of-contents__link toc-highlight">v4.1.2</a></li><li><a href="#v411" class="table-of-contents__link toc-highlight">v4.1.1</a></li><li><a href="#v410" class="table-of-contents__link toc-highlight">v4.1.0</a></li><li><a href="#v409" class="table-of-contents__link toc-highlight">v4.0.9</a></li><li><a href="#v408" class="table-of-contents__link toc-highlight">v4.0.8</a></li><li><a href="#v407" class="table-of-contents__link toc-highlight">v4.0.7</a></li><li><a href="#v4061" class="table-of-contents__link toc-highlight">v4.0.61</a></li><li><a href="#v405" class="table-of-contents__link toc-highlight">v4.0.5</a></li><li><a href="#v404" class="table-of-contents__link toc-highlight">v4.0.4</a></li><li><a href="#v4031" class="table-of-contents__link toc-highlight">v4.0.31</a></li><li><a href="#v403" class="table-of-contents__link toc-highlight">v4.0.3</a></li><li><a href="#v401" class="table-of-contents__link toc-highlight">v4.0.1</a></li><li><a href="#v330" class="table-of-contents__link toc-highlight">v3.3.0</a></li><li><a href="#v329" class="table-of-contents__link toc-highlight">v3.2.9</a></li><li><a href="#v328" class="table-of-contents__link toc-highlight">v3.2.8</a></li><li><a href="#v327" class="table-of-contents__link toc-highlight">v3.2.7</a></li><li><a href="#v326" class="table-of-contents__link toc-highlight">v3.2.6</a></li><li><a href="#v325" class="table-of-contents__link toc-highlight">v3.2.5</a></li><li><a href="#v3241" class="table-of-contents__link toc-highlight">v3.2.41</a></li><li><a href="#v324" class="table-of-contents__link toc-highlight">v3.2.4</a></li><li><a href="#v323" class="table-of-contents__link toc-highlight">v3.2.3</a></li><li><a href="#v322" class="table-of-contents__link toc-highlight">v3.2.2</a></li><li><a href="#v321" class="table-of-contents__link toc-highlight">v3.2.1</a></li><li><a href="#v320" class="table-of-contents__link toc-highlight">v3.2.0</a></li><li><a href="#v316" class="table-of-contents__link toc-highlight">v3.1.6</a></li><li><a href="#v315" class="table-of-contents__link toc-highlight">v3.1.5</a></li><li><a href="#v314" class="table-of-contents__link toc-highlight">v3.1.4</a></li><li><a href="#v3131" class="table-of-contents__link toc-highlight">v3.1.31</a></li><li><a href="#v313" class="table-of-contents__link toc-highlight">v3.1.3</a></li><li><a href="#v312" class="table-of-contents__link toc-highlight">v3.1.2</a></li><li><a href="#v311" class="table-of-contents__link toc-highlight">v3.1.1</a></li><li><a href="#v310" class="table-of-contents__link toc-highlight">v3.1.0</a></li><li><a href="#v308" class="table-of-contents__link toc-highlight">v3.0.8</a></li><li><a href="#v307" class="table-of-contents__link toc-highlight">v3.0.7</a></li><li><a href="#v306" class="table-of-contents__link toc-highlight">v3.0.6</a></li><li><a href="#v3051" class="table-of-contents__link toc-highlight">v3.0.51</a></li><li><a href="#v305" class="table-of-contents__link toc-highlight">v3.0.5</a></li><li><a href="#v3041" class="table-of-contents__link toc-highlight">v3.0.41</a></li><li><a href="#v304" class="table-of-contents__link toc-highlight">v3.0.4</a></li><li><a href="#v303" class="table-of-contents__link toc-highlight">v3.0.3</a></li><li><a href="#v302" class="table-of-contents__link toc-highlight">v3.0.2</a></li><li><a href="#v301" class="table-of-contents__link toc-highlight">v3.0.1</a></li><li><a href="#v300" class="table-of-contents__link toc-highlight">v3.0.0</a></li><li><a href="#v207" class="table-of-contents__link toc-highlight">v2.0.7</a></li><li><a href="#v2061" class="table-of-contents__link toc-highlight">v2.0.61</a></li><li><a href="#v206" class="table-of-contents__link toc-highlight">v2.0.6</a></li><li><a href="#v205" class="table-of-contents__link toc-highlight">v2.0.5</a></li><li><a href="#v2041" class="table-of-contents__link toc-highlight">v2.0.41</a></li><li><a href="#v204" class="table-of-contents__link toc-highlight">v2.0.4</a></li><li><a href="#v203" class="table-of-contents__link toc-highlight">v2.0.3</a></li><li><a href="#v202" class="table-of-contents__link toc-highlight">v2.0.2</a></li><li><a href="#v201" class="table-of-contents__link toc-highlight">v2.0.1</a></li><li><a href="#v200" class="table-of-contents__link toc-highlight">v2.0.0</a></li><li><a href="#v118" class="table-of-contents__link toc-highlight">v1.1.8</a></li><li><a href="#v117" class="table-of-contents__link toc-highlight">v1.1.7</a></li><li><a href="#v116" class="table-of-contents__link toc-highlight">v1.1.6</a></li><li><a href="#v115" class="table-of-contents__link toc-highlight">v1.1.5</a></li><li><a href="#v114" class="table-of-contents__link toc-highlight">v1.1.4</a></li><li><a href="#v113" class="table-of-contents__link toc-highlight">v1.1.3</a></li><li><a href="#v112" class="table-of-contents__link toc-highlight">v1.1.2</a></li><li><a href="#v111" class="table-of-contents__link toc-highlight">v1.1.1</a></li><li><a href="#v110" class="table-of-contents__link toc-highlight">v1.1.0</a></li><li><a href="#v105" class="table-of-contents__link toc-highlight">v1.0.5</a></li><li><a href="#v104" class="table-of-contents__link toc-highlight">v1.0.4</a></li><li><a href="#v103" class="table-of-contents__link toc-highlight">v1.0.3</a></li></ul></div></div></div></div></main></div></div></div><footer class="footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/5.x/quick-start">Quickstart Tutorial</a></li></ul></div><div class="col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discuss.uavmatrix.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discussion Forum<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://discord.gg/xwqMTXh" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div><div class="col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://uavmatrix.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Store<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li><li class="footer__item"><a href="https://github.com/UAVmatrix/uavcast-pro-docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-hidden="true" viewBox="0 0 24 24" class="iconExternalLink_nPIU"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"></path></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2024 uavmatrix.com</div></div></div></footer></div>
+</body>
+</html>
