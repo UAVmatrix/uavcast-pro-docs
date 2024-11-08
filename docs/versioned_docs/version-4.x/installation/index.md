@@ -20,7 +20,7 @@ Confirmed working images:
 - [Raspberry Pi 32bit OS With Desktop](https://downloads.raspberrypi.org/raspios_armhf/images/raspios_armhf-2021-05-28/2021-05-07-raspios-buster-armhf.zip)
 
 See the [https://www.raspberrypi.org/software/operating-systems/](https://www.raspberrypi.org/software/operating-systems/) for installation instruction. 
-Continue to install UAVcast-Pro as described in the [installation](/installation/#uavcast-pro-installation) section
+Continue to install UAVcast-Pro as described in the [installation](#uavcast-pro-installation) section
 
 ## UAVcast-Pro installation
 
@@ -33,7 +33,7 @@ curl -s http://install.uavmatrix.com | sudo bash
 After the installation there will be validating proccess to verify that all component has been loaded successfully.
 You can now access the webinterface using the RPI ip or Host name address in your browser. [http://raspberrypi/](http://raspberrypi/)
 
-##Navio Flight Controller
+## Navio Flight Controller
 For Navio+ and Navio2 boards, please use the installation procedure below:
 
 - Install the latest image provided by [https://emlid.com](https://emlid.com).

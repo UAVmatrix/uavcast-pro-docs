@@ -35,7 +35,7 @@ No. UAVcast-Pro does not care if you use LTE, Wifi or Ethernet cable. As long as
 
 ### Installation validation fails.
 
-- Make sure you use a supported raspberry image as decribed in the [installation instructions](installation/#raspberry-pi-image).
+- Make sure you use a supported raspberry image as decribed in the [installation instructions](installation).
 - For other installation issues, please navigate to `/opt/uavcast-pro/logs` folder and copy the `uavcast_installation.log` to your computer.
   Email the logfile to **support@uavmatrix.com**
 

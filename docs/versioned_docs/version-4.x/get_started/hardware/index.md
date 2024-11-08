@@ -52,7 +52,7 @@ There is no diffrence in performance but the USB connection is easier and more e
 - Its very imporant to connect tx, rx and ground if you want to use GPIO, and not only tx & rx.
 
 :::warning
-    RPI cannot be powered by FC telem port.  [Make sure you use proper power source for rpi.](/hardware/#power-supply)
+    RPI cannot be powered by FC telem port. Make sure you use proper power source for rpi.
 :::
 
 !['Gpio'](img/rpi.jpg)

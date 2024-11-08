@@ -11,7 +11,7 @@ sidebar_position: 5
 ### Not able to register the licenes key
 
 :::danger Important
-  Latest PI OS will not work with UAVcast-Pro version 4.x. Please use one of the images in the [installation](installation/#raspberry-pi-image) section.
+  Latest PI OS will not work with UAVcast-Pro version 4.x. Please use one of the images in the [installation](installation) section.
 :::
 
 - Make sure you use the 32bit version of Raspberry Pi OS. 64bit is not supported.
@@ -39,7 +39,7 @@ No. UAVcast-Pro does not care if you use LTE, Wifi or Ethernet cable. As long as
 
 ### Installation validation fails.
 
-- Make sure you use a supported raspberry image as decribed in the [installation instructions](installation/#raspberry-pi-image).
+- Make sure you use a supported raspberry image as decribed in the [installation instructions](installation).
 - For other installation issues, please navigate to `UAVcast-Pro/install` folder and copy the `Installation.log` to your computer.
   Create a new discussion in our forum [discuss.uavmatrix.com](https://discuss.uavmatrix.com) and attach the file.
 
