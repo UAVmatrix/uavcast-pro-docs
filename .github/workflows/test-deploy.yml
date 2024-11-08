@@ -30,4 +30,4 @@ jobs:
         run: npm ci
 
       - name: Test build website
-        run: npm build
+        run: npm run build
