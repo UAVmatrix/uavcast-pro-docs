@@ -1,7 +1,7 @@
 ---
 slug: /hardware
 title: Supported Hardware
-authors: Bernth Christian Egeland
+authors: Bernt Christian Egeland
 tags: []
 sidebar_position: 4
 ---

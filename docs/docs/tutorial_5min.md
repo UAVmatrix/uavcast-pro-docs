@@ -61,6 +61,7 @@ Access to uavnet.uavmatrix.com is provided automatically upon license activation
 
 ## 5. Configure UAVcast-Pro VPN
 
+Goto the VPN page to learn more about the diffrent VPN providers. [setup-vpn](setup-vpn)
 1. Navigate to VPN page in UAVcast-Pro
 2. Select "ZeroTier" as VPN type
 3. Enter your Network ID
