@@ -5,6 +5,9 @@ authors: Bernt Christian Egeland
 tags: []
 sidebar_position: 40
 ---
+## v5.0.1
+- Added Tailscale VPN support
+- Improved VPN connection handling
 
 ## v5.0.0
 First release of UAVcast-Pro v5.
