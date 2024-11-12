@@ -3,7 +3,7 @@ slug: /setup-vpn
 title: Virtual Private Network (VPN)
 authors: Bernt Christian Egeland
 tags: []
-sidebar_position: 4
+sidebar_position: 1
 ---
 
 ## Abbreviations
