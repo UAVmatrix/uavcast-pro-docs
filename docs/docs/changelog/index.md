@@ -8,6 +8,7 @@ sidebar_position: 40
 
 ## v5.0.2
 - Added support for camera custom pipeline / videotestsrc
+- Added option to disable camera preview
 - Improve camera handling
 
 
