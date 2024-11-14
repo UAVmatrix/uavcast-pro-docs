@@ -5,6 +5,12 @@ authors: Bernt Christian Egeland
 tags: []
 sidebar_position: 40
 ---
+
+## v5.0.2
+- Added support for camera custom pipeline / videotestsrc
+- Improve camera handling
+
+
 ## v5.0.1
 - Added Tailscale VPN support
 - Improved VPN connection handling
