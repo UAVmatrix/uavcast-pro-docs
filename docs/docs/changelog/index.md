@@ -11,7 +11,6 @@ sidebar_position: 40
 - Added option to disable camera preview
 - Improve camera handling
 
-
 ## v5.0.1
 - Added Tailscale VPN support
 - Improved VPN connection handling
