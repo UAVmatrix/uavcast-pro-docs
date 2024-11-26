@@ -5,6 +5,8 @@ authors: Bernt Christian Egeland
 tags: []
 sidebar_position: 40
 ---
+## v5.0.3
+- Buxfix for uart connection on PiZero 2W
 
 ## v5.0.2
 - Added support for camera custom pipeline / videotestsrc
