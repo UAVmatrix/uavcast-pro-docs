@@ -5,6 +5,10 @@ authors: Bernt Christian Egeland
 tags: []
 sidebar_position: 40
 ---
+## v5.0.5
+- Fixed libcamera version conflicts. 
+- Minor installer improvements.
+
 ## v5.0.4
 - Fixed installer crash when using C locale (LANG=C) environment by implementing ASCII fallback for progress bar characters.
 
