@@ -5,6 +5,12 @@ authors: Bernt Christian Egeland
 tags: []
 sidebar_position: 40
 ---
+
+## v5.0.6
+- Fixed bug when streaming to multiple clients.
+- Added explicit format specifications with --libav-format h264 and --libav-video-codec h264
+- Reduced keyframe interval from 15 to 1 frame for lower latency
+
 ## v5.0.5
 - Fixed libcamera version conflicts. 
 - Minor installer improvements.
