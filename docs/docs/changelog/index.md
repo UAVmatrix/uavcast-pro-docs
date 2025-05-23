@@ -5,6 +5,10 @@ authors: Bernt Christian Egeland
 tags: []
 sidebar_position: 40
 ---
+## v5.0.7
+- Fixed bug with camera preview not showing on some devices.
+- Improved picamera quality and performance.
+- New keyframe interval setting for better video quality in some cases.
 
 ## v5.0.6
 - Fixed bug when streaming to multiple clients.
