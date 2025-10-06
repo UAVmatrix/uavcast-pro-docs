@@ -5,6 +5,9 @@ authors: Bernt Christian Egeland
 tags: []
 sidebar_position: 40
 ---
+## v5.0.8
+- Added support for Debian 13 Trixie.
+
 ## v5.0.7
 - Fixed bug with camera preview not showing on some devices.
 - Improved picamera quality and performance.
