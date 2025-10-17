@@ -5,6 +5,14 @@ authors: Bernt Christian Egeland
 tags: []
 sidebar_position: 40
 ---
+## v6.0.0
+- This is a major release with many changes for performance and stability.
+  Backend has been rewritten in Rust for better performance and lower resource usage. This will improve the user experience on low end devices like Raspberry Pi Zero. The total package size has been reduced by 70%.
+- New Flight Map page ( similar to UAVcast v4 ).
+- New network priority settings to prioritize between WiFi and Modem connections. This will make it easier to test Uavcast over LTE while having a WiFi connection.
+- Better camera support with improved stability and performance.
+- New overhauled live preview, uavcast using MediaMtx for local preview in camera and FlightMap page.
+
 ## v5.0.8
 - Added support for Debian 13 Trixie.
 
