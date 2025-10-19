@@ -117,10 +117,6 @@ const config: Config = {
 					title: "Community",
 					items: [
 						{
-							label: "Discussion Forum",
-							href: "https://discuss.uavmatrix.com/",
-						},
-						{
 							label: "Discord",
 							href: "https://discord.gg/xwqMTXh",
 						},
