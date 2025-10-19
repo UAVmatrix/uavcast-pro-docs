@@ -12,7 +12,9 @@ sidebar_position: 40
 - New Mission Planner page for creating / editing missions directly from the web interface.
 - New Mavlink Inspector page for viewing raw mavlink messages.
 - New Radio page for viewing configured RC channels.
-- New network priority settings to prioritize between WiFi and Modem connections. This will make it easier to test Uavcast over LTE while having a WiFi connection.
+- New network priority settings to prioritize between WiFi and Modem connections. This will make it easier to test Uavcast over LTE while having a WiFi
+connection.
+- New User Management page for adding/removing users and setting permissions.
 - Better camera support with improved stability and performance. Uavcast now uses the mediamtx library for internal camera handling and streaming.
 - New overhauled live preview, uavcast using MediaMtx for local preview in camera and FlightMap page.
 
