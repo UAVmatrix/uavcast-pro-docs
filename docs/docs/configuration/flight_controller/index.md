@@ -100,10 +100,6 @@ Toggle to enable or disable the flight controller service.
 
 ## Connection Status
 
-:::note Image Placeholder
-📸 **Screenshot needed:** Connection status indicator showing connected state
-:::
-
 The page displays real-time connection status:
 
 - 🟢 **Connected:** MAVLink HEARTBEAT messages received

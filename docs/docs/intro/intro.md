@@ -14,8 +14,9 @@ Welcome to the documentation for UAVcast-Pro v6, a comprehensive 4G LTE drone so
 
 ## What's New in Version 6
 
-UAVcast-Pro v6 introduces a completely redesigned user interface built with modern web technologies, providing an enhanced user experience with:
+UAVcast-Pro v6 is a complete rewrite with modern architecture and enhanced capabilities:
 
+- **Backend Rewritten in Rust** - High-performance, memory-safe core services for improved reliability and efficiency
 - **Modern React-based UI** - Fast, responsive interface with real-time updates
 - **Enhanced Flight Map** - Interactive Leaflet-based map with live UAV tracking, flight path visualization, and mission waypoints
 - **Live Camera Preview** - Built-in HLS video player for immediate visual feedback
