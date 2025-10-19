@@ -85,7 +85,7 @@ Select your preferred language:
 - Russian
 - Turkish
 
-If you'd like to contribute translations, visit the [Developers](/docs/6.x/configuration-developers) page.
+If you'd like to contribute translations, contact us via Discord or support email.
 
 ### UI Tour
 Click "Start Tour" to launch an interactive guide of the UAVcast-Pro interface (available for licensed users).

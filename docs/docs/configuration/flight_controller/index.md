@@ -185,7 +185,7 @@ The router auto-detects protocol version.
 - [Ground Control Stations](/docs/6.x/configuration-ground-controller) - Configure telemetry destinations
 - [Dashboard](/docs/6.x/configuration-dashboard) - Monitor flight controller status
 - [Flight Map](/docs/6.x/configuration-map) - View live telemetry on map
-- [Troubleshooting Guide](/docs/6.x/faq) - Common issues and solutions
+- [Troubleshooting Guide](/docs/6.x/configuration-dashboard) - Common issues and solutions
 
 ## Next Steps
 

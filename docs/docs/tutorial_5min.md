@@ -189,7 +189,7 @@ If connection issues occur:
 Now that your basic setup is complete, explore additional features:
 
 - [Flight Map](/docs/6.x/configuration-map) - View live flight path and mission waypoints
-- [Mission Planner](/docs/6.x/configuration-mission-planner) - Plan and upload missions
+- [Mission Planner](/docs/6.x/configuration-map) - Plan and upload missions
 - [Network Management](/docs/6.x/configuration-networks) - Configure network failover
-- [4G Modem Setup](/docs/6.x/configuration-modem) - Add cellular connectivity
+- [4G Modem Setup](/docs/6.x/configuration-cell-modem) - Add cellular connectivity
 - [User Management](/docs/6.x/configuration-users) - Add additional users with different access levels

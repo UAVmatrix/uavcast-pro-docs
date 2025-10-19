@@ -76,6 +76,4 @@ For questions or support, please contact us through our official channels:
 
 - [Installation Guide](/docs/6.x/installation)
 - [Quick Start Tutorial](/docs/6.x/quick-start)
-- [Hardware Requirements](/docs/6.x/get-started-hardware)
-- [License Activation](/docs/6.x/get-started-license)
 

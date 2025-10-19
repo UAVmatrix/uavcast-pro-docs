@@ -29,6 +29,14 @@ const config: Config = {
 		locales: ["en"],
 	},
 
+	// Future flags for Docusaurus v4 preparation
+	future: {
+		v4: {
+			removeLegacyPostBuildHeadAttribute: true,
+			useCssCascadeLayers: true,
+		},
+	},
+
 	presets: [
 		[
 			"classic",

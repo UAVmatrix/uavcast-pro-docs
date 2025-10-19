@@ -80,6 +80,6 @@ Table updates every 10 seconds.
 
 ## Related Pages
 
-- [Modem Configuration](/docs/6.x/configuration-modem) - Configure cellular modem
+- [Modem Configuration](/docs/6.x/configuration-cell-modem) - Configure cellular modem
 - [VPN Configuration](/docs/6.x/configuration-vpn) - Set up ZeroTier or Tailscale
 - [Dashboard](/docs/6.x/configuration-dashboard) - View network statistics
