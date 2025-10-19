@@ -37,8 +37,8 @@ const config: Config = {
 					lastVersion: "current",
 					versions: {
 						current: {
-							label: "5.x",
-							path: "5.x",
+							label: "6.x",
+							path: "6.x",
 						},
 					},
 					sidebarPath: "./sidebars.ts",
@@ -109,7 +109,7 @@ const config: Config = {
 					items: [
 						{
 							label: "Quickstart Tutorial",
-							to: "/docs/5.x/quick-start",
+							to: "/docs/6.x/quick-start",
 						},
 					],
 				},
