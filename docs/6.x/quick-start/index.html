@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en" dir="ltr" class="docs-wrapper plugin-docs plugin-id-default docs-version-current docs-doc-page docs-doc-id-tutorial_5min" data-has-hydrated="false">
+<head>
+<meta charset="UTF-8">
+<meta name="generator" content="Docusaurus v3.9.2">
+<title data-rh="true">Quick Start Tutorial | UAVcast-Pro Documentation</title><meta data-rh="true" name="viewport" content="width=device-width,initial-scale=1"><meta data-rh="true" name="twitter:card" content="summary_large_image"><meta data-rh="true" property="og:image" content="https://docs.uavmatrix.com/img/docusaurus-social-card.jpg"><meta data-rh="true" name="twitter:image" content="https://docs.uavmatrix.com/img/docusaurus-social-card.jpg"><meta data-rh="true" property="og:url" content="https://docs.uavmatrix.com/docs/6.x/quick-start"><meta data-rh="true" property="og:locale" content="en"><meta data-rh="true" name="docusaurus_locale" content="en"><meta data-rh="true" name="docsearch:language" content="en"><meta data-rh="true" name="docusaurus_version" content="current"><meta data-rh="true" name="docusaurus_tag" content="docs-default-current"><meta data-rh="true" name="docsearch:version" content="current"><meta data-rh="true" name="docsearch:docusaurus_tag" content="docs-default-current"><meta data-rh="true" property="og:title" content="Quick Start Tutorial | UAVcast-Pro Documentation"><meta data-rh="true" name="description" content="This guide will help you set up UAVcast-Pro v6 and establish a connection between your flight controller and ground control station."><meta data-rh="true" property="og:description" content="This guide will help you set up UAVcast-Pro v6 and establish a connection between your flight controller and ground control station."><link data-rh="true" rel="icon" href="/img/favicon.ico"><link data-rh="true" rel="canonical" href="https://docs.uavmatrix.com/docs/6.x/quick-start"><link data-rh="true" rel="alternate" href="https://docs.uavmatrix.com/docs/6.x/quick-start" hreflang="en"><link data-rh="true" rel="alternate" href="https://docs.uavmatrix.com/docs/6.x/quick-start" hreflang="x-default"><script data-rh="true" type="application/ld+json">{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Quick Start Tutorial","item":"https://docs.uavmatrix.com/docs/6.x/quick-start"}]}</script><link rel="stylesheet" href="/assets/css/styles.506ed8f9.css">
+<script src="/assets/js/runtime~main.71bf317e.js" defer="defer"></script>
+<script src="/assets/js/main.a2a8144b.js" defer="defer"></script>
+</head>
+<body class="navigation-with-keyboard">
+<svg style="display: none;"><defs>
+<symbol id="theme-svg-external-link" viewBox="0 0 24 24"><path fill="currentColor" d="M21 13v10h-21v-19h12v2h-10v15h17v-8h2zm3-12h-10.988l4.035 4-6.977 7.07 2.828 2.828 6.977-7.07 4.125 4.172v-11z"/></symbol>
+</defs></svg>
+<script>!function(){var t=function(){try{return new URLSearchParams(window.location.search).get("docusaurus-theme")}catch(t){}}()||function(){try{return window.localStorage.getItem("theme")}catch(t){}}();document.documentElement.setAttribute("data-theme",t||"dark"),document.documentElement.setAttribute("data-theme-choice",t||"dark")}(),function(){try{const c=new URLSearchParams(window.location.search).entries();for(var[t,e]of c)if(t.startsWith("docusaurus-data-")){var a=t.replace("docusaurus-data-","data-");document.documentElement.setAttribute(a,e)}}catch(t){}}()</script><div id="__docusaurus"><div role="region" aria-label="Skip to main content"><a class="skipToContent_fXgn" href="#__docusaurus_skipToContent_fallback">Skip to main content</a></div><nav aria-label="Main" class="theme-layout-navbar navbar navbar--fixed-top"><div class="navbar__inner"><div class="theme-layout-navbar-left navbar__items"><button aria-label="Toggle navigation bar" aria-expanded="false" class="navbar__toggle clean-btn" type="button"><svg width="30" height="30" viewBox="0 0 30 30" aria-hidden="true"><path stroke="currentColor" stroke-linecap="round" stroke-miterlimit="10" stroke-width="2" d="M4 7h22M4 15h22M4 23h22"></path></svg></button><a class="navbar__brand" href="/"><div class="navbar__logo"><img src="/img/uavcast_logo.png" alt="UAVcast Logo" class="themedComponent_mlkZ themedComponent--light_NVdE"><img src="/img/uavcast_logo.png" alt="UAVcast Logo" class="themedComponent_mlkZ themedComponent--dark_xIcU"></div><b class="navbar__title text--truncate">UAVcast-Pro</b></a><a aria-current="page" class="navbar__item navbar__link navbar__link--active" href="/docs/6.x/introduction">Docs</a><div class="navbar__item dropdown dropdown--hoverable"><a aria-current="page" class="navbar__link active" aria-haspopup="true" aria-expanded="false" role="button" href="/docs/6.x/quick-start">6.x</a><ul class="dropdown__menu"><li><a aria-current="page" class="dropdown__link dropdown__link--active" href="/docs/6.x/quick-start">6.x</a></li><li><a class="dropdown__link" href="/docs/5.x/quick-start">5.x</a></li><li><a class="dropdown__link" href="/docs/4.x/introduction">4.x</a></li></ul></div></div><div class="theme-layout-navbar-right navbar__items navbar__items--right"><a href="https://github.com/UAVmatrix/uavcast-pro-docs" target="_blank" rel="noopener noreferrer" class="navbar__item navbar__link">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a><div class="toggle_vylO colorModeToggle_DEke"><button class="clean-btn toggleButton_gllP toggleButtonDisabled_aARS" type="button" disabled="" title="system mode" aria-label="Switch between dark and light mode (currently system mode)"><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP lightToggleIcon_pyhR"><path fill="currentColor" d="M12,9c1.65,0,3,1.35,3,3s-1.35,3-3,3s-3-1.35-3-3S10.35,9,12,9 M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5 S14.76,7,12,7L12,7z M2,13l2,0c0.55,0,1-0.45,1-1s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13l2,0c0.55,0,1-0.45,1-1 s-0.45-1-1-1l-2,0c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1C11.45,19,11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0 c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95 c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41 L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41 s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06 c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP darkToggleIcon_wfgR"><path fill="currentColor" d="M9.37,5.51C9.19,6.15,9.1,6.82,9.1,7.5c0,4.08,3.32,7.4,7.4,7.4c0.68,0,1.35-0.09,1.99-0.27C17.45,17.19,14.93,19,12,19 c-3.86,0-7-3.14-7-7C5,9.07,6.81,6.55,9.37,5.51z M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36 c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"></path></svg><svg viewBox="0 0 24 24" width="24" height="24" aria-hidden="true" class="toggleIcon_g3eP systemToggleIcon_QzmC"><path fill="currentColor" d="m12 21c4.971 0 9-4.029 9-9s-4.029-9-9-9-9 4.029-9 9 4.029 9 9 9zm4.95-13.95c1.313 1.313 2.05 3.093 2.05 4.95s-0.738 3.637-2.05 4.95c-1.313 1.313-3.093 2.05-4.95 2.05v-14c1.857 0 3.637 0.737 4.95 2.05z"></path></svg></button></div><div class="navbarSearchContainer_Bca1"><div class="navbar__search searchBarContainer_NW3z" dir="ltr"><input placeholder="Search" aria-label="Search" class="navbar__search-input searchInput_YFbd" value=""><div class="loadingRing_RJI3 searchBarLoadingRing_YnHq"><div></div><div></div><div></div><div></div></div></div></div></div></div><div role="presentation" class="navbar-sidebar__backdrop"></div></nav><div id="__docusaurus_skipToContent_fallback" class="theme-layout-main main-wrapper mainWrapper_z2l0"><div class="docsWrapper_hBAB"><button aria-label="Scroll back to top" class="clean-btn theme-back-to-top-button backToTopButton_sjWU" type="button"></button><div class="docRoot_UBD9"><aside class="theme-doc-sidebar-container docSidebarContainer_YfHR"><div class="sidebarViewport_aRkj"><div class="sidebar_njMd"><nav aria-label="Docs sidebar" class="menu thin-scrollbar menu_SIkG"><ul class="theme-doc-sidebar-menu menu__list"><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/6.x/introduction"><span title="Introduction" class="linkLabel_WmDU">Introduction</span></a></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/docs/6.x/category/get-started"><span title="Get Started" class="categoryLinkLabel_W154">Get Started</span></a><button aria-label="Expand sidebar category &#x27;Get Started&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-category theme-doc-sidebar-item-category-level-1 menu__list-item menu__list-item--collapsed"><div class="menu__list-item-collapsible"><a class="categoryLink_byQd menu__link menu__link--sublist" href="/docs/6.x/category/configuration"><span title="Configuration" class="categoryLinkLabel_W154">Configuration</span></a><button aria-label="Expand sidebar category &#x27;Configuration&#x27;" aria-expanded="false" type="button" class="clean-btn menu__caret"></button></div></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link menu__link--active" aria-current="page" href="/docs/6.x/quick-start"><span title="Quick Start Tutorial" class="linkLabel_WmDU">Quick Start Tutorial</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/6.x/frequently-asked-questions"><span title="Frequently Asked Questions" class="linkLabel_WmDU">Frequently Asked Questions</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/6.x/configuration-contributors"><span title="Contributors" class="linkLabel_WmDU">Contributors</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/6.x/configuration-libraries"><span title="Libraries" class="linkLabel_WmDU">Libraries</span></a></li><li class="theme-doc-sidebar-item-link theme-doc-sidebar-item-link-level-1 menu__list-item"><a class="menu__link" href="/docs/6.x/changelog"><span title="Changelog" class="linkLabel_WmDU">Changelog</span></a></li></ul></nav></div></div></aside><main class="docMainContainer_TBSr"><div class="container padding-top--md padding-bottom--lg"><div class="row"><div class="col docItemCol_VOVn"><div class="docItemContainer_Djhp"><article><nav class="theme-doc-breadcrumbs breadcrumbsContainer_Z_bl" aria-label="Breadcrumbs"><ul class="breadcrumbs"><li class="breadcrumbs__item"><a aria-label="Home page" class="breadcrumbs__link" href="/"><svg viewBox="0 0 24 24" class="breadcrumbHomeIcon_YNFT"><path d="M10 19v-5h4v5c0 .55.45 1 1 1h3c.55 0 1-.45 1-1v-7h1.7c.46 0 .68-.57.33-.87L12.67 3.6c-.38-.34-.96-.34-1.34 0l-8.36 7.53c-.34.3-.13.87.33.87H5v7c0 .55.45 1 1 1h3c.55 0 1-.45 1-1z" fill="currentColor"></path></svg></a></li><li class="breadcrumbs__item breadcrumbs__item--active"><span class="breadcrumbs__link">Quick Start Tutorial</span></li></ul></nav><span class="theme-doc-version-badge badge badge--secondary">Version: 6.x</span><div class="tocCollapsible_ETCw theme-doc-toc-mobile tocMobile_ITEo"><button type="button" class="clean-btn tocCollapsibleButton_TO0P">On this page</button></div><div class="theme-doc-markdown markdown"><header><h1>Quick Start Tutorial</h1></header>
+<p>This guide will help you set up UAVcast-Pro v6 and establish a connection between your flight controller and ground control station.</p>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="1-license-activation">1. License Activation<a href="#1-license-activation" class="hash-link" aria-label="Direct link to 1. License Activation" title="Direct link to 1. License Activation" translate="no">​</a></h2>
+<ol>
+<li class="">Navigate to the <strong>Application</strong> page in the sidebar</li>
+<li class="">Go to the <strong>License</strong> section</li>
+<li class="">Enter your license key</li>
+<li class="">Click <strong>Activate</strong></li>
+</ol>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>info</div><div class="admonitionContent_BuS1"><p>Ensure your Raspberry Pi has internet access during activation. The license will be validated against UAVmatrix servers.</p></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="3-connect-flight-controller">3. Connect Flight Controller<a href="#3-connect-flight-controller" class="hash-link" aria-label="Direct link to 3. Connect Flight Controller" title="Direct link to 3. Connect Flight Controller" translate="no">​</a></h2>
+<ol>
+<li class="">Navigate to the <strong>Flight Controller</strong> page in the sidebar</li>
+<li class="">Choose your connection method:<!-- -->
+<ul>
+<li class=""><strong>USB</strong> (Recommended): Connect FC using USB cable - device will auto-detect</li>
+<li class=""><strong>Serial</strong>: Use GPIO pins (TX, RX, and Ground)</li>
+</ul>
+</li>
+<li class="">Configure settings:<!-- -->
+<ul>
+<li class="">Set baud rate (default: 57600 for most controllers)</li>
+<li class="">Configure internal telemetry address if needed</li>
+</ul>
+</li>
+<li class="">Enable the flight controller</li>
+<li class="">Verify MAVLink connection status shows &quot;Connected&quot;</li>
+</ol>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Troubleshooting</div><div class="admonitionContent_BuS1"><p>If status doesn&#x27;t show &quot;Connected&quot;:</p><ul>
+<li class="">Check physical connections</li>
+<li class="">Ensure flight controller is powered</li>
+<li class="">Try a different USB cable</li>
+<li class="">Verify correct baud rate</li>
+<li class="">Check that the flight controller is outputting MAVLink telemetry</li>
+</ul></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="4-set-up-vpn-connection">4. Set Up VPN Connection<a href="#4-set-up-vpn-connection" class="hash-link" aria-label="Direct link to 4. Set Up VPN Connection" title="Direct link to 4. Set Up VPN Connection" translate="no">​</a></h2>
+<p>UAVcast-Pro v6 supports two VPN providers: <strong>ZeroTier</strong> and <strong>Tailscale</strong>. This guide uses ZeroTier.</p>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="set-up-zerotier-network">Set Up ZeroTier Network<a href="#set-up-zerotier-network" class="hash-link" aria-label="Direct link to Set Up ZeroTier Network" title="Direct link to Set Up ZeroTier Network" translate="no">​</a></h3>
+<ol>
+<li class="">Access <a href="https://uavnet.uavmatrix.com" target="_blank" rel="noopener noreferrer" class="">uavnet.uavmatrix.com</a> using credentials provided in your license email</li>
+<li class="">Click &quot;Create Network&quot;</li>
+<li class="">Note your Network ID for later use</li>
+</ol>
+<div class="theme-admonition theme-admonition-note admonition_xJq3 alert alert--secondary"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M6.3 5.69a.942.942 0 0 1-.28-.7c0-.28.09-.52.28-.7.19-.18.42-.28.7-.28.28 0 .52.09.7.28.18.19.28.42.28.7 0 .28-.09.52-.28.7a1 1 0 0 1-.7.3c-.28 0-.52-.11-.7-.3zM8 7.99c-.02-.25-.11-.48-.31-.69-.2-.19-.42-.3-.69-.31H6c-.27.02-.48.13-.69.31-.2.2-.3.44-.31.69h1v3c.02.27.11.5.31.69.2.2.42.31.69.31h1c.27 0 .48-.11.69-.31.2-.19.3-.42.31-.69H8V7.98v.01zM7 2.3c-3.14 0-5.7 2.54-5.7 5.68 0 3.14 2.56 5.7 5.7 5.7s5.7-2.55 5.7-5.7c0-3.15-2.56-5.69-5.7-5.69v.01zM7 .98c3.86 0 7 3.14 7 7s-3.14 7-7 7-7-3.12-7-7 3.14-7 7-7z"></path></svg></span>note</div><div class="admonitionContent_BuS1"><p>Access to uavnet.uavmatrix.com is provided automatically upon license activation.</p></div></div>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="connect-ground-control-station-pc">Connect Ground Control Station PC<a href="#connect-ground-control-station-pc" class="hash-link" aria-label="Direct link to Connect Ground Control Station PC" title="Direct link to Connect Ground Control Station PC" translate="no">​</a></h3>
+<ol>
+<li class="">Download ZeroTier from <a href="https://www.zerotier.com/download/" target="_blank" rel="noopener noreferrer" class="">zerotier.com</a></li>
+<li class="">Install ZeroTier on your GCS computer</li>
+<li class="">Join your network:<!-- -->
+<ul>
+<li class=""><strong>Windows</strong>: Right-click ZeroTier icon → Join Network</li>
+<li class=""><strong>Linux</strong>: <code>sudo zerotier-cli join &lt;your-network-id&gt;</code></li>
+<li class=""><strong>macOS</strong>: Click ZeroTier menu bar icon → Join Network</li>
+</ul>
+</li>
+<li class="">Enter your Network ID</li>
+<li class="">Approve the connection in uavnet.uavmatrix.com network dashboard</li>
+</ol>
+<h3 class="anchor anchorTargetStickyNavbar_Vzrq" id="configure-uavcast-pro-vpn">Configure UAVcast-Pro VPN<a href="#configure-uavcast-pro-vpn" class="hash-link" aria-label="Direct link to Configure UAVcast-Pro VPN" title="Direct link to Configure UAVcast-Pro VPN" translate="no">​</a></h3>
+<ol>
+<li class="">Navigate to <strong>VPN/Private Network</strong> page in UAVcast-Pro</li>
+<li class="">Select &quot;ZeroTier&quot; as VPN provider</li>
+<li class="">Enter your Network ID</li>
+<li class="">Enable the VPN service</li>
+<li class="">Verify connection status shows &quot;Connected&quot;</li>
+</ol>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Alternative: Tailscale</div><div class="admonitionContent_BuS1"><p>UAVcast-Pro v6 also supports Tailscale. See the <a class="" href="/docs/6.x/configuration-vpn">VPN Configuration</a> page for details.</p></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="5-verify-vpn-connectivity">5. Verify VPN Connectivity<a href="#5-verify-vpn-connectivity" class="hash-link" aria-label="Direct link to 5. Verify VPN Connectivity" title="Direct link to 5. Verify VPN Connectivity" translate="no">​</a></h2>
+<ol>
+<li class="">Check that both devices show as connected in <a href="https://uavnet.uavmatrix.com" target="_blank" rel="noopener noreferrer" class="">uavnet.uavmatrix.com</a></li>
+<li class="">Both devices should have assigned ZeroTier managed IPs</li>
+<li class="">Note your Raspberry Pi&#x27;s ZeroTier IP address for the next step</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="6-configure-ground-control-station">6. Configure Ground Control Station<a href="#6-configure-ground-control-station" class="hash-link" aria-label="Direct link to 6. Configure Ground Control Station" title="Direct link to 6. Configure Ground Control Station" translate="no">​</a></h2>
+<ol>
+<li class="">Navigate to <strong>Ground Control Stations</strong> page in UAVcast-Pro</li>
+<li class="">Click <strong>Add Destination</strong> to create a new GCS endpoint</li>
+<li class="">Configure the destination:<!-- -->
+<ul>
+<li class=""><strong>Name</strong>: Give it a descriptive name (e.g., &quot;Mission Planner Laptop&quot;)</li>
+<li class=""><strong>Destination IP</strong>: Your GCS computer&#x27;s ZeroTier IP address</li>
+<li class=""><strong>Telemetry Port</strong>: 14550 (default for MAVLink)</li>
+<li class=""><strong>Video Port</strong>: 5600 (default for video streaming)</li>
+<li class=""><strong>Enable Telemetry</strong>: Toggle ON to stream telemetry data</li>
+<li class=""><strong>Enable Video</strong>: Toggle ON to stream video (optional)</li>
+</ul>
+</li>
+<li class="">Click <strong>Save</strong></li>
+</ol>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Multiple Destinations</div><div class="admonitionContent_BuS1"><p>UAVcast-Pro v6 supports multiple GCS destinations. You can add separate configurations for Mission Planner, QGroundControl, or other ground stations.</p></div></div>
+<div class="theme-admonition theme-admonition-info admonition_xJq3 alert alert--info"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 14 16"><path fill-rule="evenodd" d="M7 2.3c3.14 0 5.7 2.56 5.7 5.7s-2.56 5.7-5.7 5.7A5.71 5.71 0 0 1 1.3 8c0-3.14 2.56-5.7 5.7-5.7zM7 1C3.14 1 0 4.14 0 8s3.14 7 7 7 7-3.14 7-7-3.14-7-7-7zm1 3H6v5h2V4zm0 6H6v2h2v-2z"></path></svg></span>Default Ports</div><div class="admonitionContent_BuS1"><p>Mission Planner and QGroundControl are pre-configured for these ports when using UDP:</p><ul>
+<li class="">Telemetry: 14550</li>
+<li class="">Video: 5600</li>
+</ul></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="7-configure-camera-optional">7. Configure Camera (Optional)<a href="#7-configure-camera-optional" class="hash-link" aria-label="Direct link to 7. Configure Camera (Optional)" title="Direct link to 7. Configure Camera (Optional)" translate="no">​</a></h2>
+<p>If you want to stream live video:</p>
+<ol>
+<li class="">Navigate to <strong>Camera</strong> page</li>
+<li class="">Select your camera from the dropdown (auto-detected cameras will appear)</li>
+<li class="">Configure video settings:<!-- -->
+<ul>
+<li class=""><strong>Resolution</strong>: Choose based on your bandwidth (start with 720p)</li>
+<li class=""><strong>FPS</strong>: Frame rate (15-30 recommended)</li>
+<li class=""><strong>Bitrate</strong>: Video quality in kbps (1500-3000 recommended)</li>
+</ul>
+</li>
+<li class="">Enable <strong>Live Preview</strong> to see video in the web interface</li>
+<li class="">Start the camera service</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="8-firewall-configuration">8. Firewall Configuration<a href="#8-firewall-configuration" class="hash-link" aria-label="Direct link to 8. Firewall Configuration" title="Direct link to 8. Firewall Configuration" translate="no">​</a></h2>
+<div class="theme-admonition theme-admonition-warning admonition_xJq3 alert alert--warning"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 16 16"><path fill-rule="evenodd" d="M8.893 1.5c-.183-.31-.52-.5-.887-.5s-.703.19-.886.5L.138 13.499a.98.98 0 0 0 0 1.001c.193.31.53.501.886.501h13.964c.367 0 .704-.19.877-.5a1.03 1.03 0 0 0 .01-1.002L8.893 1.5zm.133 11.497H6.987v-2.003h2.039v2.003zm0-3.004H6.987V5.987h2.039v4.006z"></path></svg></span>Important</div><div class="admonitionContent_BuS1"><p>Ensure these ports are open in your firewall on the GCS computer:</p><ul>
+<li class=""><strong>UDP 14550</strong> (MAVLink Telemetry)</li>
+<li class=""><strong>UDP 5600</strong> (Video Stream)</li>
+</ul></div></div>
+<p><strong>To open ports:</strong></p>
+<ul>
+<li class=""><strong>Windows</strong>: Windows Firewall → Advanced Settings → Inbound Rules → New Rule → Port → UDP → Specific ports: 14550, 5600</li>
+<li class=""><strong>Linux</strong>:<!-- -->
+<div class="language-bash codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#F8F8F2;--prism-background-color:#282A36"><div class="codeBlockContent_QJqH"><pre tabindex="0" class="prism-code language-bash codeBlock_bY9V thin-scrollbar" style="color:#F8F8F2;background-color:#282A36"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo ufw allow 14550/udp</span><br></span><span class="token-line" style="color:#F8F8F2"><span class="token plain">sudo ufw allow 5600/udp</span><br></span></code></pre></div></div>
+</li>
+<li class=""><strong>macOS</strong>: System Preferences → Security &amp; Privacy → Firewall → Firewall Options</li>
+</ul>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="9-connect-your-ground-control-software">9. Connect Your Ground Control Software<a href="#9-connect-your-ground-control-software" class="hash-link" aria-label="Direct link to 9. Connect Your Ground Control Software" title="Direct link to 9. Connect Your Ground Control Software" translate="no">​</a></h2>
+<ol>
+<li class="">Open Mission Planner or QGroundControl on your GCS computer</li>
+<li class="">The software should automatically detect incoming MAVLink telemetry on port 14550</li>
+<li class="">If using video, enable video reception in your GCS software (usually automatic on port 5600)</li>
+</ol>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="verification--testing">Verification &amp; Testing<a href="#verification--testing" class="hash-link" aria-label="Direct link to Verification &amp; Testing" title="Direct link to Verification &amp; Testing" translate="no">​</a></h2>
+<p>Your setup is complete when:</p>
+<p>✅ UAVcast-Pro Dashboard shows:</p>
+<ul>
+<li class="">Flight Controller status: Connected</li>
+<li class="">VPN status: Connected</li>
+<li class="">Camera status: Running (if enabled)</li>
+</ul>
+<p>✅ Ground Control Station shows:</p>
+<ul>
+<li class="">Live telemetry data (altitude, GPS, battery, etc.)</li>
+<li class="">Flight map with UAV position</li>
+<li class="">Video stream (if camera is configured)</li>
+</ul>
+<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>Troubleshooting</div><div class="admonitionContent_BuS1"><p>If connection issues occur:</p><p><strong>No Telemetry:</strong></p><ol>
+<li class="">Verify Flight Controller shows &quot;Connected&quot; in UAVcast-Pro</li>
+<li class="">Check ZeroTier connections are authorized</li>
+<li class="">Confirm correct GCS IP address in Ground Control Station settings</li>
+<li class="">Verify firewall allows UDP 14550</li>
+<li class="">Check GCS software is listening on port 14550</li>
+</ol><p><strong>No Video:</strong></p><ol>
+<li class="">Verify camera is started in UAVcast-Pro (check Camera page)</li>
+<li class="">Check video preview works in UAVcast-Pro web interface</li>
+<li class="">Confirm firewall allows UDP 5600</li>
+<li class="">Try reducing resolution or bitrate if video is choppy</li>
+<li class="">Check camera logs for errors</li>
+</ol><p><strong>General Issues:</strong></p><ul>
+<li class="">Use UAVcast-Pro Dashboard to check service status</li>
+<li class="">Check logs in each configuration page for detailed error messages</li>
+<li class="">Verify network connectivity between devices (ping test)</li>
+<li class="">Restart services from UAVcast-Pro if needed</li>
+</ul></div></div>
+<h2 class="anchor anchorTargetStickyNavbar_Vzrq" id="next-steps">Next Steps<a href="#next-steps" class="hash-link" aria-label="Direct link to Next Steps" title="Direct link to Next Steps" translate="no">​</a></h2>
+<p>Now that your basic setup is complete, explore additional features:</p>
+<ul>
+<li class=""><a class="" href="/docs/6.x/configuration-map">Flight Map</a> - View live flight path and mission waypoints</li>
+<li class=""><a class="" href="/docs/6.x/configuration-map">Mission Planner</a> - Plan and upload missions</li>
+<li class=""><a class="" href="/docs/6.x/configuration-networks">Network Management</a> - Configure network failover</li>
+<li class=""><a class="" href="/docs/6.x/configuration-cell-modem">4G Modem Setup</a> - Add cellular connectivity</li>
+<li class=""><a class="" href="/docs/6.x/configuration-users">User Management</a> - Add additional users with different access levels</li>
+</ul></div><footer class="theme-doc-footer docusaurus-mt-lg"><div class="row margin-top--sm theme-doc-footer-edit-meta-row"><div class="col noPrint_WFHX"><a href="https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial_5min.md" target="_blank" rel="noopener noreferrer" class="theme-edit-this-page"><svg fill="currentColor" height="20" width="20" viewBox="0 0 40 40" class="iconEdit_Z9Sw" aria-hidden="true"><g><path d="m34.5 11.7l-3 3.1-6.3-6.3 3.1-3q0.5-0.5 1.2-0.5t1.1 0.5l3.9 3.9q0.5 0.4 0.5 1.1t-0.5 1.2z m-29.5 17.1l18.4-18.5 6.3 6.3-18.4 18.4h-6.3v-6.2z"></path></g></svg>Edit this page</a></div><div class="col lastUpdated_JAkA"></div></div></footer></article><nav class="docusaurus-mt-lg pagination-nav" aria-label="Docs pages"><a class="pagination-nav__link pagination-nav__link--prev" href="/docs/6.x/configuration-vpn"><div class="pagination-nav__sublabel">Previous</div><div class="pagination-nav__label">VPN / Private Network</div></a><a class="pagination-nav__link pagination-nav__link--next" href="/docs/6.x/frequently-asked-questions"><div class="pagination-nav__sublabel">Next</div><div class="pagination-nav__label">Frequently Asked Questions</div></a></nav></div></div><div class="col col--3"><div class="tableOfContents_bqdL thin-scrollbar theme-doc-toc-desktop"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#1-license-activation" class="table-of-contents__link toc-highlight">1. License Activation</a></li><li><a href="#3-connect-flight-controller" class="table-of-contents__link toc-highlight">3. Connect Flight Controller</a></li><li><a href="#4-set-up-vpn-connection" class="table-of-contents__link toc-highlight">4. Set Up VPN Connection</a><ul><li><a href="#set-up-zerotier-network" class="table-of-contents__link toc-highlight">Set Up ZeroTier Network</a></li><li><a href="#connect-ground-control-station-pc" class="table-of-contents__link toc-highlight">Connect Ground Control Station PC</a></li><li><a href="#configure-uavcast-pro-vpn" class="table-of-contents__link toc-highlight">Configure UAVcast-Pro VPN</a></li></ul></li><li><a href="#5-verify-vpn-connectivity" class="table-of-contents__link toc-highlight">5. Verify VPN Connectivity</a></li><li><a href="#6-configure-ground-control-station" class="table-of-contents__link toc-highlight">6. Configure Ground Control Station</a></li><li><a href="#7-configure-camera-optional" class="table-of-contents__link toc-highlight">7. Configure Camera (Optional)</a></li><li><a href="#8-firewall-configuration" class="table-of-contents__link toc-highlight">8. Firewall Configuration</a></li><li><a href="#9-connect-your-ground-control-software" class="table-of-contents__link toc-highlight">9. Connect Your Ground Control Software</a></li><li><a href="#verification--testing" class="table-of-contents__link toc-highlight">Verification &amp; Testing</a></li><li><a href="#next-steps" class="table-of-contents__link toc-highlight">Next Steps</a></li></ul></div></div></div></div></main></div></div></div><footer class="theme-layout-footer footer footer--dark"><div class="container container-fluid"><div class="row footer__links"><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Docs</div><ul class="footer__items clean-list"><li class="footer__item"><a class="footer__link-item" href="/docs/6.x/quick-start">Quickstart Tutorial</a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">Community</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://discord.gg/xwqMTXh" target="_blank" rel="noopener noreferrer" class="footer__link-item">Discord<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div><div class="theme-layout-footer-column col footer__col"><div class="footer__title">More</div><ul class="footer__items clean-list"><li class="footer__item"><a href="https://uavmatrix.com/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Store<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li><li class="footer__item"><a href="https://github.com/UAVmatrix/uavcast-pro-docs" target="_blank" rel="noopener noreferrer" class="footer__link-item">GitHub<svg width="13.5" height="13.5" aria-label="(opens in new tab)" class="iconExternalLink_nPIU"><use href="#theme-svg-external-link"></use></svg></a></li></ul></div></div><div class="footer__bottom text--center"><div class="footer__copyright">Copyright © 2025 uavmatrix.com</div></div></div></footer></div>
+</body>
+</html>
