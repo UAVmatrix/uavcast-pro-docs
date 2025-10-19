@@ -10,39 +10,12 @@ sidebar_position: 4
 
 This guide will help you set up UAVcast-Pro v6 and establish a connection between your flight controller and ground control station.
 
-:::note Image Placeholder
-📸 **Screenshot needed:** UAVcast-Pro v6 main dashboard overview
-:::
-
-## 1. First Login & User Setup
-
-When you first access UAVcast-Pro v6, you'll be prompted to create an admin account:
-
-1. Access the UAVcast-Pro web interface at `http://<raspberry-pi-ip>/`
-2. Create your admin account:
-   - Enter username
-   - Set a secure password
-   - Confirm password
-3. Click "Create Admin Account"
-
-:::note Image Placeholder
-📸 **Screenshot needed:** First-time user setup screen
-:::
-
-:::info
-UAVcast-Pro v6 supports multiple users with role-based access. The first user created is automatically assigned the admin role.
-:::
-
-## 2. License Activation
+## 1. License Activation
 
 1. Navigate to the **Application** page in the sidebar
 2. Go to the **License** section
 3. Enter your license key
 4. Click **Activate**
-
-:::note Image Placeholder
-📸 **Screenshot needed:** License activation page
-:::
 
 :::info
 Ensure your Raspberry Pi has internet access during activation. The license will be validated against UAVmatrix servers.
@@ -59,10 +32,6 @@ Ensure your Raspberry Pi has internet access during activation. The license will
    - Configure internal telemetry address if needed
 4. Enable the flight controller
 5. Verify MAVLink connection status shows "Connected"
-
-:::note Image Placeholder
-📸 **Screenshot needed:** Flight Controller configuration page showing connection status
-:::
 
 :::tip Troubleshooting
 If status doesn't show "Connected":
@@ -106,10 +75,6 @@ Access to uavnet.uavmatrix.com is provided automatically upon license activation
 4. Enable the VPN service
 5. Verify connection status shows "Connected"
 
-:::note Image Placeholder
-📸 **Screenshot needed:** VPN configuration page with ZeroTier selected and connected
-:::
-
 :::tip Alternative: Tailscale
 UAVcast-Pro v6 also supports Tailscale. See the [VPN Configuration](/docs/6.x/configuration-vpn) page for details.
 :::
@@ -132,10 +97,6 @@ UAVcast-Pro v6 also supports Tailscale. See the [VPN Configuration](/docs/6.x/co
    - **Enable Telemetry**: Toggle ON to stream telemetry data
    - **Enable Video**: Toggle ON to stream video (optional)
 4. Click **Save**
-
-:::note Image Placeholder
-📸 **Screenshot needed:** Ground Control Station configuration page with a destination added
-:::
 
 :::tip Multiple Destinations
 UAVcast-Pro v6 supports multiple GCS destinations. You can add separate configurations for Mission Planner, QGroundControl, or other ground stations.
@@ -160,9 +121,6 @@ If you want to stream live video:
 4. Enable **Live Preview** to see video in the web interface
 5. Start the camera service
 
-:::note Image Placeholder
-📸 **Screenshot needed:** Camera configuration page with settings and live preview
-:::
 
 ## 8. Firewall Configuration
 
@@ -187,10 +145,6 @@ Ensure these ports are open in your firewall on the GCS computer:
 1. Open Mission Planner or QGroundControl on your GCS computer
 2. The software should automatically detect incoming MAVLink telemetry on port 14550
 3. If using video, enable video reception in your GCS software (usually automatic on port 5600)
-
-:::note Image Placeholder
-📸 **Screenshot needed:** Mission Planner or QGroundControl receiving telemetry and video
-:::
 
 ## Verification & Testing
 
