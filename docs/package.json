@@ -17,6 +17,8 @@
   "dependencies": {
     "@docusaurus/core": "^3.6.0",
     "@docusaurus/preset-classic": "^3.6.0",
+    "@docusaurus/theme-search-algolia": "^3.9.2",
+    "@easyops-cn/docusaurus-search-local": "^0.52.1",
     "@mdx-js/react": "^3.0.0",
     "clsx": "^2.0.0",
     "lucide-react": "^0.454.0",
