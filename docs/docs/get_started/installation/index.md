@@ -31,6 +31,8 @@ sudo apt upgrade
 
 ## UAVcast-Pro Installation
 
+### Installing Latest Version
+
 Install UAVcast-Pro by running this command in your terminal:
 
 ```bash
@@ -48,6 +50,20 @@ The installation script will:
 :::info Installation Time
 Installation typically takes 5-10 minutes depending on your internet connection and Raspberry Pi model.
 :::
+
+### Installing Specific Version
+
+You can list all available versions for your architecture:
+
+```bash
+curl -fsSL http://install.uavmatrix.com | bash -s -- -l
+```
+
+To install a specific version:
+
+```bash
+curl -fsSL http://install.uavmatrix.com | bash -s -- -b 5.0.8
+```
 
 ### Post-Installation Steps
 
