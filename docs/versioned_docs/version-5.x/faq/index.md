@@ -15,7 +15,7 @@ sidebar_position: 5
 - Make sure you have entered the correct key. You can copy the key from your email and paste it into the license field.
 - Make sure you have the latest version of UAVcast-Pro installed. You can check the version number in the web interface.
 
-If you still have issues, please create a new discussion in our forum [discuss.uavmatrix.com](https://discuss.uavmatrix.com) and attach the logfile to your post, or send it by mail to support@uavmatrix.com. Logfile can be downloaded from the web interface.
+If you still have issues, attach the logfile and send it by mail to support@uavmatrix.com. Logfile can be downloaded from the web interface.
 
 ### Do i need a LTE modem?
 No. UAVcast-Pro does not care if you use LTE, Wifi or Ethernet cable. As long as the application is able to communicate with the Ground Control station over TCP/IP stack, it will work.

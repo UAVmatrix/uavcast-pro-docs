@@ -62,6 +62,5 @@ If you're using UAVcast-Pro 4.x:
 3. Perform a fresh installation of UAVcast-Pro v5
 4. Manually reconfigure your settings in v5
 
-For additional support, visit our [community forum](https://discuss.uavmatrix.com) or [contact support](https://uavmatrix.com/contact-us).
+For additional support, [contact uavmatrix support](https://uavmatrix.com/contact-us).
 ```
-

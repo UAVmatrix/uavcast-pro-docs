@@ -14,7 +14,6 @@ Welcome to the documentation for UAVcast-Pro, a 4G LTE drone software solution d
 
 For questions or support, please contact us through our official channels.
 
-- UAV community [https://discuss.uavmatrix.com](https://discuss.uavmatrix.com)
 - Discord live chat [https://discord.gg/xwqMTXh](https://discord.gg/xwqMTXh)
 - Support Mail **support@uavmatrix.com**
 

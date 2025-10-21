@@ -164,7 +164,6 @@ UAVcast-Pro v6 uses a completely new database structure and architecture. Data a
 - Check firewall settings
 
 **Need help?**
-- Visit our [community forum](https://discuss.uavmatrix.com)
 - Join our [Discord](https://discord.gg/xwqMTXh)
 - Contact support: support@uavmatrix.com
 

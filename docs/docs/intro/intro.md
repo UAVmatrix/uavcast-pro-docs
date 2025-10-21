@@ -72,7 +72,6 @@ UAVcast-Pro v6 is a complete rewrite with modern architecture and enhanced capab
 
 For questions or support, please contact us through our official channels:
 
-- UAV community [https://discuss.uavmatrix.com](https://discuss.uavmatrix.com)
 - Discord live chat [https://discord.gg/xwqMTXh](https://discord.gg/xwqMTXh)
 - Support Mail **support@uavmatrix.com**
 
