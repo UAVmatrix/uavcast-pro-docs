@@ -10,7 +10,36 @@ sidebar_position: 4
 
 This guide will help you set up UAVcast-Pro v6 and establish a connection between your flight controller and ground control station.
 
-## 1. License Activation
+## Prerequisites
+
+Before starting this tutorial, ensure you have:
+- Raspberry Pi (Zero 2W, 3, 4, 5, or newer)
+- Raspberry Pi OS 64-bit installed ([Installation Guide](/docs/6.x/installation))
+- UAVcast-Pro v6 installed and running
+- Valid UAVcast-Pro license key
+- Flight controller with MAVLink support
+
+:::info Need to Install UAVcast-Pro?
+If you haven't installed UAVcast-Pro yet, follow the [Installation Guide](/docs/6.x/installation) first. Installation takes approximately 5-10 minutes.
+
+Quick install command:
+```bash
+curl -fsSL http://install.uavmatrix.com | sudo bash
+```
+:::
+
+## 1. Access Web Interface
+
+After installation, access the UAVcast-Pro web interface:
+1. Open a web browser on a computer connected to the same network
+2. Navigate to `http://<your-raspberry-pi-ip>/` or `http://raspberrypi.local/`
+3. You should see the UAVcast-Pro login/dashboard page
+
+:::tip Finding Your IP Address
+If you need help finding your Raspberry Pi's IP address, see the [Installation Guide](/docs/6.x/installation#finding-your-raspberry-pi-ip-address).
+:::
+
+## 2. License Activation
 
 1. Navigate to the **Application** page in the sidebar
 2. Go to the **License** section
