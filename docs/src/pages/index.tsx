@@ -10,7 +10,7 @@ const HomepageHeader = () => {
 			<div className={styles.heroContent}>
 				<div className={styles.announcementContainer}>
 					<span className={styles.emoji}>🚁</span>
-					<span className={styles.announcement}>UAVcast-Pro 5.0 is out!</span>
+					<span className={styles.announcement}>UAVcast-Pro 6.0 is out!</span>
 					<span className={styles.emoji}>🎉</span>
 				</div>
 
