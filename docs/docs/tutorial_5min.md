@@ -24,7 +24,7 @@ If you haven't installed UAVcast-Pro yet, follow the [Installation Guide](/docs/
 
 Quick install command:
 ```bash
-curl -fsSL http://install.uavmatrix.com | sudo bash
+curl -fsSL https://install.uavmatrix.com | sudo bash
 ```
 :::
 

@@ -27,7 +27,7 @@ Continue to install UAVcast-Pro as described in the [installation](#uavcast-pro-
 You can install the latest version of UAVcast-Pro by pasting this command into you RPI shell.
 
 ```bash
-curl -s http://install.uavmatrix.com | sudo bash
+curl -s https://install.uavmatrix.com | sudo bash
 ```
 
 After the installation there will be validating proccess to verify that all component has been loaded successfully.

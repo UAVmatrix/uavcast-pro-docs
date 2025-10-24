@@ -36,7 +36,7 @@ sudo apt upgrade
 Install UAVcast-Pro by running this command in your terminal:
 
 ```bash
-curl -fsSL http://install.uavmatrix.com | sudo bash
+curl -fsSL https://install.uavmatrix.com | sudo bash
 ```
 
 The installation script will:
@@ -56,13 +56,13 @@ Installation typically takes 5-10 minutes depending on your internet connection 
 You can list all available versions for your architecture:
 
 ```bash
-curl -fsSL http://install.uavmatrix.com | bash -s -- -l
+curl -fsSL https://install.uavmatrix.com | bash -s -- -l
 ```
 
 To install a specific version:
 
 ```bash
-curl -fsSL http://install.uavmatrix.com | bash -s -- -b 5.0.8
+curl -fsSL https://install.uavmatrix.com | bash -s -- -b 5.0.8
 ```
 
 ### Post-Installation Steps
