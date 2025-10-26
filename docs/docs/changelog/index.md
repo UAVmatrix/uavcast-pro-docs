@@ -7,6 +7,7 @@ sidebar_position: 40
 ---
 ## v6.0.2
 - Enhanced MAVLink system ID auto-detection from flight controller for improved connectivity.
+- Autodetect Mavlink version from flight controller to ensure compatibility.
 
 ## v6.0.1
 - Improved uavcast installer, it sometimes failed on low resource devices like Raspberry Pi Zero 2 W.
