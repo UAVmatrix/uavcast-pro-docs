@@ -5,6 +5,11 @@ authors: Bernt Christian Egeland
 tags: []
 sidebar_position: 40
 ---
+## v6.0.3
+- New Flight analtics page for viewing mavlink data in graphs.
+- New mavlink recording feature to record mavlink data to a file for analysis.
+- Improved read_only user permissions to restrict access to certain pages.
+
 ## v6.0.2
 - Enhanced MAVLink system ID auto-detection from flight controller for improved connectivity.
 - Autodetect Mavlink version from flight controller to ensure compatibility.
